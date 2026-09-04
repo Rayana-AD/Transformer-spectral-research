@@ -1,0 +1,433 @@
+model_family,activation_id,seed,layer_transition,transition_label,c_t,nuclear_from,nuclear_to,note
+vit_random,relu,42,1,0->1,1.2136506275923928,2816.267822265625,3417.9652099609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,2,1->2,1.135214461472121,3417.9652099609375,3880.12353515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,3,2->3,1.0980801216335307,3880.12353515625,4260.6865234375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,4,3->4,1.0751341468362066,4260.6865234375,4580.8095703125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,5,4->5,1.0635872863800642,4580.8095703125,4872.0908203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,6,5->6,1.0493771723951453,4872.0908203125,5112.660888671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,7,6->7,1.0463293412364438,5112.660888671875,5349.527099609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,8,7->8,1.0383956708352078,5349.527099609375,5554.92578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,9,8->9,1.0348907325353836,5554.92578125,5748.7412109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,10,9->10,1.0330930548484545,5748.7412109375,5938.984619140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,11,10->11,1.031255096125019,5938.984619140625,6124.608154296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,42,12,11->12,1.0290809420803586,6124.608154296875,6302.717529296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,42,1,0->1,1.5729931525969931,231.51013946533203,364.1638641357422,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,42,2,1->2,0.9921753444870981,364.1638641357422,361.3144073486328,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,42,3,2->3,0.9987384656199575,361.3144073486328,360.8585968017578,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,42,4,3->4,0.9978079623652847,360.8585968017578,360.0675811767578,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,42,5,4->5,0.9912456840034294,360.0675811767578,356.9154357910156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,42,6,5->6,0.995731999020128,356.9154357910156,355.3921203613281,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,1,0->1,1.5653682856105087,231.38995361328125,362.2104949951172,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,2,1->2,0.9943749695370179,362.2104949951172,360.1730499267578,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,3,2->3,0.9852493407875116,360.1730499267578,354.8602600097656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,4,3->4,0.9869531988179284,354.8602600097656,350.23046875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,5,4->5,0.9931894734494028,350.23046875,347.84521484375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,42,6,5->6,0.9898827814095429,347.84521484375,344.32598876953125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,42,1,0->1,1.1788627700407952,2816.267822265625,3319.9932861328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,2,1->2,1.127768864543411,3319.9932861328125,3744.18505859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,3,2->3,1.0985317597300293,3744.18505859375,4113.106201171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,4,3->4,1.0808162954228286,4113.106201171875,4445.51220703125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,5,4->5,1.068723296591794,4445.51220703125,4751.0224609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,6,5->6,1.056018009692404,4751.0224609375,5017.165283203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,7,6->7,1.0510875043290104,5017.165283203125,5273.479736328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,8,7->8,1.043877565239871,5273.479736328125,5504.8671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,9,8->9,1.0398778407034683,5504.8671875,5724.389404296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,10,9->10,1.0377661219411407,5724.389404296875,5940.577392578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,11,10->11,1.0340821708156607,5940.577392578125,6143.045166015625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,42,12,11->12,1.0331502219247002,6143.045166015625,6346.6884765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,42,1,0->1,1.572047149109112,231.51013946533203,363.9448547363281,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,42,2,1->2,0.9958628580436694,363.9448547363281,362.4391632080078,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,42,3,2->3,0.9981490192340587,362.4391632080078,361.76829528808594,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,42,4,3->4,0.9978355337144822,361.76829528808594,360.9852600097656,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,42,5,4->5,0.9946682515038552,360.9852600097656,359.0605773925781,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,42,6,5->6,0.9951427866959348,359.0605773925781,357.31654357910156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,1,0->1,1.5687705366236069,231.38995361328125,362.99774169921875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,2,1->2,0.9909251675744932,362.99774169921875,359.70359802246094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,3,2->3,0.9882777445130737,359.70359802246094,355.487060546875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,4,3->4,0.9876715227580997,355.487060546875,351.1044464111328,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,5,4->5,0.9938609684206171,351.1044464111328,348.9490051269531,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,42,6,5->6,0.9914812030160671,348.9490051269531,345.97637939453125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,42,1,0->1,1.1394154428359993,2816.267822265625,3208.8990478515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,2,1->2,1.1074510083785323,3208.8990478515625,3553.698486328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,3,2->3,1.0859632717866763,3553.698486328125,3859.18603515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,4,3->4,1.0735739464976335,3859.18603515625,4143.12158203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,5,4->5,1.0637876007072622,4143.12158203125,4407.4013671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,6,5->6,1.0535023095693745,4407.4013671875,4643.20751953125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,7,6->7,1.0485916454952626,4643.20751953125,4868.82861328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,8,7->8,1.0433876579134984,4868.82861328125,5080.07568359375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,9,8->9,1.0393072084329145,5080.07568359375,5279.75927734375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,10,9->10,1.036672796047183,5279.75927734375,5473.3828125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,11,10->11,1.0334508141674268,5473.3828125,5656.471923828125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,42,12,11->12,1.0327997317439506,5656.471923828125,5842.002685546875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,1,0->1,1.5698717299548581,231.51013946533203,363.44122314453125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,2,1->2,0.9959734632985038,363.44122314453125,361.9778137207031,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,3,2->3,0.9969072501310776,361.9778137207031,360.8583068847656,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,4,3->4,0.9957986334427239,360.8583068847656,359.3422088623047,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,5,4->5,0.9959752611598265,359.3422088623047,357.8959503173828,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,42,6,5->6,0.9933989535481648,357.8959503173828,355.53346252441406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,1,0->1,1.5657920420311504,231.38995361328125,362.3085479736328,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,2,1->2,0.9874370442397156,362.3085479736328,357.7568817138672,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,3,2->3,0.9886948089766444,357.7568817138672,353.7123718261719,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,4,3->4,0.9869731512511986,353.7123718261719,349.1046142578125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,5,4->5,0.9930854253609873,349.1046142578125,346.6907043457031,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,42,6,5->6,0.9889989411428035,346.6907043457031,342.8767395019531,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,relu,43,1,0->1,1.213660598477644,2824.0721435546875,3427.465087890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,2,1->2,1.1311913963041398,3427.465087890625,3877.1190185546875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,3,2->3,1.0969273071722152,3877.1190185546875,4252.917724609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,4,3->4,1.0757320155492975,4252.917724609375,4574.999755859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,5,4->5,1.0613556641348438,4574.999755859375,4855.701904296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,6,5->6,1.0515527336654942,4855.701904296875,5106.026611328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,7,6->7,1.0437141408372317,5106.026611328125,5329.232177734375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,8,7->8,1.0392936126954924,5329.232177734375,5538.636962890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,9,8->9,1.0341656624977844,5538.636962890625,5727.8681640625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,10,9->10,1.0356842241119308,5727.8681640625,5932.2626953125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,11,10->11,1.0291384900859097,5932.2626953125,6105.119873046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,43,12,11->12,1.0292404344442108,6105.119873046875,6283.63623046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,43,1,0->1,1.5675179891104658,231.46009063720703,362.81785583496094,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,43,2,1->2,0.9931896495491919,362.81785583496094,360.34693908691406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,43,3,2->3,0.9917176274746411,360.34693908691406,357.36241149902344,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,43,4,3->4,0.9876044524654738,357.36241149902344,352.9327087402344,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,43,5,4->5,0.992658042236253,352.9327087402344,350.34149169921875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,43,6,5->6,0.9888266453193775,350.34149169921875,346.427001953125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,1,0->1,1.5696603972549699,231.5196990966797,363.4073028564453,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,2,1->2,0.9757913301336427,363.4073028564453,354.6096954345703,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,3,2->3,0.9958280014015671,354.6096954345703,353.13026428222656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,4,3->4,0.9872538456436347,353.13026428222656,348.62921142578125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,5,4->5,0.9850584065906843,348.62921142578125,343.4201354980469,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,43,6,5->6,0.9793329731984466,343.4201354980469,336.3226623535156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,43,1,0->1,1.1787460094207,2824.0721435546875,3328.86376953125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,2,1->2,1.1252370915904377,3328.86376953125,3745.760986328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,3,2->3,1.0984193916599865,3745.760986328125,4114.41650390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,4,3->4,1.0800864552459108,4114.41650390625,4443.925537109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,5,4->5,1.0667234762779403,4443.925537109375,4740.439697265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,6,5->6,1.0571494611301602,4740.439697265625,5011.353271484375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,7,6->7,1.0494908947715058,5011.353271484375,5259.36962890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,8,7->8,1.0437442885831825,5259.36962890625,5489.43701171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,9,8->9,1.0383817749411668,5489.43701171875,5700.13134765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,10,9->10,1.0392762673626028,5700.13134765625,5924.01123046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,11,10->11,1.033597873458412,5924.01123046875,6123.04541015625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,43,12,11->12,1.0328527191832662,6123.04541015625,6324.2041015625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,43,1,0->1,1.562915632661509,231.46009063720703,361.7525939941406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,43,2,1->2,0.9934049603383998,361.7525939941406,359.3668212890625,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,43,3,2->3,0.992599058810102,359.3668212890625,356.70716857910156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,43,4,3->4,0.9925342516997679,356.70716857910156,354.04408264160156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,43,5,4->5,0.9977171125363229,354.04408264160156,353.23583984375,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,43,6,5->6,0.9872091448065942,353.23583984375,348.7176513671875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,1,0->1,1.5666956328316157,231.5196990966797,362.7209014892578,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,2,1->2,0.9794945807917681,362.7209014892578,355.2831573486328,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,3,2->3,0.9958231111135162,355.2831573486328,353.79917907714844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,4,3->4,0.9849709204672374,353.79917907714844,348.4819030761719,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,5,4->5,0.9868070081105661,348.4819030761719,343.88438415527344,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,43,6,5->6,0.9828789411028812,343.88438415527344,337.99671936035156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,43,1,0->1,1.139438427798746,2824.0721435546875,3217.8563232421875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,2,1->2,1.1052196341376488,3217.8563232421875,3556.43798828125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,3,2->3,1.0869757131961801,3556.43798828125,3865.76171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,4,3->4,1.072886089315758,3865.76171875,4147.52197265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,5,4->5,1.0614128588877607,4147.52197265625,4402.233154296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,6,5->6,1.0544964888481283,4402.233154296875,4642.139404296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,7,6->7,1.0479616737025474,4642.139404296875,4864.7841796875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,8,7->8,1.0423729494037888,4864.7841796875,5070.91943359375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,9,8->9,1.0376981068233069,5070.91943359375,5262.08349609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,10,9->10,1.0376875786357422,5262.08349609375,5460.398681640625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,11,10->11,1.033612758554995,5460.398681640625,5643.937744140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,43,12,11->12,1.0317206796268241,5643.937744140625,5822.96728515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,1,0->1,1.558650609631103,231.46009063720703,360.7654113769531,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,2,1->2,0.9903332563271466,360.7654113769531,357.2779846191406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,3,2->3,0.9907063849560338,357.2779846191406,353.95758056640625,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,4,3->4,0.9923268838111746,353.95758056640625,351.2416229248047,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,5,4->5,0.9966633608426719,351.2416229248047,350.0696563720703,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,43,6,5->6,0.9867906973905907,350.0696563720703,345.4454803466797,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,1,0->1,1.5642012472916307,231.5196990966797,362.1434020996094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,2,1->2,0.9801522578068151,362.1434020996094,354.95567321777344,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,3,2->3,0.9939675978914448,354.95567321777344,352.81443786621094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,4,3->4,0.9816083325148505,352.81443786621094,346.3255920410156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,5,4->5,0.985482002436115,346.3255920410156,341.2976379394531,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,43,6,5->6,0.9819620461708312,341.2976379394531,335.1413269042969,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,relu,44,1,0->1,1.2170326797402589,2821.3743896484375,3433.704833984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,2,1->2,1.132130679788161,3433.704833984375,3887.402587890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,3,2->3,1.0905209454040152,3887.402587890625,4239.2939453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,4,3->4,1.0753631563149542,4239.2939453125,4558.780517578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,5,4->5,1.0630832123683878,4558.780517578125,4846.363037109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,6,5->6,1.0528733919398219,4846.363037109375,5102.606689453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,7,6->7,1.0467119646308993,5102.606689453125,5340.95947265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,8,7->8,1.0401877899506184,5340.95947265625,5555.600830078125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,9,8->9,1.0367343783707152,5555.600830078125,5759.682373046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,10,9->10,1.0346626746342849,5759.682373046875,5959.328369140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,11,10->11,1.0293719933981196,5959.328369140625,6134.36572265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,44,12,11->12,1.0258404300630548,6134.36572265625,6292.88037109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,44,1,0->1,1.576818055642385,231.5038070678711,365.0393829345703,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,44,2,1->2,0.9882871959423859,365.0393829345703,360.7637481689453,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,44,3,2->3,0.9907701273099161,360.7637481689453,357.43394470214844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,44,4,3->4,0.9922016379996731,357.43394470214844,354.64654541015625,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,44,5,4->5,0.9989951001019012,354.64654541015625,354.2901611328125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,44,6,5->6,0.9963544134139808,354.2901611328125,352.9985656738281,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,1,0->1,1.5535553583242299,231.47589111328125,359.61061096191406,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,2,1->2,0.9813731579936914,359.61061096191406,352.9122009277344,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,3,2->3,0.9883844376282133,352.9122009277344,348.81292724609375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,4,3->4,0.9819675181816957,348.81292724609375,342.52296447753906,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,5,4->5,0.9821394595454255,342.52296447753906,336.4053192138672,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,44,6,5->6,0.9818722646365601,336.4053192138672,330.3070526123047,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,44,1,0->1,1.18188550804906,2821.3743896484375,3334.54150390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,2,1->2,1.1258538958267226,3334.54150390625,3754.20654296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,3,2->3,1.093024816563191,3754.20654296875,4103.44091796875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,4,3->4,1.0793737082552788,4103.44091796875,4429.146240234375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,5,4->5,1.0674771603210114,4429.146240234375,4728.012451171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,6,5->6,1.057321413642788,4728.012451171875,4999.02880859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,7,6->7,1.0515312984133345,4999.02880859375,5256.63525390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,8,7->8,1.0447755807880088,5256.63525390625,5492.004150390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,9,8->9,1.0412210596112983,5492.004150390625,5718.390380859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,10,9->10,1.0378187631078406,5718.390380859375,5934.65283203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,11,10->11,1.0333613511544886,5934.65283203125,6132.640869140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,44,12,11->12,1.0307395943445392,6132.640869140625,6321.15576171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,44,1,0->1,1.5719462647675377,231.5038070678711,363.9115447998047,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,44,2,1->2,0.9925240175741794,363.9115447998047,361.1909484863281,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,44,3,2->3,0.9921073076307264,361.1909484863281,358.3401794433594,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,44,4,3->4,0.994811784374691,358.3401794433594,356.4810333251953,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,44,5,4->5,1.0018337631489926,356.4810333251953,357.1347351074219,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,44,6,5->6,0.9937486493375698,357.1347351074219,354.90216064453125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,1,0->1,1.5515997886355204,231.47589111328125,359.15794372558594,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,2,1->2,0.9819011780000446,359.15794372558594,352.65760803222656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,3,2->3,0.9902528880415861,352.65760803222656,349.22021484375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,4,3->4,0.9843624380071113,349.22021484375,343.75926208496094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,5,4->5,0.9850375569159691,343.75926208496094,338.61578369140625,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,44,6,5->6,0.9894292072955422,338.61578369140625,335.0363464355469,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,44,1,0->1,1.141928945641528,2821.3743896484375,3221.80908203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,2,1->2,1.1062376624764236,3221.80908203125,3564.0865478515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,3,2->3,1.0827499828150136,3564.0865478515625,3859.0146484375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,4,3->4,1.0727673585919333,3859.0146484375,4139.824951171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,5,4->5,1.0622764787748198,4139.824951171875,4397.638671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,6,5->6,1.0531465861251,4397.638671875,4631.358154296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,7,6->7,1.0494316222688582,4631.358154296875,4860.293701171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,8,7->8,1.0430340666603275,4860.293701171875,5069.451904296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,9,8->9,1.0404519257048397,5069.451904296875,5274.52099609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,10,9->10,1.036669502812339,5274.52099609375,5467.93505859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,11,10->11,1.0329524104976,5467.93505859375,5648.11669921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,44,12,11->12,1.0314868332338722,5648.11669921875,5825.9580078125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,1,0->1,1.5680234033678264,231.5038070678711,363.0033874511719,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,2,1->2,0.9935657271459731,363.0033874511719,360.667724609375,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,3,2->3,0.9905564308415042,360.667724609375,357.26173400878906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,4,3->4,0.9948782550925204,357.26173400878906,355.4319305419922,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,5,4->5,1.000824862224955,355.4319305419922,355.72511291503906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,44,6,5->6,0.9911263773066137,355.72511291503906,352.56854248046875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,1,0->1,1.5491326831555219,231.47589111328125,358.5868682861328,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,2,1->2,0.9793853274264139,358.5868682861328,351.19471740722656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,3,2->3,0.9908534522899543,351.19471740722656,347.9824981689453,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,4,3->4,0.9849781944006987,347.9824981689453,342.7551727294922,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,5,4->5,0.985435343932812,342.7551727294922,337.7630615234375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,44,6,5->6,0.9905312428283076,337.7630615234375,334.5648651123047,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,relu,45,1,0->1,1.217624257082204,2821.196044921875,3435.15673828125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,2,1->2,1.1325494111682097,3435.15673828125,3890.4847412109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,3,2->3,1.0972178935542072,3890.4847412109375,4268.70947265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,4,3->4,1.0719206361425695,4268.70947265625,4575.7177734375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,5,4->5,1.061026275548043,4575.7177734375,4854.956787109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,6,5->6,1.052921810993446,4854.956787109375,5111.889892578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,7,6->7,1.0433784957050718,5111.889892578125,5333.635986328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,8,7->8,1.0398359504714996,5333.635986328125,5546.1064453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,9,8->9,1.0376060468237414,5546.1064453125,5754.673583984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,10,9->10,1.0335387214782075,5754.673583984375,5947.677978515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,11,10->11,1.0284524196988147,5947.677978515625,6116.90380859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,45,12,11->12,1.0270336611236521,6116.90380859375,6282.26611328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,45,1,0->1,1.5669101989982088,231.4046859741211,362.5903625488281,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,45,2,1->2,0.9946612176837317,362.5903625488281,360.6545715332031,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,45,3,2->3,1.0042508293965888,360.6545715332031,362.1876525878906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,45,4,3->4,1.0062756542397244,362.1876525878906,364.4606170654297,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,45,5,4->5,0.9981186747944583,364.4606170654297,363.7749481201172,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,45,6,5->6,0.997449450731753,363.7749481201172,362.8471221923828,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,1,0->1,1.5612221331093383,231.5028076171875,361.42730712890625,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,2,1->2,0.9891825723513393,361.42730712890625,357.51759338378906,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,3,2->3,0.9963272728405683,357.51759338378906,356.20452880859375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,4,3->4,0.989834742818565,356.20452880859375,352.5836181640625,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,5,4->5,0.9863695377834865,352.5836181640625,347.7777404785156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,45,6,5->6,0.984750457200657,347.7777404785156,342.4742889404297,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,45,1,0->1,1.1821313077213778,2821.196044921875,3335.024169921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,2,1->2,1.1255609428781694,3335.024169921875,3753.77294921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,3,2->3,1.0979208158666405,3753.77294921875,4121.345458984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,4,3->4,1.077548877198318,4121.345458984375,4440.951171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,5,4->5,1.0669151126742538,4440.951171875,4738.117919921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,6,5->6,1.0582323246818433,4738.117919921875,5014.029541015625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,7,6->7,1.0501630069728665,5014.029541015625,5265.54833984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,8,7->8,1.0451914962040898,5265.54833984375,5503.50634765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,9,8->9,1.0423037745556565,5503.50634765625,5736.325439453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,10,9->10,1.0375354278553672,5736.325439453125,5951.640869140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,11,10->11,1.033113980474381,5951.640869140625,6148.723388671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,45,12,11->12,1.031361986781825,6148.723388671875,6341.5595703125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,45,1,0->1,1.5707546897653943,231.4046859741211,363.47999572753906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,45,2,1->2,0.9927435952063356,363.47999572753906,360.8424377441406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,45,3,2->3,1.0023905443846184,360.8424377441406,361.7050476074219,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,45,4,3->4,1.003529426356003,361.7050476074219,362.9816589355469,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,45,5,4->5,0.9975974810543944,362.9816589355469,362.1095886230469,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,45,6,5->6,0.9990818843064666,362.1095886230469,361.7771301269531,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,1,0->1,1.560152119383845,231.5028076171875,361.1795959472656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,2,1->2,0.9890382727426891,361.1795959472656,357.22044372558594,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,3,2->3,0.9956013889145774,357.22044372558594,355.649169921875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,4,3->4,0.9898008068020421,355.649169921875,352.02183532714844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,5,4->5,0.987480593389635,352.02183532714844,347.61473083496094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,45,6,5->6,0.9874447347754268,347.61473083496094,343.2503356933594,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,45,1,0->1,1.142012080875979,2821.196044921875,3221.8399658203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,2,1->2,1.1054690254307975,3221.8399658203125,3561.644287109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,3,2->3,1.0855637610322382,3561.644287109375,3866.3919677734375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,4,3->4,1.071112008742455,3866.3919677734375,4141.3388671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,5,4->5,1.0618204149237478,4141.3388671875,4397.358154296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,6,5->6,1.0557342029813155,4397.358154296875,4642.44140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,7,6->7,1.04885698148452,4642.44140625,4869.257080078125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,8,7->8,1.0429768100712793,4869.257080078125,5078.522216796875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,9,8->9,1.0409509794594431,5078.522216796875,5286.49267578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,10,9->10,1.0368968970059955,5286.49267578125,5481.5478515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,11,10->11,1.0330693083418179,5481.5478515625,5662.81884765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,45,12,11->12,1.0309761979634666,5662.81884765625,5838.2314453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,1,0->1,1.5706939591683997,231.4046859741211,363.4659423828125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,2,1->2,0.9906572196326263,363.4659423828125,360.0701599121094,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,3,2->3,0.9996339451734794,360.0701599121094,359.9383544921875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,4,3->4,0.9992965341355179,359.9383544921875,359.6851501464844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,5,4->5,0.9953941329336783,359.6851501464844,358.0284881591797,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,45,6,5->6,0.99670372453173,358.0284881591797,356.84832763671875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,1,0->1,1.5569486693970012,231.5028076171875,360.43798828125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,2,1->2,0.9877847301527953,360.43798828125,356.03514099121094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,3,2->3,0.9918190534235908,356.03514099121094,353.1224365234375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,4,3->4,0.9869287888912357,353.1224365234375,348.50669860839844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,5,4->5,0.9843980676658464,348.50669860839844,343.06932067871094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,45,6,5->6,0.9883560713773114,343.06932067871094,339.07464599609375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,relu,46,1,0->1,1.2172774803276338,2815.315185546875,3427.019775390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,2,1->2,1.132475053738055,3427.019775390625,3881.014404296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,3,2->3,1.0988026711313432,3881.014404296875,4264.468994140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,4,3->4,1.0750093961475937,4264.468994140625,4584.34423828125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,5,4->5,1.0643107800335658,4584.34423828125,4879.1669921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,6,5->6,1.0532315927071152,4879.1669921875,5138.892822265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,7,6->7,1.045776918086713,5138.892822265625,5374.135498046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,8,7->8,1.0413996455371024,5374.135498046875,5596.622802734375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,9,8->9,1.0377156162859271,5596.622802734375,5807.702880859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,10,9->10,1.0315599849691137,5807.702880859375,5990.993896484375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,11,10->11,1.0307674145163612,5990.993896484375,6175.3212890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,46,12,11->12,1.0263262412491505,6175.3212890625,6337.894287109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,46,1,0->1,1.5804291929708147,231.4247283935547,365.7503967285156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,46,2,1->2,0.9986178451584405,365.7503967285156,365.244873046875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,46,3,2->3,0.9975352479841822,365.244873046875,364.3446350097656,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,46,4,3->4,0.9936967101926526,364.3446350097656,362.0480651855469,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,46,5,4->5,0.9864895038947313,362.0480651855469,357.1566162109375,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,46,6,5->6,0.9935756198162092,357.1566162109375,354.8621063232422,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,1,0->1,1.5664338827913833,231.3820037841797,362.4446105957031,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,2,1->2,0.9856671762126907,362.4446105957031,357.249755859375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,3,2->3,0.979377022404915,357.249755859375,349.8822021484375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,4,3->4,0.9803488286899016,349.8822021484375,343.00660705566406,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,5,4->5,0.9780155779893493,343.00660705566406,335.46580505371094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,46,6,5->6,0.9897745230664768,335.46580505371094,332.03550720214844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,46,1,0->1,1.1822151802739809,2815.315185546875,3328.308349609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,2,1->2,1.1257559461036148,3328.308349609375,3746.8629150390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,3,2->3,1.098261856492513,3746.8629150390625,4115.03662109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,4,3->4,1.078739367518254,4115.03662109375,4439.052001953125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,5,4->5,1.0691661152621743,4439.052001953125,4746.083984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,6,5->6,1.0587075282047906,4746.083984375,5024.71484375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,7,6->7,1.0512318213020484,5024.71484375,5282.14013671875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,8,7->8,1.0464814408592191,5282.14013671875,5527.66162109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,9,8->9,1.0416840868957093,5527.66162109375,5758.0771484375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,10,9->10,1.03672410070704,5758.0771484375,5969.537353515625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,11,10->11,1.0340280701682636,5969.537353515625,6172.669189453125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,46,12,11->12,1.031155365964973,6172.669189453125,6364.98095703125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,46,1,0->1,1.576183891882262,231.4247283935547,364.76792907714844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,46,2,1->2,0.9977865280906251,364.76792907714844,363.9605255126953,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,46,3,2->3,0.997317809269353,363.9605255126953,362.98431396484375,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,46,4,3->4,0.9960116089512009,362.98431396484375,361.5365905761719,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,46,5,4->5,0.989067245071699,361.5365905761719,357.58399963378906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,46,6,5->6,0.9968203886343392,357.58399963378906,356.447021484375,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,1,0->1,1.5669393612480103,231.3820037841797,362.5615692138672,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,2,1->2,0.9870074431306812,362.5615692138672,357.85096740722656,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,3,2->3,0.9797341144538696,357.85096740722656,350.5988006591797,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,4,3->4,0.9831902058955619,350.5988006591797,344.70530700683594,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,5,4->5,0.9855265066582761,344.70530700683594,339.7162170410156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,46,6,5->6,0.9938503772204027,339.7162170410156,337.62709045410156,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,46,1,0->1,1.1427174327502567,2815.315185546875,3217.1097412109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,2,1->2,1.1051131828670429,3217.1097412109375,3555.2703857421875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,3,2->3,1.0856675802645686,3555.2703857421875,3859.841796875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,4,3->4,1.0710127292296123,3859.841796875,4133.939697265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,5,4->5,1.0633075206272014,4133.939697265625,4395.649169921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,6,5->6,1.0544347635121043,4395.649169921875,4634.92529296875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,7,6->7,1.0486538759147257,4634.92529296875,4860.432373046875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,8,7->8,1.0447676904708887,4860.432373046875,5078.022705078125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,9,8->9,1.039805080688885,5078.022705078125,5280.15380859375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,10,9->10,1.0361103982844073,5280.15380859375,5470.822265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,11,10->11,1.033146323839431,5470.822265625,5652.159912109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,46,12,11->12,1.0307654702141962,5652.159912109375,5826.05126953125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,1,0->1,1.5712526779972718,231.4247283935547,363.62672424316406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,2,1->2,0.9954722577542081,363.62672424316406,361.9803161621094,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,3,2->3,0.9953915951199908,361.9803161621094,360.3121643066406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,4,3->4,0.9942659296506757,360.3121643066406,358.24610900878906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,5,4->5,0.9888117893431971,358.24610900878906,354.23797607421875,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,46,6,5->6,0.9941082060396272,354.23797607421875,352.15087890625,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,1,0->1,1.5643615859849849,231.3820037841797,361.9651184082031,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,2,1->2,0.9868610008723642,361.9651184082031,357.2092590332031,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,3,2->3,0.9798529401839362,357.2092590332031,350.0125427246094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,4,3->4,0.982589822438527,350.0125427246094,343.91876220703125,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,5,4->5,0.9874470363892727,343.91876220703125,339.6015625,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,46,6,5->6,0.9938740916658998,339.6015625,337.5211944580078,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,relu,47,1,0->1,1.2149867806183627,2819.291259765625,3425.401611328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,2,1->2,1.1295653844193823,3425.401611328125,3869.215087890625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,3,2->3,1.0959660354845517,3869.215087890625,4240.5283203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,4,3->4,1.0752212939637302,4240.5283203125,4559.50634765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,5,4->5,1.0594244254229739,4559.50634765625,4830.452392578125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,6,5->6,1.0536427297662387,4830.452392578125,5089.571044921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,7,6->7,1.0477447875540915,5089.571044921875,5332.571533203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,8,7->8,1.040915725892793,5332.571533203125,5550.757568359375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,9,8->9,1.0381383136618765,5550.757568359375,5762.4541015625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,10,9->10,1.0309810883458432,5762.4541015625,5940.981201171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,11,10->11,1.029835508860163,5940.981201171875,6118.2333984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,relu,47,12,11->12,1.0286608483766584,6118.2333984375,6293.587158203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,relu,47,1,0->1,1.5779055808498679,231.487060546875,365.2647247314453,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,47,2,1->2,0.9945439443555597,365.2647247314453,363.2718200683594,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,47,3,2->3,0.9965325040779368,363.2718200683594,362.0121765136719,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,47,4,3->4,0.9981103763441087,362.0121765136719,361.32810974121094,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,47,5,4->5,0.9886580653994116,361.32810974121094,357.2299499511719,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,relu,47,6,5->6,0.9965406202152095,357.2299499511719,355.99415588378906,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,1,0->1,1.5665094426050667,231.51248168945312,362.66648864746094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,2,1->2,1.0071101504053124,362.66648864746094,365.24510192871094,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,3,2->3,0.9850767250610913,365.24510192871094,359.79444885253906,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,4,3->4,0.9815085475346815,359.79444885253906,353.1413269042969,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,5,4->5,0.9913803331998183,353.1413269042969,350.0973663330078,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,relu,47,6,5->6,0.9859652952118466,350.0973663330078,345.18385314941406,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,gelu,47,1,0->1,1.180010126589294,2819.291259765625,3326.792236328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,2,1->2,1.123636585396103,3326.792236328125,3738.10546875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,3,2->3,1.0974775786217743,3738.10546875,4102.4869384765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,4,3->4,1.0780158388706023,4102.4869384765625,4422.5458984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,5,4->5,1.0646160796716575,4422.5458984375,4708.3134765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,6,5->6,1.0589247161509738,4708.3134765625,4985.74951171875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,7,6->7,1.0526743457794505,4985.74951171875,5248.37060546875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,8,7->8,1.04542043973283,5248.37060546875,5486.75390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,9,8->9,1.0425795096713748,5486.75390625,5720.377197265625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,10,9->10,1.0363247479318236,5720.377197265625,5928.16845703125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,11,10->11,1.0345663320041885,5928.16845703125,6133.08349609375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,gelu,47,12,11->12,1.032197701455071,6133.08349609375,6330.5546875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,gelu,47,1,0->1,1.5720195117758295,231.487060546875,363.9021759033203,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,47,2,1->2,0.9933056708809996,363.9021759033203,361.4660949707031,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,47,3,2->3,1.0002672543701852,361.4660949707031,361.5626983642578,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,47,4,3->4,1.0002151474889212,361.5626983642578,361.64048767089844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,47,5,4->5,0.9920611704299042,361.64048767089844,358.7694854736328,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,gelu,47,6,5->6,0.9971759482487413,358.7694854736328,357.7563018798828,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,1,0->1,1.5658730239285776,231.51248168945312,362.51914978027344,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,2,1->2,1.0035358534189773,362.51914978027344,363.80096435546875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,3,2->3,0.9866470850253711,363.80096435546875,358.9431610107422,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,4,3->4,0.9858574537958508,358.9431610107422,353.8667907714844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,5,4->5,0.9910050073705272,353.8667907714844,350.6837615966797,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,gelu,47,6,5->6,0.9890505395626247,350.6837615966797,346.8439636230469,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+vit_random,light_depth_t2.0,47,1,0->1,1.1403333634400337,2819.291259765625,3214.931884765625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,2,1->2,1.1037149573891543,3214.931884765625,3548.368408203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,3,2->3,1.08582888110781,3548.368408203125,3852.9208984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,4,3->4,1.0701707384641979,3852.9208984375,4123.283203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,5,4->5,1.0598995154706907,4123.283203125,4370.265869140625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,6,5->6,1.055846479859987,4370.265869140625,4614.329833984375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,7,6->7,1.0490944718058632,4614.329833984375,4840.867919921875,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,8,7->8,1.0431700918817874,4840.867919921875,5049.8486328125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,9,8->9,1.0410020605119468,5049.8486328125,5256.90283203125,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,10,9->10,1.0360164931952844,5256.90283203125,5446.238037109375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,11,10->11,1.0341693177957423,5446.238037109375,5632.332275390625,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+vit_random,light_depth_t2.0,47,12,11->12,1.0313319881250278,5632.332275390625,5808.804443359375,random-init ViT; full configured encoder depth; no checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,1,0->1,1.5669631321776347,231.487060546875,362.731689453125,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,2,1->2,0.9900586337261543,362.731689453125,359.1256408691406,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,3,2->3,1.0007150001924738,359.1256408691406,359.3824157714844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,4,3->4,0.999380447567191,359.3824157714844,359.1597595214844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,5,4->5,0.991720584687823,359.1597595214844,356.1861267089844,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_encoder_random,light_depth_t2.0,47,6,5->6,0.9958677144262519,356.1861267089844,354.7142639160156,random-init MarianModel encoder; full configured encoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,1,0->1,1.5639737860887155,231.51248168945312,362.07945251464844,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,2,1->2,0.9999402003578791,362.07945251464844,362.05780029296875,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,3,2->3,0.9858803716481329,362.05780029296875,356.9456787109375,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,4,3->4,0.9863517787872436,356.9456787109375,352.0740051269531,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,5,4->5,0.988707402363627,352.0740051269531,348.0981750488281,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate
+marian_decoder_random,light_depth_t2.0,47,6,5->6,0.9883130914784323,348.0981750488281,344.0299835205078,random-init MarianModel decoder; full configured decoder depth; no Helsinki checkpoint; no truncate

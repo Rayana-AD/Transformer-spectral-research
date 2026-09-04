@@ -1,0 +1,3 @@
+temporal_mode,spatial_mode,max_err_temporal,max_err_spatial
+circular_roll,spatial_global,2.5331974029541016e-07,2.7931528201463607e-07
+causal_prev,prefix_mean,2.5331974029541016e-07,2.6459119428778877e-07

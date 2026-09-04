@@ -1,0 +1,13 @@
+{
+  "mode": "eval_only",
+  "model_id": "Helsinki-NLP/opus-mt-de-en",
+  "attention": "vanilla",
+  "ffn_activation": "phys_tau_softplus_z_b1.0",
+  "freeze_base": true,
+  "val_ce_token": 10.107346036718527,
+  "val_ppl": 24522.492502983816,
+  "val_token_acc": 0.016146788990825688,
+  "bleu": 0.028476044032733842,
+  "bleu_num_beams": 1,
+  "bleu_length_penalty": null
+}

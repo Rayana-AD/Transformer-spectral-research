@@ -1,0 +1,22 @@
+% Auto-generated from results_script2/universal_summary.csv
+% CSV: full $n\in\{8,16,32,64\}$; this table: $n\in\{16,64\}$ only.
+\begin{table*}[t]
+\centering
+\caption{Summaries of the feature matrix $\mathbf{M}=\sigma(W\mathbf{X})\in\mathbb{R}^{n\times n}$, where $\mathbf{X}$ has i.i.d.\ standard normal entries, $W$ is one random linear map per random seed, and $\sigma$ is the listed pointwise activation (identity for $\mathrm{Linear}$). \emph{Rank} counts singular values above a fixed numerical threshold. The \emph{spectral norm} $\|\mathbf{M}\|_{2}=\sigma_{\max}(\mathbf{M})$ is the largest singular value; the \emph{nuclear norm} $\|\mathbf{M}\|_{\ast}=\sum_i \sigma_i(\mathbf{M})$ is the sum of singular values. These two norms and rank are reported as mean $\pm$ standard deviation over $20$ seeds. The \emph{median condition number} $\mathrm{med}\,\kappa$ uses $\kappa(\mathbf{M})=\sigma_{\max}(\mathbf{M})/\sigma_{\min}(\mathbf{M})$ on realizations with finite $\kappa$. Representative widths $n\in\{16,64\}$; additional $n$ are in \texttt{universal\_summary.csv}.}
+\label{tab:universal-sweep}
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{4}{c}{$n=16$} & \multicolumn{4}{c}{$n=64$} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9} \\
+$\mathrm{Activation}$ & $\mathrm{rank}$ & $\|\mathbf{M}\|_2$ & $\|\mathbf{M}\|_{\ast}$ & $\mathrm{med}\,\kappa$ & $\mathrm{rank}$ & $\|\mathbf{M}\|_2$ & $\|\mathbf{M}\|_{\ast}$ & $\mathrm{med}\,\kappa$ \\
+\midrule
+$\mathrm{Linear}$ & $16.00 \pm 0.00$ & $5.18 \pm 0.60$ & $27.68 \pm 1.95$ & 553.79 & $64.00 \pm 0.00$ & $11.42 \pm 0.45$ & $221.66 \pm 3.47$ & 6730.68 \\
+$\mathrm{ReLU}$ & $15.95 \pm 0.22$ & $4.25 \pm 0.50$ & $19.26 \pm 1.80$ & 168.03 & $64.00 \pm 0.00$ & $15.38 \pm 0.41$ & $149.81 \pm 3.38$ & 736.09 \\
+$\mathrm{GELU}$ & $16.00 \pm 0.00$ & $3.11 \pm 0.43$ & $16.86 \pm 1.76$ & 122.13 & $64.00 \pm 0.00$ & $8.56 \pm 0.41$ & $135.24 \pm 3.52$ & 605.56 \\
+$\mathrm{SiLU}$ & $16.00 \pm 0.00$ & $2.86 \pm 0.36$ & $15.54 \pm 1.48$ & 92.73 & $64.00 \pm 0.00$ & $6.61 \pm 0.35$ & $124.66 \pm 3.06$ & 553.04 \\
+$\mathrm{Mish}$ & $16.00 \pm 0.00$ & $3.32 \pm 0.41$ & $18.24 \pm 1.67$ & 91.80 & $64.00 \pm 0.00$ & $7.88 \pm 0.41$ & $146.41 \pm 3.39$ & 456.91 \\
+$\mathrm{ELU}$ & $16.00 \pm 0.00$ & $4.36 \pm 0.48$ & $23.92 \pm 1.63$ & 229.89 & $64.00 \pm 0.00$ & $9.63 \pm 0.33$ & $192.07 \pm 3.23$ & 518.34 \\
+\bottomrule
+\end{tabular}
+\end{table*}

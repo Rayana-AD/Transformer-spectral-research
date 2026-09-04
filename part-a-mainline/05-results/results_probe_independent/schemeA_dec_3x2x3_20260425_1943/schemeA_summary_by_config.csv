@@ -1,0 +1,7 @@
+order,alpha_spatial,alpha_temporal,n_runs,bleu_mean,bleu_std,train_ppl_mean,train_ppl_std
+spatial_first,0.1,0.2,3,18.2438,0.1283,19.9213,1.8706
+spatial_first,0.2,0.1,3,17.9679,0.3680,468.6054,628.8293
+spatial_first,0.2,0.2,3,18.2342,0.0920,22.1513,2.4146
+temporal_first,0.1,0.2,3,18.2438,0.1283,19.9213,1.8706
+temporal_first,0.2,0.1,3,18.0304,0.4147,892.0570,616.0541
+temporal_first,0.2,0.2,3,18.1557,0.1808,682.9297,933.7800

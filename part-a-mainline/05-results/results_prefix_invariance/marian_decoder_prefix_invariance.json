@@ -1,0 +1,29 @@
+{
+  "model": "Helsinki-NLP/opus-mt-de-en",
+  "by_condition": {
+    "vanilla": {
+      "max_logit_diff_mean": 0.0,
+      "max_logit_diff_max": 0.0,
+      "mean_kl": 0.0,
+      "n_pairs": 12,
+      "temporal_mode": null,
+      "spatial_mode": null
+    },
+    "cascade_circular_global": {
+      "max_logit_diff_mean": 0.0,
+      "max_logit_diff_max": 0.0,
+      "mean_kl": 0.0,
+      "n_pairs": 12,
+      "temporal_mode": "circular_roll",
+      "spatial_mode": "spatial_global"
+    },
+    "cascade_causal_prefix": {
+      "max_logit_diff_mean": 0.0,
+      "max_logit_diff_max": 0.0,
+      "mean_kl": 0.0,
+      "n_pairs": 12,
+      "temporal_mode": "causal_prev",
+      "spatial_mode": "prefix_mean"
+    }
+  }
+}

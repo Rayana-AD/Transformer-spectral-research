@@ -1,0 +1,32 @@
+{
+  "model_id": "Helsinki-NLP/opus-mt-de-en",
+  "max_val": 128,
+  "seed": 42,
+  "weights": "pretrained (no --checkpoint); all params frozen",
+  "runs": {
+    "1_swish_frozen": {
+      "bleu": 19.916190212633403,
+      "val_ce": 5.471451117139344,
+      "val_ppl": 237.80502545259802,
+      "val_token_acc": 0.24770642201834864,
+      "ffn": null,
+      "freeze_base": true
+    },
+    "2_light_depth_t2.0_frozen": {
+      "bleu": 0.3477062306799926,
+      "val_ce": 6.603776454138099,
+      "val_ppl": 737.8764909349417,
+      "val_token_acc": 0.11889908256880734,
+      "ffn": "light_depth_t2.0",
+      "freeze_base": true
+    },
+    "3_phys_tau_b1.0_frozen": {
+      "bleu": 0.028476044032733842,
+      "val_ce": 10.107346036718527,
+      "val_ppl": 24522.492502983816,
+      "val_token_acc": 0.016146788990825688,
+      "ffn": "phys_tau_softplus_z_b1.0",
+      "freeze_base": true
+    }
+  }
+}

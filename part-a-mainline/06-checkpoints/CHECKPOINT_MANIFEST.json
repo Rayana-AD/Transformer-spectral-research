@@ -1,0 +1,42 @@
+{
+  "model_id": "Helsinki-NLP/opus-mt-de-en",
+  "note": "Marian finetune checkpoints are ~512MB each and do not compress in zip. This bundle ships one vanilla finetune (seed 42) for re-eval; Scheme A cascade numbers are archived in result.json / CSV.",
+  "pretrained_baseline": {
+    "source": "HuggingFace Helsinki-NLP/opus-mt-de-en",
+    "archived_bleu": 19.916190212633403,
+    "archived_from": "results_marian_ffn_frozen_eval/summary.json"
+  },
+  "included_checkpoints": [
+    {
+      "path": "vanilla_finetune_seed42/",
+      "protocol": "marian_mt_finetune_tlb.py — 800 train pairs, 1 epoch, batch=8, lr=1e-5",
+      "seed": 42,
+      "archived_eval_bleu": 15.129273279833583,
+      "eval_manifest": "eval_manifests/eval_vanilla_s42/marian_eval_vanilla_seed42.json"
+    }
+  ],
+  "archived_eval_only_seeds": [
+    {
+      "seed": 43,
+      "eval_manifest": "eval_manifests/eval_vanilla_s43/"
+    },
+    {
+      "seed": 44,
+      "eval_manifest": "eval_manifests/eval_vanilla_s44/"
+    }
+  ],
+  "scheme_a_probe_protocol": {
+    "script": "run_probe_independent.py",
+    "default_max_train_batches": 32,
+    "matrix_runner": "experiments/run_schemeA_cascade_matrix.sh",
+    "archived_encoder_report": "../05-results/results_probe_independent/schemeA_3x2x3_20260424_0137/schemeA_full_report.md",
+    "archived_decoder_dir": "../05-results/results_probe_independent/schemeA_dec_3x2x3_20260425_1943/",
+    "note": "Probe runs do not save HF weights; re-run matrix or use archived result.json BLEU."
+  },
+  "excluded_for_size": {
+    "results_v_smooth_hybrid": "8.5GB — grid search, summaries in part-b",
+    "results_v_smooth_grid_*": "3GB each",
+    "results_marian_bleu_quick": "570MB — negative Q/K experiments",
+    "results_script7/exp3_vit_cifar/epoch_weights": "443MB — ViT probe intermediates"
+  }
+}

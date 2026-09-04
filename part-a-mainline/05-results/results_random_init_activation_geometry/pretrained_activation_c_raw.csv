@@ -1,0 +1,433 @@
+model_family,init_variant,activation_id,seed,layer_transition,transition_label,c_t,nuclear_from,nuclear_to,note
+vit,pretrained,relu,42,1,0->1,0.9597460800634218,23665.955078125,22713.3076171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,2,1->2,0.9506790377526391,22713.3076171875,21593.0654296875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,3,2->3,0.9721912312795372,21593.0654296875,20992.5888671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,4,3->4,0.9792376969346185,20992.5888671875,20556.734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,5,4->5,0.9815010344845934,20556.734375,20176.4560546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,6,5->6,0.9875684215982902,20176.4560546875,19925.630859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,7,6->7,1.004105696543681,19925.630859375,20007.439453125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,8,7->8,0.9961490398737423,20007.439453125,19930.3916015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,9,8->9,1.0030951474127163,19930.3916015625,19992.0791015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,10,9->10,1.0221521326146308,19992.0791015625,20434.9462890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,11,10->11,1.046267918129105,20434.9462890625,21380.4287109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,42,12,11->12,1.0925625660040015,21380.4287109375,23359.4560546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,1,0->1,0.9581257418094736,23750.583984375,22756.0458984375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,2,1->2,0.9518717360097169,22756.0458984375,21660.8369140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,3,2->3,0.9723120062457911,21660.8369140625,21061.091796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,4,3->4,0.9792500036398947,21061.091796875,20624.07421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,5,4->5,0.9813306013925246,20624.07421875,20239.03515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,6,5->6,0.9893748891423269,20239.03515625,20023.9931640625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,7,6->7,1.012418207863818,20023.9931640625,20272.6552734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,8,7->8,0.9974638231465481,20272.6552734375,20221.240234375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,9,8->9,1.0039088114630395,20221.240234375,20300.28125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,10,9->10,1.021638497157521,20300.28125,20739.548828125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,11,10->11,1.0489387585934897,20739.548828125,21754.5166015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,43,12,11->12,1.0909055568336765,21754.5166015625,23732.123046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,1,0->1,0.9578649076502233,23489.689453125,22499.94921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,2,1->2,0.9504514506716769,22499.94921875,21385.109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,3,2->3,0.9721053438176535,21385.109375,20788.5791015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,4,3->4,0.9791705979634532,20788.5791015625,20355.5654296875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,5,4->5,0.9815798706386877,20355.5654296875,19980.61328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,6,5->6,0.9879880634294532,19980.61328125,19740.607421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,7,6->7,1.006372888372249,19740.607421875,19866.412109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,8,7->8,0.9959038904683952,19866.412109375,19785.037109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,9,8->9,1.0027566306174203,19785.037109375,19839.5771484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,10,9->10,1.0198391620442626,19839.5771484375,20233.177734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,11,10->11,1.0495965157011704,20233.177734375,21236.6728515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,44,12,11->12,1.0942977886912808,21236.6728515625,23239.244140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,1,0->1,0.9584650267740656,23656.43359375,22673.8642578125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,2,1->2,0.950812508395951,22673.8642578125,21558.59375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,3,2->3,0.97216909766262,21558.59375,20958.5986328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,4,3->4,0.9789734737919181,20958.5986328125,20517.912109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,5,4->5,0.9816165772075486,20517.912109375,20140.72265625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,6,5->6,0.9886749967271299,20140.72265625,19912.62890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,7,6->7,1.011693956783472,19912.62890625,20145.486328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,8,7->8,0.9966319708130961,20145.486328125,20077.6357421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,9,8->9,1.0042662031793674,20077.6357421875,20163.291015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,10,9->10,1.0234604578536277,20163.291015625,20636.3310546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,11,10->11,1.0544528496016132,20636.3310546875,21760.0380859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,45,12,11->12,1.0920776550728946,21760.0380859375,23763.6513671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,1,0->1,0.9588370673820296,23474.0263671875,22507.7666015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,2,1->2,0.9508261319345801,22507.7666015625,21400.97265625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,3,2->3,0.9727465658048179,21400.97265625,20817.72265625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,4,3->4,0.9791211833667115,20817.72265625,20383.0732421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,5,4->5,0.9814750836600548,20383.0732421875,20005.478515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,6,5->6,0.9880096809418905,20005.478515625,19765.6064453125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,7,6->7,1.0068542554461883,19765.6064453125,19901.0849609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,8,7->8,0.9968858678058686,19901.0849609375,19839.1103515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,9,8->9,1.003597199325492,19839.1103515625,19910.4755859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,10,9->10,1.0235068821487903,19910.4755859375,20378.5087890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,11,10->11,1.0490691475533378,20378.5087890625,21378.46484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,46,12,11->12,1.0915991413672528,21378.46484375,23336.7138671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,1,0->1,0.9594398735717086,23661.5107421875,22701.796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,2,1->2,0.9516318057147184,22701.796875,21603.751953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,3,2->3,0.9731609029500717,21603.751953125,21023.9267578125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,4,3->4,0.9793089634991308,21023.9267578125,20588.919921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,5,4->5,0.9818994439799851,20588.919921875,20216.2490234375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,6,5->6,0.9877619135558644,20216.2490234375,19968.8408203125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,7,6->7,1.0054872598633036,19968.8408203125,20078.4150390625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,8,7->8,0.9961140152790594,20078.4150390625,20000.390625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,9,8->9,1.0034540341008964,20000.390625,20069.47265625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,10,9->10,1.0208716402107134,20069.47265625,20488.35546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,11,10->11,1.0462126543297556,20488.35546875,21435.1767578125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,relu,47,12,11->12,1.0926864750876564,21435.1767578125,23421.927734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,1,0->1,1.0273030794438156,120.09981155395508,123.37890625,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,2,1->2,0.9833373424390534,123.37890625,121.32308578491211,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,3,2->3,0.8264856196771242,121.32308578491211,100.27178573608398,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,4,3->4,1.135148965517189,100.27178573608398,113.82341384887695,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,5,4->5,1.0811567750989715,113.82341384887695,123.06095504760742,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,42,6,5->6,0.3502624064192059,123.06095504760742,43.1036262512207,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,1,0->1,0.6909815378916362,148.33014678955078,102.49339294433594,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,2,1->2,0.7914159535638418,102.49339294433594,81.11490631103516,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,3,2->3,0.9614474581337491,81.11490631103516,77.98772048950195,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,4,3->4,0.9126339334650198,77.98772048950195,71.17424011230469,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,5,4->5,1.2719288880313433,71.17424011230469,90.52857208251953,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,42,6,5->6,4.128088539791085,90.52857208251953,373.7099609375,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,1,0->1,1.0587137579901353,115.76264190673828,122.55950164794922,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,2,1->2,0.982752026426099,122.55950164794922,120.44559860229492,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,3,2->3,0.8235570740579673,120.44559860229492,99.1938247680664,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,4,3->4,1.1367661413465628,99.1938247680664,112.76018142700195,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,5,4->5,1.0841959098973744,112.76018142700195,122.2541275024414,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,43,6,5->6,0.35297882382484924,122.2541275024414,43.15311813354492,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,1,0->1,0.6664155924571921,170.1571273803711,113.3953628540039,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,2,1->2,0.7820757000104354,113.3953628540039,88.68375778198242,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,3,2->3,0.9621026229664037,88.68375778198242,85.3228759765625,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,4,3->4,0.9213995872468579,85.3228759765625,78.61646270751953,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,5,4->5,1.24792557405237,78.61646270751953,98.10749435424805,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,43,6,5->6,4.162179983110075,98.10749435424805,408.34104919433594,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,1,0->1,1.0111515526817036,137.98866271972656,139.52745056152344,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,2,1->2,0.9840275737141586,139.52745056152344,137.29885864257812,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,3,2->3,0.824854651324325,137.29885864257812,113.25160217285156,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,4,3->4,1.1351420165595603,113.25160217285156,128.5566520690918,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,5,4->5,1.068966899606844,128.5566520690918,137.4228057861328,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,44,6,5->6,0.35963068144280663,137.4228057861328,49.421457290649414,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,1,0->1,0.6628400125759326,172.46309661865234,114.3154411315918,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,2,1->2,0.7770872910755116,114.3154411315918,88.83307647705078,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,3,2->3,0.9579585364540253,88.83307647705078,85.09840393066406,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,4,3->4,0.8905494862927422,85.09840393066406,75.78433990478516,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,5,4->5,1.2354758106774197,75.78433990478516,93.62971878051758,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,44,6,5->6,4.156099201005326,93.62971878051758,389.1343994140625,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,1,0->1,0.9942105633819551,141.26559448242188,140.44774627685547,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,2,1->2,0.98734391064866,140.44774627685547,138.67022705078125,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,3,2->3,0.8259840675923525,138.67022705078125,114.53939819335938,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,4,3->4,1.1324650094438733,114.53939819335938,129.71186065673828,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,5,4->5,1.072090656446134,129.71186065673828,139.06287384033203,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,45,6,5->6,0.3586544930614598,139.06287384033203,49.87552452087402,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,1,0->1,0.651645606551266,159.14892578125,103.70869827270508,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,2,1->2,0.7880960750793047,103.70869827270508,81.73241806030273,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,3,2->3,0.9547607931665872,81.73241806030273,78.03490829467773,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,4,3->4,0.8819718520131344,78.03490829467773,68.82459259033203,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,5,4->5,1.2347264603379435,68.82459259033203,84.97954559326172,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,45,6,5->6,4.216998450141891,84.97954559326172,358.3586120605469,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,1,0->1,1.0335659467863911,147.3498764038086,152.29581451416016,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,2,1->2,0.9870871328353167,152.29581451416016,150.32923889160156,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,3,2->3,0.8344693658947844,150.32923889160156,125.44514465332031,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,4,3->4,1.114283995726644,125.44514465332031,139.7815170288086,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,5,4->5,1.062226539689041,139.7815170288086,148.4796371459961,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,46,6,5->6,0.3564946715629604,148.4796371459961,52.932199478149414,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,1,0->1,0.6350159301246072,198.1519775390625,125.82966232299805,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,2,1->2,0.8176488565836416,125.82966232299805,102.88447952270508,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,3,2->3,0.9625464427883912,102.88447952270508,99.03108978271484,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,4,3->4,0.8983528223711139,99.03108978271484,88.96485900878906,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,5,4->5,1.2594402597694396,88.96485900878906,112.04592514038086,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,46,6,5->6,4.183042810562802,112.04592514038086,468.6929016113281,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,1,0->1,1.0279446663340033,144.99053192138672,149.04224395751953,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,2,1->2,0.9862589527196073,149.04224395751953,146.99424743652344,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,3,2->3,0.8337894972862687,146.99424743652344,122.56225967407227,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,4,3->4,1.1141291497101322,122.56225967407227,136.55018615722656,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,5,4->5,1.05836207878173,136.55018615722656,144.51953887939453,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,relu,47,6,5->6,0.35504203122455286,144.51953887939453,51.31051063537598,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,1,0->1,0.6610629832533598,189.8168716430664,125.48090744018555,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,2,1->2,0.820221075125797,125.48090744018555,102.92208480834961,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,3,2->3,0.9605974068515719,102.92208480834961,98.8666877746582,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,4,3->4,0.8959758515052624,98.8666877746582,88.5821647644043,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,5,4->5,1.2853639051726815,88.5821647644043,113.86031723022461,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,relu,47,6,5->6,4.131617879093866,113.86031723022461,470.4273223876953,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,1,0->1,0.9740628617602306,23665.955078125,23052.1279296875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,2,1->2,0.9540171754920774,23052.1279296875,21992.1259765625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,3,2->3,0.97255844898678,21992.1259765625,21388.6279296875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,4,3->4,0.9759205057265435,21388.6279296875,20873.6005859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,5,4->5,0.9792386905428306,20873.6005859375,20440.2373046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,6,5->6,0.9892073419256777,20440.2373046875,20219.6328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,7,6->7,1.0043119736271175,20219.6328125,20306.8193359375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,8,7->8,1.0102709012419482,20306.8193359375,20515.388671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,9,8->9,1.0249002297151366,20515.388671875,21026.2265625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,10,9->10,1.0783921921172108,21026.2265625,22674.5185546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,11,10->11,1.0770501130833858,22674.5185546875,24421.5927734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,42,12,11->12,1.0674273627042474,24421.5927734375,26068.2763671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,1,0->1,0.9722788066313172,23750.583984375,23092.189453125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,2,1->2,0.9549386836948809,23092.189453125,22051.625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,3,2->3,0.9725438318037787,22051.625,21446.171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,4,3->4,0.975853836458284,21446.171875,20928.3291015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,5,4->5,0.979050898646884,20928.3291015625,20489.8994140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,6,5->6,0.9907943876882556,20489.8994140625,20301.27734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,7,6->7,1.0136246429998728,20301.27734375,20577.875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,8,7->8,1.0126971929803248,20577.875,20839.15625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,9,8->9,1.0265794148035623,20839.15625,21393.048828125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,10,9->10,1.0758758526357632,21393.048828125,23016.2646484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,11,10->11,1.0742770005331232,23016.2646484375,24725.84375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,43,12,11->12,1.066139955726991,24725.84375,26361.2099609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,1,0->1,0.9722645515764439,23489.689453125,22838.1923828125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,2,1->2,0.9537231805155743,22838.1923828125,21781.3134765625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,3,2->3,0.9724444400605898,21781.3134765625,21181.1171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,4,3->4,0.9756797586145974,21181.1171875,20665.9873046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,5,4->5,0.9790286074959653,20665.9873046875,20232.5927734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,6,5->6,0.9890916550323569,20232.5927734375,20011.888671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,7,6->7,1.005349798415727,20011.888671875,20118.9482421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,8,7->8,1.0107086743815579,20118.9482421875,20334.3955078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,9,8->9,1.0255639822093694,20334.3955078125,20854.2236328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,10,9->10,1.0777599336914898,20854.2236328125,22475.8466796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,11,10->11,1.0750434048842448,22475.8466796875,24162.5107421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,44,12,11->12,1.0712299621892143,24162.5107421875,25883.60546875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,1,0->1,0.9728205543979431,23656.43359375,23013.46484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,2,1->2,0.9539126381006228,23013.46484375,21952.8349609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,3,2->3,0.9724774388700776,21952.8349609375,21348.63671875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,4,3->4,0.9757356066537475,21348.63671875,20830.625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,5,4->5,0.9791809497734706,20830.625,20396.951171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,6,5->6,0.9896052843375508,20396.951171875,20184.9306640625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,7,6->7,1.0080347397155665,20184.9306640625,20347.111328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,8,7->8,1.0110368668924805,20347.111328125,20571.6796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,9,8->9,1.0263435776201735,20571.6796875,21113.611328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,10,9->10,1.081342345341687,21113.611328125,22831.0419921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,11,10->11,1.0786093512092718,22831.0419921875,24625.775390625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,45,12,11->12,1.0671306590361962,24625.775390625,26278.919921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,1,0->1,0.9731712697914995,23474.0263671875,22844.248046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,2,1->2,0.9541601136432132,22844.248046875,21797.0703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,3,2->3,0.9731014059013808,21797.0703125,21210.759765625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,4,3->4,0.9757243361799809,21210.759765625,20695.8544921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,5,4->5,0.979235113463195,20695.8544921875,20266.107421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,6,5->6,0.9892575803178163,20266.107421875,20048.400390625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,7,6->7,1.0032391825992195,20048.400390625,20113.3408203125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,8,7->8,1.0112423438637126,20113.3408203125,20339.4619140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,9,8->9,1.0251724045712591,20339.4619140625,20851.455078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,10,9->10,1.0784482310465255,20851.455078125,22487.21484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,11,10->11,1.0719081780324131,22487.21484375,24104.2294921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,46,12,11->12,1.0687177606076086,24104.2294921875,25760.6181640625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,1,0->1,0.9737066810646097,23661.5107421875,23039.37109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,2,1->2,0.954825800061342,23039.37109375,21998.5859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,3,2->3,0.9735358078768557,21998.5859375,21416.4111328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,4,3->4,0.9760664702726648,21416.4111328125,20903.8408203125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,5,4->5,0.9795073544769943,20903.8408203125,20475.4658203125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,6,5->6,0.9889241492664835,20475.4658203125,20248.6826171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,7,6->7,1.0026614385744905,20248.6826171875,20302.5732421875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,8,7->8,1.0101165305063748,20302.5732421875,20507.96484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,9,8->9,1.0255212866037757,20507.96484375,21031.3544921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,10,9->10,1.080630450062307,21031.3544921875,22727.1220703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,11,10->11,1.0718784725694062,22727.1220703125,24360.712890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,gelu,47,12,11->12,1.0694562558101965,24360.712890625,26052.716796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,1,0->1,1.0307233214154297,120.09981155395508,123.78967666625977,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,2,1->2,0.9919201178919876,123.78967666625977,122.78947067260742,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,3,2->3,0.8370273156056275,122.78947067260742,102.77814102172852,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,4,3->4,1.1370098653537457,102.77814102172852,116.85976028442383,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,5,4->5,1.0729780243150726,116.85976028442383,125.38795471191406,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,42,6,5->6,0.3622210729030079,125.38795471191406,45.41815948486328,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,1,0->1,0.6973688413325653,148.33014678955078,103.44082260131836,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,2,1->2,0.8190950632036542,103.44082260131836,84.72786712646484,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,3,2->3,0.9911573604709976,84.72786712646484,83.9786491394043,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,4,3->4,0.9238788491166663,83.9786491394043,77.58609771728516,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,5,4->5,1.2846237695273992,77.58609771728516,99.6689453125,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,42,6,5->6,4.1860544796739205,99.6689453125,417.2196350097656,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,1,0->1,1.0628137390027614,115.76264190673828,123.03412628173828,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,2,1->2,0.9903219139334191,123.03412628173828,121.84339141845703,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,3,2->3,0.8341332265348015,121.84339141845703,101.63362121582031,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,4,3->4,1.1376727474945805,101.63362121582031,115.62580108642578,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,5,4->5,1.0754163641048464,115.62580108642578,124.34587860107422,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,43,6,5->6,0.3643857937499229,124.34587860107422,45.309871673583984,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,1,0->1,0.6739268124433508,170.1571273803711,114.6734504699707,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,2,1->2,0.8090874485466314,114.6734504699707,92.78084945678711,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,3,2->3,0.9950225604919805,92.78084945678711,92.31903839111328,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,4,3->4,0.9358298594241318,92.31903839111328,86.39491271972656,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,5,4->5,1.2696986405985047,86.39491271972656,109.69550323486328,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,43,6,5->6,4.251086224803448,109.69550323486328,466.3250427246094,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,1,0->1,1.015001119622701,137.98866271972656,140.05864715576172,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,2,1->2,0.9930231165914678,140.05864715576172,139.08147430419922,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,3,2->3,0.8373856610922612,139.08147430419922,116.4648323059082,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,4,3->4,1.1357796714943655,116.4648323059082,132.27838897705078,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,5,4->5,1.0603397982684617,132.27838897705078,140.26004028320312,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,44,6,5->6,0.3725209506399094,140.26004028320312,52.24980354309082,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,1,0->1,0.6711342975383014,172.46309661865234,115.74589920043945,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,2,1->2,0.7982570945254173,115.74589920043945,92.39498519897461,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,3,2->3,0.9884204029505065,92.39498519897461,91.32508850097656,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,4,3->4,0.9102320837428933,91.32508850097656,83.12702560424805,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,5,4->5,1.2584050360394636,83.12702560424805,104.60746765136719,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,44,6,5->6,4.264369989008913,104.60746765136719,446.08494567871094,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,1,0->1,0.9979792572506622,141.26559448242188,140.98013305664062,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,2,1->2,0.9965760296750589,140.98013305664062,140.49742126464844,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,3,2->3,0.8397895758076528,140.49742126464844,117.9882698059082,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,4,3->4,1.1308243730495624,117.9882698059082,133.42401123046875,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,5,4->5,1.0623814911947242,133.42401123046875,141.74720001220703,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,45,6,5->6,0.37175605057922917,141.74720001220703,52.69537925720215,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,1,0->1,0.6593467449230986,159.14892578125,104.934326171875,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,2,1->2,0.8112626465469707,104.934326171875,85.12929916381836,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,3,2->3,0.9890791124896852,85.12929916381836,84.19961166381836,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,4,3->4,0.8992660207717114,84.19961166381836,75.71784973144531,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,5,4->5,1.2529869041129569,75.71784973144531,94.87347412109375,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,45,6,5->6,4.299291144468598,94.87347412109375,407.88868713378906,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,1,0->1,1.0373316658246798,147.3498764038086,152.85069274902344,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,2,1->2,0.9959545175344504,152.85069274902344,152.23233795166016,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,3,2->3,0.8466318291567095,152.23233795166016,128.8847427368164,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,4,3->4,1.115371580994722,128.8847427368164,143.75437927246094,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,5,4->5,1.0515268567204612,143.75437927246094,151.16159057617188,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,46,6,5->6,0.36849538627365436,151.16159057617188,55.702348709106445,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,1,0->1,0.6413492654600831,198.1519775390625,127.08462524414062,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,2,1->2,0.8502962616366845,127.08462524414062,108.0595817565918,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,3,2->3,0.9982676349855056,108.0595817565918,107.87238311767578,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,4,3->4,0.9152284216569304,107.87238311767578,98.72787094116211,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,5,4->5,1.2928431559945766,98.72787094116211,127.63965225219727,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,46,6,5->6,4.261183983762806,127.63965225219727,543.8960418701172,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,1,0->1,1.0310740273767918,144.99053192138672,149.4959716796875,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,2,1->2,0.9959262018125684,149.4959716796875,148.88695526123047,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,3,2->3,0.8445793578049113,148.88695526123047,125.7468490600586,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,4,3->4,1.1169179555913822,125.7468490600586,140.44891357421875,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,5,4->5,1.0494804692507762,140.44891357421875,147.3983917236328,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,gelu,47,6,5->6,0.3673251672040945,147.3983917236328,54.14313888549805,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,1,0->1,0.6670448937098339,189.8168716430664,126.61637496948242,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,2,1->2,0.8472855115114091,126.61637496948242,107.28022003173828,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,3,2->3,0.9942601511524466,107.28022003173828,106.66444778442383,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,4,3->4,0.9132829866267641,106.66444778442383,97.41482543945312,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,5,4->5,1.3145354813102015,97.41482543945312,128.05524444580078,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,gelu,47,6,5->6,4.1733842208896,128.05524444580078,534.4237365722656,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,1,0->1,0.9268333937307259,23665.955078125,21934.3974609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,2,1->2,0.9420746514942929,21934.3974609375,20663.83984375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,3,2->3,0.959137697702981,20663.83984375,19819.4677734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,4,3->4,0.9655341046019157,19819.4677734375,19136.3720703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,5,4->5,0.9876047458504172,19136.3720703125,18899.171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,6,5->6,1.0258916147946298,18899.171875,19388.501953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,7,6->7,1.0483583365745222,19388.501953125,20326.09765625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,8,7->8,1.0777459838903996,20326.09765625,21906.3701171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,9,8->9,1.1069255905916706,21906.3701171875,24248.7216796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,10,9->10,1.6460785565733953,24248.7216796875,39915.30078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,11,10->11,1.0003889583773924,39915.30078125,39930.826171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,42,12,11->12,0.9854402019351531,39930.826171875,39349.44140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,1,0->1,0.9253552893724077,23750.583984375,21977.728515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,2,1->2,0.9429759192477968,21977.728515625,20724.46875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,3,2->3,0.9592175161305402,20724.46875,19879.2734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,4,3->4,0.9659021330712304,19879.2734375,19201.4326171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,5,4->5,0.9876641386265378,19201.4326171875,18964.56640625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,6,5->6,1.0258657232680437,18964.56640625,19455.0986328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,7,6->7,1.0490291120564526,19455.0986328125,20408.96484375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,8,7->8,1.077681472315609,20408.96484375,21994.36328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,9,8->9,1.1076419260119381,21994.36328125,24361.87890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,10,9->10,1.6262810381421666,24361.87890625,39619.26171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,11,10->11,1.000726643083467,39619.26171875,39648.05078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,43,12,11->12,0.9871397760431357,39648.05078125,39138.16796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,1,0->1,0.9243957683894055,23489.689453125,21713.76953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,2,1->2,0.9417681212868059,21713.76953125,20449.3359375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,3,2->3,0.9589316584623202,20449.3359375,19609.515625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,4,3->4,0.9653708658663006,19609.515625,18930.455078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,5,4->5,0.9875187685848067,18930.455078125,18694.1796875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,6,5->6,1.0268090314707745,18694.1796875,19195.3525390625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,7,6->7,1.0492347365372305,19195.3525390625,20140.4306640625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,8,7->8,1.0789029141621371,20140.4306640625,21729.5693359375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,9,8->9,1.1070704031925822,21729.5693359375,24056.1630859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,10,9->10,1.6665024323978828,24056.1630859375,40089.654296875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,11,10->11,1.0016538614647064,40089.654296875,40155.95703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,44,12,11->12,0.979156608632845,40155.95703125,39318.970703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,1,0->1,0.9254216075271543,23656.43359375,21892.1748046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,2,1->2,0.9420711961550545,21892.1748046875,20623.9873046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,3,2->3,0.9590912678809087,20623.9873046875,19780.2861328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,4,3->4,0.9656588717074632,19780.2861328125,19101.0087890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,5,4->5,0.9875087892373976,19101.0087890625,18862.4140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,6,5->6,1.026339169040283,18862.4140625,19359.234375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,7,6->7,1.048163233227683,19359.234375,20291.6376953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,8,7->8,1.0779590114597026,20291.6376953125,21873.5537109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,9,8->9,1.1071742287961093,21873.5537109375,24217.8349609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,10,9->10,1.6574539126740393,24217.8349609375,40139.9453125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,11,10->11,0.9997843968942254,40139.9453125,40131.291015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,45,12,11->12,0.9842405938983184,40131.291015625,39498.845703125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,1,0->1,0.9254109522563648,23474.0263671875,21723.12109375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,2,1->2,0.9421350271411203,21723.12109375,20466.11328125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,3,2->3,0.9594299361081818,20466.11328125,19635.8017578125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,4,3->4,0.9654526337787507,19635.8017578125,18957.4365234375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,5,4->5,0.9876600103593499,18957.4365234375,18723.501953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,6,5->6,1.0266765542512006,18723.501953125,19222.98046875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,7,6->7,1.0486654563639752,19222.98046875,20158.4755859375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,8,7->8,1.0785856057850978,20158.4755859375,21742.6416015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,9,8->9,1.1062539791546755,21742.6416015625,24052.8837890625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,10,9->10,1.6473274039345187,24052.8837890625,39622.974609375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,11,10->11,1.0010676314636153,39622.974609375,39665.27734375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,46,12,11->12,0.9827882462926337,39665.27734375,38982.568359375,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,1,0->1,0.9261831510636237,23661.5107421875,21914.892578125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,2,1->2,0.9426923222605205,21914.892578125,20659.0009765625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,3,2->3,0.9598461192077435,20659.0009765625,19829.4619140625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,4,3->4,0.965914630756033,19829.4619140625,19153.5673828125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,5,4->5,0.9877870335940703,19153.5673828125,18919.6455078125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,6,5->6,1.026204883657586,18919.6455078125,19415.4326171875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,7,6->7,1.048277930888479,19415.4326171875,20352.76953125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,8,7->8,1.077687091111103,20352.76953125,21933.9169921875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,9,8->9,1.1073290950164536,21933.9169921875,24288.064453125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,10,9->10,1.652783336465498,24288.064453125,40142.908203125,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,11,10->11,1.0011258117908728,40142.908203125,40188.1015625,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+vit,pretrained,light_depth_t2.0,47,12,11->12,0.9819541970308765,40188.1015625,39462.875,pretrained google/vit-base-patch16-224; full encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,1,0->1,1.0276025384134424,120.09981155395508,123.41487121582031,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,2,1->2,1.0199429916753182,123.41487121582031,125.87613296508789,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,3,2->3,0.8486548733300072,125.87613296508789,106.82539367675781,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,4,3->4,1.1564047968628073,106.82539367675781,123.53339767456055,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,5,4->5,1.0630273609070338,123.53339767456055,131.3193817138672,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,42,6,5->6,0.45207336976698165,131.3193817138672,59.36599540710449,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,1,0->1,0.7046604274709573,148.33014678955078,104.52238464355469,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,2,1->2,0.9319797914708936,104.52238464355469,97.41275024414062,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,3,2->3,0.999286619668229,97.41275024414062,97.34325790405273,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,4,3->4,0.9827048809679115,97.34325790405273,95.65969467163086,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,5,4->5,1.098932331975428,95.65969467163086,105.12353134155273,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,42,6,5->6,4.119989826364167,105.12353134155273,433.1078796386719,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,1,0->1,1.0623800149223228,115.76264190673828,122.98391723632812,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,2,1->2,1.0151955229076781,122.98391723632812,124.85272216796875,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,3,2->3,0.8461592870408348,124.85272216796875,105.64529037475586,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,4,3->4,1.154807857608425,105.64529037475586,122.0000114440918,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,5,4->5,1.0689289153431518,122.0000114440918,130.40933990478516,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,43,6,5->6,0.46606489154369685,130.40933990478516,60.77921485900879,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,1,0->1,0.6839115296328919,170.1571273803711,116.37242126464844,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,2,1->2,0.9162877398698736,116.37242126464844,106.63062286376953,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,3,2->3,1.0145830914057372,106.63062286376953,108.18562698364258,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,4,3->4,0.9651874617443811,108.18562698364258,104.4194107055664,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,5,4->5,1.0970593128493917,104.4194107055664,114.55428695678711,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,43,6,5->6,4.079027579312347,114.55428695678711,467.2700958251953,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,1,0->1,1.010917510069693,137.98866271972656,139.49515533447266,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,2,1->2,1.016025128980898,139.49515533447266,141.73058319091797,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,3,2->3,0.8550368250135881,141.73058319091797,121.18486785888672,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,4,3->4,1.1394065063064,121.18486785888672,138.07882690429688,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,5,4->5,1.0524349622847888,138.07882690429688,145.31898498535156,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,44,6,5->6,0.473513525574558,145.31898498535156,68.81050491333008,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,1,0->1,0.6771310461456832,172.46309661865234,116.78011703491211,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,2,1->2,0.9201992460312962,116.78011703491211,107.46097564697266,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,3,2->3,1.0055934185887594,107.46097564697266,108.06204986572266,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,4,3->4,0.9432802766524411,108.06204986572266,101.93280029296875,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,5,4->5,1.0926838938198289,101.93280029296875,111.38032913208008,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,44,6,5->6,4.131952242104126,111.38032913208008,460.21820068359375,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,1,0->1,0.9931386235142821,141.26559448242188,140.29631805419922,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,2,1->2,1.0179835475918948,140.29631805419922,142.81934356689453,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,3,2->3,0.8552130900968754,142.81934356689453,122.14097213745117,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,4,3->4,1.140842755301361,122.14097213745117,139.34364318847656,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,5,4->5,1.0522680347458533,139.34364318847656,146.62686157226562,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,45,6,5->6,0.47703197660442376,146.62686157226562,69.9457015991211,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,1,0->1,0.6590732066319565,159.14892578125,104.89079284667969,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,2,1->2,0.940220919817699,104.89079284667969,98.62051773071289,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,3,2->3,0.9999798474260618,98.62051773071289,98.6185302734375,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,4,3->4,0.9577793907038519,98.6185302734375,94.45479583740234,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,5,4->5,1.0811400846452277,94.45479583740234,102.11886596679688,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,45,6,5->6,4.099247780562669,102.11886596679688,418.61053466796875,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,1,0->1,1.0363184855232699,147.3498764038086,152.70140075683594,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,2,1->2,1.0221067048222827,152.70140075683594,156.0771255493164,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,3,2->3,0.8591554982634351,156.0771255493164,134.09452056884766,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,4,3->4,1.1285920142293737,134.09452056884766,151.33800506591797,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,5,4->5,1.0509640593511602,151.33800506591797,159.0508041381836,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,46,6,5->6,0.4834828161048917,159.0508041381836,76.89833068847656,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,1,0->1,0.6463271887576921,198.1519775390625,128.0710105895996,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,2,1->2,0.9446734459341746,128.0710105895996,120.98528289794922,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,3,2->3,1.0016612032085443,120.98528289794922,121.18626403808594,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,4,3->4,0.9479905913614637,121.18626403808594,114.88343811035156,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,5,4->5,1.1157871741549776,114.88343811035156,128.18546676635742,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,46,6,5->6,4.122169263737391,128.18546676635742,528.4021911621094,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,1,0->1,1.028721810374644,144.99053192138672,149.15492248535156,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,2,1->2,1.0236479895635988,149.15492248535156,152.68213653564453,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,3,2->3,0.8611173808497181,152.68213653564453,131.47724151611328,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,4,3->4,1.1325306091776903,131.47724151611328,148.9020004272461,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,5,4->5,1.0612546071009392,148.9020004272461,158.02293395996094,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_encoder,pretrained,light_depth_t2.0,47,6,5->6,0.47074329741504384,158.02293395996094,74.38823699951172,pretrained Helsinki-NLP/opus-mt-de-en encoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,1,0->1,0.675116381133083,189.8168716430664,128.14847946166992,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,2,1->2,0.9471643722396885,128.14847946166992,121.3776741027832,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,3,2->3,0.986958941310396,121.3776741027832,119.79478073120117,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,4,3->4,0.9475207893341003,119.79478073120117,113.5080451965332,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,5,4->5,1.1304460731953905,113.5080451965332,128.31472396850586,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load
+marian_decoder,pretrained,light_depth_t2.0,47,6,5->6,4.161781327579341,128.31472396850586,534.017822265625,pretrained Helsinki-NLP/opus-mt-de-en decoder; no truncate; activation swapped after load

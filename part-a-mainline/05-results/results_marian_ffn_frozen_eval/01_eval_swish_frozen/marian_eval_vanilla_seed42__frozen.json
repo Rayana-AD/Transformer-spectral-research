@@ -1,0 +1,13 @@
+{
+  "mode": "eval_only",
+  "model_id": "Helsinki-NLP/opus-mt-de-en",
+  "attention": "vanilla",
+  "ffn_activation": null,
+  "freeze_base": true,
+  "val_ce_token": 5.471451117139344,
+  "val_ppl": 237.80502545259802,
+  "val_token_acc": 0.24770642201834864,
+  "bleu": 19.916190212633403,
+  "bleu_num_beams": 1,
+  "bleu_length_penalty": null
+}

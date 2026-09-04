@@ -1,0 +1,15 @@
+# Git ignore for research archive
+
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+!_shared_assets/**
+
+# Local only
+*.log
+
+# Do not track symlink targets confusion
+# (checkpoint dirs use real files in 06-checkpoints)

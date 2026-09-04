@@ -1,0 +1,2930 @@
+[
+  {
+    "batch_idx": 0,
+    "bleu": 13.755050375002694,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.014718358404934406,
+          "std": 0.7234581708908081,
+          "l2_norm": 523.9475708007812,
+          "nuclear": 3602.8798828125,
+          "temporal_var_mean": 0.39542022347450256,
+          "temporal_var_std": 0.273506224155426,
+          "spatial_var_mean": 0.5145641565322876,
+          "spatial_var_std": 0.462572306394577,
+          "temporal_diff_mean": 0.4147949516773224,
+          "temporal_diff_std": 0.6435883045196533,
+          "temporal_cosine_mean": 0.6368988752365112
+        },
+        "V_first": {
+          "mean": 0.014718359336256981,
+          "std": 0.6861634850502014,
+          "l2_norm": 496.9492492675781,
+          "nuclear": 3352.6005859375,
+          "temporal_var_mean": 0.3428489565849304,
+          "temporal_var_std": 0.2401258796453476,
+          "spatial_var_mean": 0.46277177333831787,
+          "spatial_var_std": 0.4074117839336395,
+          "temporal_diff_mean": 0.3613736629486084,
+          "temporal_diff_std": 0.5467042326927185,
+          "temporal_cosine_mean": 0.6806488633155823
+        },
+        "V_second": {
+          "mean": 0.014718359336256981,
+          "std": 0.5894018411636353,
+          "l2_norm": 426.9051513671875,
+          "nuclear": 2783.92822265625,
+          "temporal_var_mean": 0.2194233536720276,
+          "temporal_var_std": 0.15368056297302246,
+          "spatial_var_mean": 0.3412478566169739,
+          "spatial_var_std": 0.31697672605514526,
+          "temporal_diff_mean": 0.28909897804260254,
+          "temporal_diff_std": 0.4373633861541748,
+          "temporal_cosine_mean": 0.6942653059959412
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9305335439912221,
+            "temporal_var_ratio": 0.8670496033355813,
+            "spatial_var_ratio": 0.8993470658032696
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8303787317598008,
+            "temporal_var_ratio": 0.6400000439192577,
+            "spatial_var_ratio": 0.7373998780895816
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0006637177430093288,
+          "std": 0.5193363428115845,
+          "l2_norm": 376.03961181640625,
+          "nuclear": 2797.462890625,
+          "temporal_var_mean": 0.2520205080509186,
+          "temporal_var_std": 0.20536921918392181,
+          "spatial_var_mean": 0.2654408812522888,
+          "spatial_var_std": 0.36639097332954407,
+          "temporal_diff_mean": 0.3259100019931793,
+          "temporal_diff_std": 0.5902131795883179,
+          "temporal_cosine_mean": 0.6751355528831482
+        },
+        "V_first": {
+          "mean": 0.000663717626594007,
+          "std": 0.47866111993789673,
+          "l2_norm": 346.5876770019531,
+          "nuclear": 2568.267822265625,
+          "temporal_var_mean": 0.21142685413360596,
+          "temporal_var_std": 0.1784762442111969,
+          "spatial_var_mean": 0.2254469394683838,
+          "spatial_var_std": 0.3091188073158264,
+          "temporal_diff_mean": 0.27947548031806946,
+          "temporal_diff_std": 0.5045294165611267,
+          "temporal_cosine_mean": 0.7177914381027222
+        },
+        "V_second": {
+          "mean": 0.000663717626594007,
+          "std": 0.39115557074546814,
+          "l2_norm": 283.2270202636719,
+          "nuclear": 2090.14111328125,
+          "temporal_var_mean": 0.13531318306922913,
+          "temporal_var_std": 0.11422479897737503,
+          "spatial_var_mean": 0.1505962312221527,
+          "spatial_var_std": 0.20320086181163788,
+          "temporal_diff_mean": 0.22358036041259766,
+          "temporal_diff_std": 0.4036235511302948,
+          "temporal_cosine_mean": 0.7275828123092651
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9180703811526345,
+            "temporal_var_ratio": 0.8389271467606816,
+            "spatial_var_ratio": 0.8493301028518145
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8138330025991103,
+            "temporal_var_ratio": 0.639999952814517,
+            "spatial_var_ratio": 0.6679896604379294
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0019496381282806396,
+          "std": 0.4534350633621216,
+          "l2_norm": 328.3247985839844,
+          "nuclear": 2429.427734375,
+          "temporal_var_mean": 0.1945425122976303,
+          "temporal_var_std": 0.1653575897216797,
+          "spatial_var_mean": 0.20291069149971008,
+          "spatial_var_std": 0.29255276918411255,
+          "temporal_diff_mean": 0.2858778238296509,
+          "temporal_diff_std": 0.5224089026451111,
+          "temporal_cosine_mean": 0.6701299548149109
+        },
+        "V_first": {
+          "mean": -0.0019496380118653178,
+          "std": 0.4170553684234619,
+          "l2_norm": 301.9833679199219,
+          "nuclear": 2230.89990234375,
+          "temporal_var_mean": 0.16287440061569214,
+          "temporal_var_std": 0.13987348973751068,
+          "spatial_var_mean": 0.17164969444274902,
+          "spatial_var_std": 0.24518568813800812,
+          "temporal_diff_mean": 0.2453354299068451,
+          "temporal_diff_std": 0.44759035110473633,
+          "temporal_cosine_mean": 0.7101542949676514
+        },
+        "V_second": {
+          "mean": -0.0019496383611112833,
+          "std": 0.33955898880958557,
+          "l2_norm": 245.87078857421875,
+          "nuclear": 1811.9991455078125,
+          "temporal_var_mean": 0.10423962026834488,
+          "temporal_var_std": 0.08951903134584427,
+          "spatial_var_mean": 0.11377425491809845,
+          "spatial_var_std": 0.16012804210186005,
+          "temporal_diff_mean": 0.19626833498477936,
+          "temporal_diff_std": 0.35807228088378906,
+          "temporal_cosine_mean": 0.7181815505027771
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9182820590909626,
+            "temporal_var_ratio": 0.8372174817724983,
+            "spatial_var_ratio": 0.8459371199946015
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.812227901214228,
+            "temporal_var_ratio": 0.6399999844929718,
+            "spatial_var_ratio": 0.6628281434416685
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.003288936335593462,
+          "std": 0.4421723484992981,
+          "l2_norm": 320.175537109375,
+          "nuclear": 2337.81591796875,
+          "temporal_var_mean": 0.18218165636062622,
+          "temporal_var_std": 0.1743781417608261,
+          "spatial_var_mean": 0.1928429901599884,
+          "spatial_var_std": 0.311099112033844,
+          "temporal_diff_mean": 0.25972840189933777,
+          "temporal_diff_std": 0.48264169692993164,
+          "temporal_cosine_mean": 0.7010850310325623
+        },
+        "V_first": {
+          "mean": 0.003288936335593462,
+          "std": 0.4107203781604767,
+          "l2_norm": 297.4025573730469,
+          "nuclear": 2166.3291015625,
+          "temporal_var_mean": 0.1553565263748169,
+          "temporal_var_std": 0.15104921162128448,
+          "spatial_var_mean": 0.166415274143219,
+          "spatial_var_std": 0.26969707012176514,
+          "temporal_diff_mean": 0.22359433770179749,
+          "temporal_diff_std": 0.41494235396385193,
+          "temporal_cosine_mean": 0.7411462664604187
+        },
+        "V_second": {
+          "mean": 0.003288936335593462,
+          "std": 0.3358016312122345,
+          "l2_norm": 243.1577911376953,
+          "nuclear": 1765.376220703125,
+          "temporal_var_mean": 0.09942817687988281,
+          "temporal_var_std": 0.09667149931192398,
+          "spatial_var_mean": 0.1112729161977768,
+          "spatial_var_std": 0.17816391587257385,
+          "temporal_diff_mean": 0.17887547612190247,
+          "temporal_diff_std": 0.33195391297340393,
+          "temporal_cosine_mean": 0.7506223917007446
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9266465699469976,
+            "temporal_var_ratio": 0.8527560949370762,
+            "spatial_var_ratio": 0.862957296895173
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8149159882594338,
+            "temporal_var_ratio": 0.6399999588044369,
+            "spatial_var_ratio": 0.6686460127184831
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0038696066476404667,
+          "std": 0.52276611328125,
+          "l2_norm": 378.53314208984375,
+          "nuclear": 2704.267333984375,
+          "temporal_var_mean": 0.24396297335624695,
+          "temporal_var_std": 0.25539150834083557,
+          "spatial_var_mean": 0.26968348026275635,
+          "spatial_var_std": 0.4875904619693756,
+          "temporal_diff_mean": 0.2816165089607239,
+          "temporal_diff_std": 0.5436583161354065,
+          "temporal_cosine_mean": 0.7442004680633545
+        },
+        "V_first": {
+          "mean": 0.0038696059491485357,
+          "std": 0.4897032082080841,
+          "l2_norm": 354.5937194824219,
+          "nuclear": 2526.30322265625,
+          "temporal_var_mean": 0.21048781275749207,
+          "temporal_var_std": 0.21943546831607819,
+          "spatial_var_mean": 0.23662973940372467,
+          "spatial_var_std": 0.4229913055896759,
+          "temporal_diff_mean": 0.24284330010414124,
+          "temporal_diff_std": 0.46735304594039917,
+          "temporal_cosine_mean": 0.7823566794395447
+        },
+        "V_second": {
+          "mean": 0.0038696066476404667,
+          "std": 0.40501049160957336,
+          "l2_norm": 293.2720031738281,
+          "nuclear": 2073.113525390625,
+          "temporal_var_mean": 0.13471221923828125,
+          "temporal_var_std": 0.14043870568275452,
+          "spatial_var_mean": 0.16181018948554993,
+          "spatial_var_std": 0.2854668200016022,
+          "temporal_diff_mean": 0.1942746341228485,
+          "temporal_diff_std": 0.3738824427127838,
+          "temporal_cosine_mean": 0.7947981357574463
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9341913763106917,
+            "temporal_var_ratio": 0.8627858614522976,
+            "spatial_var_ratio": 0.8774350227118948
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8206115191519526,
+            "temporal_var_ratio": 0.6400000602100689,
+            "spatial_var_ratio": 0.6838116927110389
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.015858568251132965,
+          "std": 0.47032225131988525,
+          "l2_norm": 340.742919921875,
+          "nuclear": 2433.031494140625,
+          "temporal_var_mean": 0.1279054433107376,
+          "temporal_var_std": 0.10422453284263611,
+          "spatial_var_mean": 0.2178414762020111,
+          "spatial_var_std": 0.18133893609046936,
+          "temporal_diff_mean": 0.1905098259449005,
+          "temporal_diff_std": 0.35451003909111023,
+          "temporal_cosine_mean": 0.7749601602554321
+        },
+        "V_first": {
+          "mean": 0.015858568251132965,
+          "std": 0.4546527564525604,
+          "l2_norm": 329.4036560058594,
+          "nuclear": 2331.9443359375,
+          "temporal_var_mean": 0.11341157555580139,
+          "temporal_var_std": 0.09334702789783478,
+          "spatial_var_mean": 0.20358505845069885,
+          "spatial_var_std": 0.1597752422094345,
+          "temporal_diff_mean": 0.16474299132823944,
+          "temporal_diff_std": 0.3045383095741272,
+          "temporal_cosine_mean": 0.8105117082595825
+        },
+        "V_second": {
+          "mean": 0.015858568251132965,
+          "std": 0.40728479623794556,
+          "l2_norm": 295.1288757324219,
+          "nuclear": 2032.6806640625,
+          "temporal_var_mean": 0.07258340716362,
+          "temporal_var_std": 0.059742096811532974,
+          "spatial_var_mean": 0.1633625328540802,
+          "spatial_var_std": 0.11456581950187683,
+          "temporal_diff_mean": 0.13179439306259155,
+          "temporal_diff_std": 0.24363064765930176,
+          "temporal_cosine_mean": 0.8335158228874207
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9584521785039964,
+            "temporal_var_ratio": 0.8866828788001374,
+            "spatial_var_ratio": 0.9345559562603616
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8716677464072464,
+            "temporal_var_ratio": 0.6399999330571665,
+            "spatial_var_ratio": 0.8024288524560477
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 1,
+    "bleu": 5.77029418977571,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.01484472956508398,
+          "std": 0.7214073538780212,
+          "l2_norm": 522.46484375,
+          "nuclear": 3607.59814453125,
+          "temporal_var_mean": 0.3966860771179199,
+          "temporal_var_std": 0.2711856961250305,
+          "spatial_var_mean": 0.5115622282028198,
+          "spatial_var_std": 0.45676445960998535,
+          "temporal_diff_mean": 0.41836777329444885,
+          "temporal_diff_std": 0.6384341716766357,
+          "temporal_cosine_mean": 0.6282492876052856
+        },
+        "V_first": {
+          "mean": 0.014844728633761406,
+          "std": 0.6842378973960876,
+          "l2_norm": 495.5572509765625,
+          "nuclear": 3358.5498046875,
+          "temporal_var_mean": 0.3444390594959259,
+          "temporal_var_std": 0.2391713708639145,
+          "spatial_var_mean": 0.46010249853134155,
+          "spatial_var_std": 0.4031519889831543,
+          "temporal_diff_mean": 0.3645210564136505,
+          "temporal_diff_std": 0.5426726937294006,
+          "temporal_cosine_mean": 0.6732868552207947
+        },
+        "V_second": {
+          "mean": 0.014844728633761406,
+          "std": 0.5866712927818298,
+          "l2_norm": 424.9309387207031,
+          "nuclear": 2786.8603515625,
+          "temporal_var_mean": 0.22044101357460022,
+          "temporal_var_std": 0.15306968986988068,
+          "spatial_var_mean": 0.3380715250968933,
+          "spatial_var_std": 0.31263574957847595,
+          "temporal_diff_mean": 0.29161685705184937,
+          "temporal_diff_std": 0.43413814902305603,
+          "temporal_cosine_mean": 0.6869552731513977
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9309656092847838,
+            "temporal_var_ratio": 0.8682912526587732,
+            "spatial_var_ratio": 0.8994066883195628
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8297808618662151,
+            "temporal_var_ratio": 0.6400000264116601,
+            "spatial_var_ratio": 0.7347743575144284
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.00046912746620364487,
+          "std": 0.5250046253204346,
+          "l2_norm": 380.14373779296875,
+          "nuclear": 2840.432373046875,
+          "temporal_var_mean": 0.2593628764152527,
+          "temporal_var_std": 0.20440296828746796,
+          "spatial_var_mean": 0.27151596546173096,
+          "spatial_var_std": 0.3696317970752716,
+          "temporal_diff_mean": 0.3344215452671051,
+          "temporal_diff_std": 0.596215546131134,
+          "temporal_cosine_mean": 0.6647515892982483
+        },
+        "V_first": {
+          "mean": -0.0004691274370998144,
+          "std": 0.48363152146339417,
+          "l2_norm": 350.18646240234375,
+          "nuclear": 2606.71728515625,
+          "temporal_var_mean": 0.21763259172439575,
+          "temporal_var_std": 0.17844809591770172,
+          "spatial_var_mean": 0.23038817942142487,
+          "spatial_var_std": 0.31175610423088074,
+          "temporal_diff_mean": 0.28677868843078613,
+          "temporal_diff_std": 0.509674072265625,
+          "temporal_cosine_mean": 0.7089148759841919
+        },
+        "V_second": {
+          "mean": -0.0004691276408266276,
+          "std": 0.3944002687931061,
+          "l2_norm": 285.57623291015625,
+          "nuclear": 2117.17431640625,
+          "temporal_var_mean": 0.13928484916687012,
+          "temporal_var_std": 0.11420678347349167,
+          "spatial_var_mean": 0.15324679017066956,
+          "spatial_var_std": 0.20464229583740234,
+          "temporal_diff_mean": 0.22942295670509338,
+          "temporal_diff_std": 0.4077392816543579,
+          "temporal_cosine_mean": 0.7184062004089355
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.917718481834827,
+            "temporal_var_ratio": 0.839104602560427,
+            "spatial_var_ratio": 0.8485253180025023
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8121994389089349,
+            "temporal_var_ratio": 0.6399999267722619,
+            "spatial_var_ratio": 0.6651677351843386
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0013215767685323954,
+          "std": 0.461997389793396,
+          "l2_norm": 334.52288818359375,
+          "nuclear": 2491.39794921875,
+          "temporal_var_mean": 0.20285484194755554,
+          "temporal_var_std": 0.16318973898887634,
+          "spatial_var_mean": 0.21039025485515594,
+          "spatial_var_std": 0.30151551961898804,
+          "temporal_diff_mean": 0.2972697913646698,
+          "temporal_diff_std": 0.5340685844421387,
+          "temporal_cosine_mean": 0.6556749939918518
+        },
+        "V_first": {
+          "mean": -0.001321577001363039,
+          "std": 0.42435866594314575,
+          "l2_norm": 307.2696838378906,
+          "nuclear": 2284.79052734375,
+          "temporal_var_mean": 0.16949357092380524,
+          "temporal_var_std": 0.13797755539417267,
+          "spatial_var_mean": 0.17749914526939392,
+          "spatial_var_std": 0.25221773982048035,
+          "temporal_diff_mean": 0.2550833225250244,
+          "temporal_diff_std": 0.4574890732765198,
+          "temporal_cosine_mean": 0.6975271701812744
+        },
+        "V_second": {
+          "mean": -0.0013215768849477172,
+          "std": 0.3450542986392975,
+          "l2_norm": 249.84759521484375,
+          "nuclear": 1853.8154296875,
+          "temporal_var_mean": 0.10847589373588562,
+          "temporal_var_std": 0.08830563724040985,
+          "spatial_var_mean": 0.11735193431377411,
+          "spatial_var_std": 0.16439203917980194,
+          "temporal_diff_mean": 0.20406664907932281,
+          "temporal_diff_std": 0.3659912943840027,
+          "temporal_cosine_mean": 0.705323338508606
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9170716898322252,
+            "temporal_var_ratio": 0.8355411235991769,
+            "spatial_var_ratio": 0.843666152479032
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8113721619086866,
+            "temporal_var_ratio": 0.6400000114732974,
+            "spatial_var_ratio": 0.6611408045050513
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0019208770245313644,
+          "std": 0.44707372784614563,
+          "l2_norm": 323.7186279296875,
+          "nuclear": 2376.554443359375,
+          "temporal_var_mean": 0.18655776977539062,
+          "temporal_var_std": 0.16909782588481903,
+          "spatial_var_mean": 0.19686922430992126,
+          "spatial_var_std": 0.3139033615589142,
+          "temporal_diff_mean": 0.2688373923301697,
+          "temporal_diff_std": 0.49053776264190674,
+          "temporal_cosine_mean": 0.6879050731658936
+        },
+        "V_first": {
+          "mean": 0.001920877257362008,
+          "std": 0.41464880108833313,
+          "l2_norm": 300.24072265625,
+          "nuclear": 2198.4599609375,
+          "temporal_var_mean": 0.1586165577173233,
+          "temporal_var_std": 0.14585284888744354,
+          "spatial_var_mean": 0.16937842965126038,
+          "spatial_var_std": 0.27053123712539673,
+          "temporal_diff_mean": 0.23153488337993622,
+          "temporal_diff_std": 0.42181095480918884,
+          "temporal_cosine_mean": 0.7292605638504028
+        },
+        "V_second": {
+          "mean": 0.001920877257362008,
+          "std": 0.33886805176734924,
+          "l2_norm": 245.37039184570312,
+          "nuclear": 1790.110595703125,
+          "temporal_var_mean": 0.10151460766792297,
+          "temporal_var_std": 0.09334582835435867,
+          "spatial_var_mean": 0.11315901577472687,
+          "spatial_var_std": 0.17865310609340668,
+          "temporal_diff_mean": 0.1852279156446457,
+          "temporal_diff_std": 0.33744874596595764,
+          "temporal_cosine_mean": 0.7389681339263916
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9250618966761897,
+            "temporal_var_ratio": 0.8502275161523276,
+            "spatial_var_ratio": 0.8603600773121132
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8142566285044449,
+            "temporal_var_ratio": 0.6400000272911974,
+            "spatial_var_ratio": 0.6680839427244354
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0017248201183974743,
+          "std": 0.5327175855636597,
+          "l2_norm": 385.73040771484375,
+          "nuclear": 2772.902587890625,
+          "temporal_var_mean": 0.2525050640106201,
+          "temporal_var_std": 0.25764256715774536,
+          "spatial_var_mean": 0.2799017131328583,
+          "spatial_var_std": 0.49714967608451843,
+          "temporal_diff_mean": 0.29320719838142395,
+          "temporal_diff_std": 0.5558289885520935,
+          "temporal_cosine_mean": 0.7342939376831055
+        },
+        "V_first": {
+          "mean": 0.0017248208168894053,
+          "std": 0.49852076172828674,
+          "l2_norm": 360.9693908691406,
+          "nuclear": 2588.547607421875,
+          "temporal_var_mean": 0.21724003553390503,
+          "temporal_var_std": 0.22009091079235077,
+          "spatial_var_mean": 0.2451195865869522,
+          "spatial_var_std": 0.4296225905418396,
+          "temporal_diff_mean": 0.2529648244380951,
+          "temporal_diff_std": 0.47816288471221924,
+          "temporal_cosine_mean": 0.7736040949821472
+        },
+        "V_second": {
+          "mean": 0.0017248204676434398,
+          "std": 0.4126940667629242,
+          "l2_norm": 298.8247375488281,
+          "nuclear": 2124.147216796875,
+          "temporal_var_mean": 0.13903363049030304,
+          "temporal_var_std": 0.14085818827152252,
+          "spatial_var_mean": 0.16795000433921814,
+          "spatial_var_std": 0.2906107008457184,
+          "temporal_diff_mean": 0.20237186551094055,
+          "temporal_diff_std": 0.3825303316116333,
+          "temporal_cosine_mean": 0.7866564989089966
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9335155222245561,
+            "temporal_var_ratio": 0.8603392877751365,
+            "spatial_var_ratio": 0.8757344679532525
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8205942246139578,
+            "temporal_var_ratio": 0.640000006207897,
+            "spatial_var_ratio": 0.6851757537045415
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.013476656749844551,
+          "std": 0.46264031529426575,
+          "l2_norm": 335.129150390625,
+          "nuclear": 2401.180908203125,
+          "temporal_var_mean": 0.1247946247458458,
+          "temporal_var_std": 0.09797922521829605,
+          "spatial_var_mean": 0.21075741946697235,
+          "spatial_var_std": 0.19479523599147797,
+          "temporal_diff_mean": 0.19309201836585999,
+          "temporal_diff_std": 0.35252198576927185,
+          "temporal_cosine_mean": 0.7708133459091187
+        },
+        "V_first": {
+          "mean": 0.013476656749844551,
+          "std": 0.4467388093471527,
+          "l2_norm": 323.6202697753906,
+          "nuclear": 2298.006591796875,
+          "temporal_var_mean": 0.1103341281414032,
+          "temporal_var_std": 0.08768832683563232,
+          "spatial_var_mean": 0.1965245008468628,
+          "spatial_var_std": 0.17401637136936188,
+          "temporal_diff_mean": 0.16713812947273254,
+          "temporal_diff_std": 0.3031565546989441,
+          "temporal_cosine_mean": 0.8069340586662292
+        },
+        "V_second": {
+          "mean": 0.013476657681167126,
+          "std": 0.39981895685195923,
+          "l2_norm": 289.6639709472656,
+          "nuclear": 1997.076416015625,
+          "temporal_var_mean": 0.07061384618282318,
+          "temporal_var_std": 0.056120533496141434,
+          "spatial_var_mean": 0.15737704932689667,
+          "spatial_var_std": 0.1309148669242859,
+          "temporal_diff_mean": 0.13371050357818604,
+          "temporal_diff_std": 0.24252526462078094,
+          "temporal_cosine_mean": 0.8310259580612183
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9570318437634803,
+            "temporal_var_ratio": 0.8841255745177462,
+            "spatial_var_ratio": 0.9324677253081606
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.869047296529017,
+            "temporal_var_ratio": 0.6399999798097407,
+            "spatial_var_ratio": 0.8008011247489079
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 2,
+    "bleu": 20.674545186590727,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.015252789482474327,
+          "std": 0.7258647084236145,
+          "l2_norm": 525.6976928710938,
+          "nuclear": 3633.746826171875,
+          "temporal_var_mean": 0.40265607833862305,
+          "temporal_var_std": 0.2756260335445404,
+          "spatial_var_mean": 0.5180476903915405,
+          "spatial_var_std": 0.4605340361595154,
+          "temporal_diff_mean": 0.4275059401988983,
+          "temporal_diff_std": 0.6454982161521912,
+          "temporal_cosine_mean": 0.6213778853416443
+        },
+        "V_first": {
+          "mean": 0.015252788551151752,
+          "std": 0.6877641081809998,
+          "l2_norm": 498.11639404296875,
+          "nuclear": 3376.85302734375,
+          "temporal_var_mean": 0.3487960696220398,
+          "temporal_var_std": 0.2413816899061203,
+          "spatial_var_mean": 0.4649672508239746,
+          "spatial_var_std": 0.40564796328544617,
+          "temporal_diff_mean": 0.3720041513442993,
+          "temporal_diff_std": 0.5480425953865051,
+          "temporal_cosine_mean": 0.6682263612747192
+        },
+        "V_second": {
+          "mean": 0.015252787619829178,
+          "std": 0.5894511342048645,
+          "l2_norm": 426.95068359375,
+          "nuclear": 2800.196533203125,
+          "temporal_var_mean": 0.22322949767112732,
+          "temporal_var_std": 0.15448428690433502,
+          "spatial_var_mean": 0.3413630425930023,
+          "spatial_var_std": 0.3137766122817993,
+          "temporal_diff_mean": 0.2976033389568329,
+          "temporal_diff_std": 0.43843409419059753,
+          "temporal_cosine_mean": 0.6819656491279602
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9293033303841771,
+            "temporal_var_ratio": 0.8662381613579666,
+            "spatial_var_ratio": 0.8975375249664311
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8292325755727313,
+            "temporal_var_ratio": 0.6400000192462653,
+            "spatial_var_ratio": 0.7341657603764798
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.00017225579358637333,
+          "std": 0.5326006412506104,
+          "l2_norm": 385.6437072753906,
+          "nuclear": 2896.19482421875,
+          "temporal_var_mean": 0.2671269178390503,
+          "temporal_var_std": 0.20829187333583832,
+          "spatial_var_mean": 0.2793221175670624,
+          "spatial_var_std": 0.37313660979270935,
+          "temporal_diff_mean": 0.34390127658843994,
+          "temporal_diff_std": 0.6036487221717834,
+          "temporal_cosine_mean": 0.656717836856842
+        },
+        "V_first": {
+          "mean": 0.0001722556189633906,
+          "std": 0.49040403962135315,
+          "l2_norm": 355.0901184082031,
+          "nuclear": 2656.05908203125,
+          "temporal_var_mean": 0.22395963966846466,
+          "temporal_var_std": 0.1811397522687912,
+          "spatial_var_mean": 0.23677945137023926,
+          "spatial_var_std": 0.3146776556968689,
+          "temporal_diff_mean": 0.2947489321231842,
+          "temporal_diff_std": 0.5158824324607849,
+          "temporal_cosine_mean": 0.7017903923988342
+        },
+        "V_second": {
+          "mean": 0.00017225591000169516,
+          "std": 0.39983806014060974,
+          "l2_norm": 289.513427734375,
+          "nuclear": 2156.56494140625,
+          "temporal_var_mean": 0.14333418011665344,
+          "temporal_var_std": 0.11592945456504822,
+          "spatial_var_mean": 0.15743321180343628,
+          "spatial_var_std": 0.20659133791923523,
+          "temporal_diff_mean": 0.2357991337776184,
+          "temporal_diff_std": 0.4127059578895569,
+          "temporal_cosine_mean": 0.7112601399421692
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9170857774523343,
+            "temporal_var_ratio": 0.8384015848952718,
+            "spatial_var_ratio": 0.8476931399335377
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.811941630360449,
+            "temporal_var_ratio": 0.6400000193286428,
+            "spatial_var_ratio": 0.6648938674510559
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0020713303238153458,
+          "std": 0.4705943465232849,
+          "l2_norm": 340.74969482421875,
+          "nuclear": 2543.19970703125,
+          "temporal_var_mean": 0.21150529384613037,
+          "temporal_var_std": 0.18083834648132324,
+          "spatial_var_mean": 0.21852606534957886,
+          "spatial_var_std": 0.3097184896469116,
+          "temporal_diff_mean": 0.30476605892181396,
+          "temporal_diff_std": 0.5398703813552856,
+          "temporal_cosine_mean": 0.6514634490013123
+        },
+        "V_first": {
+          "mean": -0.0020713303238153458,
+          "std": 0.43253666162490845,
+          "l2_norm": 313.19329833984375,
+          "nuclear": 2333.091064453125,
+          "temporal_var_mean": 0.17713427543640137,
+          "temporal_var_std": 0.1533471643924713,
+          "spatial_var_mean": 0.1846162974834442,
+          "spatial_var_std": 0.25990787148475647,
+          "temporal_diff_mean": 0.2614904046058655,
+          "temporal_diff_std": 0.4625457227230072,
+          "temporal_cosine_mean": 0.6941955089569092
+        },
+        "V_second": {
+          "mean": -0.0020713303238153458,
+          "std": 0.35116878151893616,
+          "l2_norm": 254.2775421142578,
+          "nuclear": 1890.1123046875,
+          "temporal_var_mean": 0.11336594820022583,
+          "temporal_var_std": 0.09814218431711197,
+          "spatial_var_mean": 0.12169875204563141,
+          "spatial_var_std": 0.1692999005317688,
+          "temporal_diff_mean": 0.20919232070446014,
+          "temporal_diff_std": 0.3700365722179413,
+          "temporal_cosine_mean": 0.7014349102973938
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9173841354234172,
+            "temporal_var_ratio": 0.837493302604204,
+            "spatial_var_ratio": 0.8448250268903208
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.810132246219219,
+            "temporal_var_ratio": 0.6400000311680426,
+            "spatial_var_ratio": 0.6591982783348918
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.003427826799452305,
+          "std": 0.4633582532405853,
+          "l2_norm": 335.5160827636719,
+          "nuclear": 2472.7353515625,
+          "temporal_var_mean": 0.20262682437896729,
+          "temporal_var_std": 0.19718657433986664,
+          "spatial_var_mean": 0.21165955066680908,
+          "spatial_var_std": 0.3405715525150299,
+          "temporal_diff_mean": 0.2803550660610199,
+          "temporal_diff_std": 0.5070712566375732,
+          "temporal_cosine_mean": 0.6805858612060547
+        },
+        "V_first": {
+          "mean": 0.003427826799452305,
+          "std": 0.4297364056110382,
+          "l2_norm": 311.1719970703125,
+          "nuclear": 2287.51171875,
+          "temporal_var_mean": 0.17259936034679413,
+          "temporal_var_std": 0.17092065513134003,
+          "spatial_var_mean": 0.18208763003349304,
+          "spatial_var_std": 0.2939133942127228,
+          "temporal_diff_mean": 0.2412504106760025,
+          "temporal_diff_std": 0.436059832572937,
+          "temporal_cosine_mean": 0.7226194143295288
+        },
+        "V_second": {
+          "mean": 0.003427826799452305,
+          "std": 0.3500535190105438,
+          "l2_norm": 253.4777374267578,
+          "nuclear": 1858.5908203125,
+          "temporal_var_mean": 0.11046359688043594,
+          "temporal_var_std": 0.10938921570777893,
+          "spatial_var_mean": 0.12084756791591644,
+          "spatial_var_std": 0.19268764555454254,
+          "temporal_diff_mean": 0.19300031661987305,
+          "temporal_diff_std": 0.3488478660583496,
+          "temporal_cosine_mean": 0.7313174605369568
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9250936285176213,
+            "temporal_var_ratio": 0.8518089959594709,
+            "spatial_var_ratio": 0.8602854010461277
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.812494556889087,
+            "temporal_var_ratio": 0.6399999991801112,
+            "spatial_var_ratio": 0.6636780392874984
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.003909781575202942,
+          "std": 0.536213755607605,
+          "l2_norm": 388.27020263671875,
+          "nuclear": 2828.3720703125,
+          "temporal_var_mean": 0.26306748390197754,
+          "temporal_var_std": 0.2634568214416504,
+          "spatial_var_mean": 0.28365451097488403,
+          "spatial_var_std": 0.486881285905838,
+          "temporal_diff_mean": 0.3026883006095886,
+          "temporal_diff_std": 0.5628748536109924,
+          "temporal_cosine_mean": 0.7209585309028625
+        },
+        "V_first": {
+          "mean": 0.003909781575202942,
+          "std": 0.5009731650352478,
+          "l2_norm": 362.7539978027344,
+          "nuclear": 2637.355224609375,
+          "temporal_var_mean": 0.22651639580726624,
+          "temporal_var_std": 0.22622771561145782,
+          "spatial_var_mean": 0.2475719004869461,
+          "spatial_var_std": 0.41996073722839355,
+          "temporal_diff_mean": 0.26113152503967285,
+          "temporal_diff_std": 0.4846469759941101,
+          "temporal_cosine_mean": 0.7612428069114685
+        },
+        "V_second": {
+          "mean": 0.003909781575202942,
+          "std": 0.41161635518074036,
+          "l2_norm": 298.05523681640625,
+          "nuclear": 2154.811279296875,
+          "temporal_var_mean": 0.14497050642967224,
+          "temporal_var_std": 0.14478573203086853,
+          "spatial_var_mean": 0.16711027920246124,
+          "spatial_var_std": 0.280390202999115,
+          "temporal_diff_mean": 0.20890522003173828,
+          "temporal_diff_std": 0.3877175748348236,
+          "temporal_cosine_mean": 0.7721443772315979
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9324640319718104,
+            "temporal_var_ratio": 0.8610580974769512,
+            "spatial_var_ratio": 0.8727937761614847
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8170349064782727,
+            "temporal_var_ratio": 0.640000029635919,
+            "spatial_var_ratio": 0.6749969286651871
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.011122730560600758,
+          "std": 0.47605085372924805,
+          "l2_norm": 344.7913818359375,
+          "nuclear": 2487.286865234375,
+          "temporal_var_mean": 0.13820436596870422,
+          "temporal_var_std": 0.10331965237855911,
+          "spatial_var_mean": 0.22325444221496582,
+          "spatial_var_std": 0.16989445686340332,
+          "temporal_diff_mean": 0.2081993818283081,
+          "temporal_diff_std": 0.37342971563339233,
+          "temporal_cosine_mean": 0.7433441877365112
+        },
+        "V_first": {
+          "mean": 0.011122729629278183,
+          "std": 0.45852264761924744,
+          "l2_norm": 332.1032409667969,
+          "nuclear": 2372.96240234375,
+          "temporal_var_mean": 0.1218230277299881,
+          "temporal_var_std": 0.09178738296031952,
+          "spatial_var_mean": 0.20714139938354492,
+          "spatial_var_std": 0.14651553332805634,
+          "temporal_diff_mean": 0.17991869151592255,
+          "temporal_diff_std": 0.32078003883361816,
+          "temporal_cosine_mean": 0.7821688652038574
+        },
+        "V_second": {
+          "mean": 0.011122730560600758,
+          "std": 0.4079051911830902,
+          "l2_norm": 295.4644470214844,
+          "nuclear": 2049.337890625,
+          "temporal_var_mean": 0.07796673476696014,
+          "temporal_var_std": 0.058743927627801895,
+          "spatial_var_mean": 0.16394293308258057,
+          "spatial_var_std": 0.1009889543056488,
+          "temporal_diff_mean": 0.143934965133667,
+          "temporal_diff_std": 0.2566240131855011,
+          "temporal_cosine_mean": 0.8035476803779602
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9540364786635125,
+            "temporal_var_ratio": 0.88147011898939,
+            "spatial_var_ratio": 0.9278265106403967
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8636200424382007,
+            "temporal_var_ratio": 0.6399999230011629,
+            "spatial_var_ratio": 0.7914541740855994
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 3,
+    "bleu": 21.2757382098598,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.015498911030590534,
+          "std": 0.7009317874908447,
+          "l2_norm": 507.65240478515625,
+          "nuclear": 3263.15673828125,
+          "temporal_var_mean": 0.34201931953430176,
+          "temporal_var_std": 0.29041025042533875,
+          "spatial_var_mean": 0.48304975032806396,
+          "spatial_var_std": 0.4568311870098114,
+          "temporal_diff_mean": 0.3645727336406708,
+          "temporal_diff_std": 0.6032052040100098,
+          "temporal_cosine_mean": 0.6864051222801208
+        },
+        "V_first": {
+          "mean": 0.01549891009926796,
+          "std": 0.6683751344680786,
+          "l2_norm": 484.0849304199219,
+          "nuclear": 3049.3623046875,
+          "temporal_var_mean": 0.297439306974411,
+          "temporal_var_std": 0.2479540854692459,
+          "spatial_var_mean": 0.43913131952285767,
+          "spatial_var_std": 0.40725553035736084,
+          "temporal_diff_mean": 0.31863462924957275,
+          "temporal_diff_std": 0.5125799775123596,
+          "temporal_cosine_mean": 0.7250369787216187
+        },
+        "V_second": {
+          "mean": 0.015498911030590534,
+          "std": 0.5827924013137817,
+          "l2_norm": 422.13555908203125,
+          "nuclear": 2554.26025390625,
+          "temporal_var_mean": 0.1903611570596695,
+          "temporal_var_std": 0.15869063138961792,
+          "spatial_var_mean": 0.3336910605430603,
+          "spatial_var_std": 0.33024412393569946,
+          "temporal_diff_mean": 0.25490766763687134,
+          "temporal_diff_std": 0.4100639820098877,
+          "temporal_cosine_mean": 0.7381085753440857
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9344823277732889,
+            "temporal_var_ratio": 0.8696564237448465,
+            "spatial_var_ratio": 0.9090809179257661
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8376375119386266,
+            "temporal_var_ratio": 0.6399999804869322,
+            "spatial_var_ratio": 0.7598889856153864
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0011477008229121566,
+          "std": 0.4843701422214508,
+          "l2_norm": 350.7220764160156,
+          "nuclear": 2462.904296875,
+          "temporal_var_mean": 0.21631161868572235,
+          "temporal_var_std": 0.2334033101797104,
+          "spatial_var_mean": 0.2310345321893692,
+          "spatial_var_std": 0.3511129915714264,
+          "temporal_diff_mean": 0.27899160981178284,
+          "temporal_diff_std": 0.5522304177284241,
+          "temporal_cosine_mean": 0.7236024141311646
+        },
+        "V_first": {
+          "mean": 0.0011477007064968348,
+          "std": 0.44769415259361267,
+          "l2_norm": 324.16595458984375,
+          "nuclear": 2267.45849609375,
+          "temporal_var_mean": 0.18212731182575226,
+          "temporal_var_std": 0.20103758573532104,
+          "spatial_var_mean": 0.19732818007469177,
+          "spatial_var_std": 0.2973440885543823,
+          "temporal_diff_mean": 0.2397676259279251,
+          "temporal_diff_std": 0.47267454862594604,
+          "temporal_cosine_mean": 0.7603092789649963
+        },
+        "V_second": {
+          "mean": 0.0011477007064968348,
+          "std": 0.36723843216896057,
+          "l2_norm": 265.9101257324219,
+          "nuclear": 1851.8878173828125,
+          "temporal_var_mean": 0.11656148731708527,
+          "temporal_var_std": 0.1286640465259552,
+          "spatial_var_mean": 0.13279563188552856,
+          "spatial_var_std": 0.195773184299469,
+          "temporal_diff_mean": 0.1918141096830368,
+          "temporal_diff_std": 0.3781396150588989,
+          "temporal_cosine_mean": 0.7692168354988098
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9206441756431855,
+            "temporal_var_ratio": 0.8419672716271938,
+            "spatial_var_ratio": 0.8541068283761233
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8167240196744389,
+            "temporal_var_ratio": 0.640000007404731,
+            "spatial_var_ratio": 0.6729683773781302
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0015069576911628246,
+          "std": 0.42627403140068054,
+          "l2_norm": 308.656982421875,
+          "nuclear": 2142.4599609375,
+          "temporal_var_mean": 0.17071151733398438,
+          "temporal_var_std": 0.1944126933813095,
+          "spatial_var_mean": 0.17910602688789368,
+          "spatial_var_std": 0.288186639547348,
+          "temporal_diff_mean": 0.24811163544654846,
+          "temporal_diff_std": 0.49785327911376953,
+          "temporal_cosine_mean": 0.7166178226470947
+        },
+        "V_first": {
+          "mean": -0.001506957458332181,
+          "std": 0.3925293982028961,
+          "l2_norm": 284.2234802246094,
+          "nuclear": 1970.227783203125,
+          "temporal_var_mean": 0.14308135211467743,
+          "temporal_var_std": 0.16405721008777618,
+          "spatial_var_mean": 0.15188491344451904,
+          "spatial_var_std": 0.2420487254858017,
+          "temporal_diff_mean": 0.2131115347146988,
+          "temporal_diff_std": 0.4269189238548279,
+          "temporal_cosine_mean": 0.7512906789779663
+        },
+        "V_second": {
+          "mean": -0.001506957458332181,
+          "std": 0.32026541233062744,
+          "l2_norm": 231.89927673339844,
+          "nuclear": 1605.102783203125,
+          "temporal_var_mean": 0.09157207608222961,
+          "temporal_var_std": 0.10499661415815353,
+          "spatial_var_mean": 0.10111530125141144,
+          "spatial_var_std": 0.158235102891922,
+          "temporal_diff_mean": 0.17048923671245575,
+          "temporal_diff_std": 0.34153515100479126,
+          "temporal_cosine_mean": 0.7581019997596741
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9196100833230015,
+            "temporal_var_ratio": 0.8381469860248478,
+            "spatial_var_ratio": 0.8480167172678109
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8146787883507867,
+            "temporal_var_ratio": 0.6400000302543671,
+            "spatial_var_ratio": 0.6657362624167706
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0029564739670604467,
+          "std": 0.419460266828537,
+          "l2_norm": 303.7289123535156,
+          "nuclear": 2075.35986328125,
+          "temporal_var_mean": 0.16356831789016724,
+          "temporal_var_std": 0.21283574402332306,
+          "spatial_var_mean": 0.17320285737514496,
+          "spatial_var_std": 0.3190860152244568,
+          "temporal_diff_mean": 0.22528430819511414,
+          "temporal_diff_std": 0.46069273352622986,
+          "temporal_cosine_mean": 0.7447016835212708
+        },
+        "V_first": {
+          "mean": 0.0029564741998910904,
+          "std": 0.3904643654823303,
+          "l2_norm": 282.7342529296875,
+          "nuclear": 1926.905517578125,
+          "temporal_var_mean": 0.14008386433124542,
+          "temporal_var_std": 0.18511052429676056,
+          "spatial_var_mean": 0.15008322894573212,
+          "spatial_var_std": 0.2776542901992798,
+          "temporal_diff_mean": 0.19428016245365143,
+          "temporal_diff_std": 0.39683184027671814,
+          "temporal_cosine_mean": 0.7788678407669067
+        },
+        "V_second": {
+          "mean": 0.0029564741998910904,
+          "std": 0.31942468881607056,
+          "l2_norm": 231.29786682128906,
+          "nuclear": 1574.176513671875,
+          "temporal_var_mean": 0.08965368568897247,
+          "temporal_var_std": 0.11847074329853058,
+          "spatial_var_mean": 0.10046545416116714,
+          "spatial_var_std": 0.1830669343471527,
+          "temporal_diff_mean": 0.15542413294315338,
+          "temporal_diff_std": 0.3174654543399811,
+          "temporal_cosine_mean": 0.7866252064704895
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9284681426392742,
+            "temporal_var_ratio": 0.8564241386957802,
+            "spatial_var_ratio": 0.8665169995174655
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8169453558066745,
+            "temporal_var_ratio": 0.6400000436665207,
+            "spatial_var_ratio": 0.669398227722777
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0016992987366393209,
+          "std": 0.4865076243877411,
+          "l2_norm": 352.2709655761719,
+          "nuclear": 2365.02734375,
+          "temporal_var_mean": 0.21047443151474,
+          "temporal_var_std": 0.2779999375343323,
+          "spatial_var_mean": 0.23351697623729706,
+          "spatial_var_std": 0.4579079747200012,
+          "temporal_diff_mean": 0.2416660189628601,
+          "temporal_diff_std": 0.5093191266059875,
+          "temporal_cosine_mean": 0.7820430994033813
+        },
+        "V_first": {
+          "mean": 0.0016992989694699645,
+          "std": 0.45640987157821655,
+          "l2_norm": 330.47802734375,
+          "nuclear": 2213.4423828125,
+          "temporal_var_mean": 0.1820947676897049,
+          "temporal_var_std": 0.2402830570936203,
+          "spatial_var_mean": 0.2055073380470276,
+          "spatial_var_std": 0.39829835295677185,
+          "temporal_diff_mean": 0.20894628763198853,
+          "temporal_diff_std": 0.43900057673454285,
+          "temporal_cosine_mean": 0.8143121600151062
+        },
+        "V_second": {
+          "mean": 0.0016992988530546427,
+          "std": 0.37783029675483704,
+          "l2_norm": 273.5808410644531,
+          "nuclear": 1820.578369140625,
+          "temporal_var_mean": 0.11654065549373627,
+          "temporal_var_std": 0.15378116071224213,
+          "spatial_var_mean": 0.14082026481628418,
+          "spatial_var_std": 0.26954689621925354,
+          "temporal_diff_mean": 0.16715703904628754,
+          "temporal_diff_std": 0.3512004613876343,
+          "temporal_cosine_mean": 0.8250373005867004
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9359056201411587,
+            "temporal_var_ratio": 0.8651633251961968,
+            "spatial_var_ratio": 0.8800530589162092
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8225099434569834,
+            "temporal_var_ratio": 0.639999987766399,
+            "spatial_var_ratio": 0.6852322613012327
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.016828661784529686,
+          "std": 0.43907099962234497,
+          "l2_norm": 318.15447998046875,
+          "nuclear": 2214.651123046875,
+          "temporal_var_mean": 0.10912130773067474,
+          "temporal_var_std": 0.11764990538358688,
+          "spatial_var_mean": 0.19017888605594635,
+          "spatial_var_std": 0.1737799495458603,
+          "temporal_diff_mean": 0.16359831392765045,
+          "temporal_diff_std": 0.3317820131778717,
+          "temporal_cosine_mean": 0.8077934980392456
+        },
+        "V_first": {
+          "mean": 0.016828659921884537,
+          "std": 0.424882173538208,
+          "l2_norm": 307.88848876953125,
+          "nuclear": 2131.791259765625,
+          "temporal_var_mean": 0.09686286747455597,
+          "temporal_var_std": 0.10470075905323029,
+          "spatial_var_mean": 0.17810922861099243,
+          "spatial_var_std": 0.15412360429763794,
+          "temporal_diff_mean": 0.1418776959180832,
+          "temporal_diff_std": 0.2859448194503784,
+          "temporal_cosine_mean": 0.8375458121299744
+        },
+        "V_second": {
+          "mean": 0.016828659921884537,
+          "std": 0.38164666295051575,
+          "l2_norm": 276.6099548339844,
+          "nuclear": 1877.5560302734375,
+          "temporal_var_mean": 0.061992235481739044,
+          "temporal_var_std": 0.06700849533081055,
+          "spatial_var_mean": 0.1437053084373474,
+          "spatial_var_std": 0.1104709580540657,
+          "temporal_diff_mean": 0.11350216716527939,
+          "temporal_diff_std": 0.2287558615207672,
+          "temporal_cosine_mean": 0.8566091060638428
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9625855908280132,
+            "temporal_var_ratio": 0.8876621863532277,
+            "spatial_var_ratio": 0.9365351903115302
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8807410301846598,
+            "temporal_var_ratio": 0.6399999370039696,
+            "spatial_var_ratio": 0.8068380369151626
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 4,
+    "bleu": 20.07978864197805,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.01598958671092987,
+          "std": 0.7008855938911438,
+          "l2_norm": 507.626953125,
+          "nuclear": 3414.004638671875,
+          "temporal_var_mean": 0.3547653555870056,
+          "temporal_var_std": 0.24644236266613007,
+          "spatial_var_mean": 0.48260295391082764,
+          "spatial_var_std": 0.4471501410007477,
+          "temporal_diff_mean": 0.37147819995880127,
+          "temporal_diff_std": 0.6000701785087585,
+          "temporal_cosine_mean": 0.6739460825920105
+        },
+        "V_first": {
+          "mean": 0.01598958671092987,
+          "std": 0.6682391166687012,
+          "l2_norm": 483.994873046875,
+          "nuclear": 3183.0390625,
+          "temporal_var_mean": 0.3100683391094208,
+          "temporal_var_std": 0.21851082146167755,
+          "spatial_var_mean": 0.43858909606933594,
+          "spatial_var_std": 0.40010368824005127,
+          "temporal_diff_mean": 0.32499825954437256,
+          "temporal_diff_std": 0.5103503465652466,
+          "temporal_cosine_mean": 0.7135494947433472
+        },
+        "V_second": {
+          "mean": 0.01598958671092987,
+          "std": 0.5787216424942017,
+          "l2_norm": 419.19873046875,
+          "nuclear": 2648.900390625,
+          "temporal_var_mean": 0.19844374060630798,
+          "temporal_var_std": 0.13984692096710205,
+          "spatial_var_mean": 0.32871803641319275,
+          "spatial_var_std": 0.3189621567726135,
+          "temporal_diff_mean": 0.2599985897541046,
+          "temporal_diff_std": 0.40828028321266174,
+          "temporal_cosine_mean": 0.7263888120651245
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9323476091493978,
+            "temporal_var_ratio": 0.8740096108208653,
+            "spatial_var_ratio": 0.9087990105058197
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8321922347180363,
+            "temporal_var_ratio": 0.6399999908932295,
+            "spatial_var_ratio": 0.7494897430517259
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0012681642547249794,
+          "std": 0.49190056324005127,
+          "l2_norm": 356.1748962402344,
+          "nuclear": 2664.806884765625,
+          "temporal_var_mean": 0.22651180624961853,
+          "temporal_var_std": 0.18906164169311523,
+          "spatial_var_mean": 0.23837454617023468,
+          "spatial_var_std": 0.35702869296073914,
+          "temporal_diff_mean": 0.2901926040649414,
+          "temporal_diff_std": 0.5650011301040649,
+          "temporal_cosine_mean": 0.7108006477355957
+        },
+        "V_first": {
+          "mean": 0.0012681641383096576,
+          "std": 0.4538035988807678,
+          "l2_norm": 328.5898742675781,
+          "nuclear": 2447.463134765625,
+          "temporal_var_mean": 0.19048342108726501,
+          "temporal_var_std": 0.16434261202812195,
+          "spatial_var_mean": 0.2028607279062271,
+          "spatial_var_std": 0.3012298047542572,
+          "temporal_diff_mean": 0.24920932948589325,
+          "temporal_diff_std": 0.4833548665046692,
+          "temporal_cosine_mean": 0.7487578988075256
+        },
+        "V_second": {
+          "mean": 0.0012681642547249794,
+          "std": 0.37062588334083557,
+          "l2_norm": 268.3631286621094,
+          "nuclear": 1989.84033203125,
+          "temporal_var_mean": 0.12190937995910645,
+          "temporal_var_std": 0.10517927259206772,
+          "spatial_var_mean": 0.13534940779209137,
+          "spatial_var_std": 0.19720371067523956,
+          "temporal_diff_mean": 0.1993674635887146,
+          "temporal_diff_std": 0.3866839110851288,
+          "temporal_cosine_mean": 0.756379246711731
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9184392117673847,
+            "temporal_var_ratio": 0.8409425355423851,
+            "spatial_var_ratio": 0.8510166989523603
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8130215747718185,
+            "temporal_var_ratio": 0.6399999163352788,
+            "spatial_var_ratio": 0.6672035662941194
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0022950246930122375,
+          "std": 0.42823508381843567,
+          "l2_norm": 310.0794982910156,
+          "nuclear": 2300.515869140625,
+          "temporal_var_mean": 0.17442339658737183,
+          "temporal_var_std": 0.15650002658367157,
+          "spatial_var_mean": 0.18086975812911987,
+          "spatial_var_std": 0.2857706844806671,
+          "temporal_diff_mean": 0.2514573037624359,
+          "temporal_diff_std": 0.49496832489967346,
+          "temporal_cosine_mean": 0.7106109261512756
+        },
+        "V_first": {
+          "mean": -0.0022950246930122375,
+          "std": 0.3947930634021759,
+          "l2_norm": 285.8652648925781,
+          "nuclear": 2117.65576171875,
+          "temporal_var_mean": 0.1468997299671173,
+          "temporal_var_std": 0.13281221687793732,
+          "spatial_var_mean": 0.15371279418468475,
+          "spatial_var_std": 0.24110917747020721,
+          "temporal_diff_mean": 0.21616597473621368,
+          "temporal_diff_std": 0.42448726296424866,
+          "temporal_cosine_mean": 0.7463986277580261
+        },
+        "V_second": {
+          "mean": -0.002295024925842881,
+          "std": 0.32090115547180176,
+          "l2_norm": 232.3629913330078,
+          "nuclear": 1717.550537109375,
+          "temporal_var_mean": 0.09401582926511765,
+          "temporal_var_std": 0.08499981462955475,
+          "spatial_var_mean": 0.10156379640102386,
+          "spatial_var_std": 0.15687866508960724,
+          "temporal_diff_mean": 0.17293278872966766,
+          "temporal_diff_std": 0.33958980441093445,
+          "temporal_cosine_mean": 0.7523631453514099
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9205134335807087,
+            "temporal_var_ratio": 0.8422019317317518,
+            "spatial_var_ratio": 0.849853437501793
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8110621981861921,
+            "temporal_var_ratio": 0.6399999706341384,
+            "spatial_var_ratio": 0.660737385800312
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0025729453191161156,
+          "std": 0.4206549823284149,
+          "l2_norm": 304.5921325683594,
+          "nuclear": 2229.85498046875,
+          "temporal_var_mean": 0.16586188971996307,
+          "temporal_var_std": 0.1684851199388504,
+          "spatial_var_mean": 0.1745760142803192,
+          "spatial_var_std": 0.31213024258613586,
+          "temporal_diff_mean": 0.2317279428243637,
+          "temporal_diff_std": 0.46365922689437866,
+          "temporal_cosine_mean": 0.7342880368232727
+        },
+        "V_first": {
+          "mean": 0.0025729448534548283,
+          "std": 0.39109888672828674,
+          "l2_norm": 283.1916809082031,
+          "nuclear": 2066.74169921875,
+          "temporal_var_mean": 0.1418696641921997,
+          "temporal_var_std": 0.14686225354671478,
+          "spatial_var_mean": 0.15093567967414856,
+          "spatial_var_std": 0.27161774039268494,
+          "temporal_diff_mean": 0.19971729815006256,
+          "temporal_diff_std": 0.3990291655063629,
+          "temporal_cosine_mean": 0.7699996829032898
+        },
+        "V_second": {
+          "mean": 0.0025729448534548283,
+          "std": 0.3191945552825928,
+          "l2_norm": 231.1288299560547,
+          "nuclear": 1682.2601318359375,
+          "temporal_var_mean": 0.0907965824007988,
+          "temporal_var_std": 0.09399183839559555,
+          "spatial_var_mean": 0.10056103020906448,
+          "spatial_var_std": 0.17836926877498627,
+          "temporal_diff_mean": 0.1597738415002823,
+          "temporal_diff_std": 0.3192233443260193,
+          "temporal_cosine_mean": 0.7775216698646545
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9268502738124345,
+            "temporal_var_ratio": 0.8553481205251403,
+            "spatial_var_ratio": 0.8645842422885572
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8139672860250073,
+            "temporal_var_ratio": 0.6399999359820268,
+            "spatial_var_ratio": 0.6662508411772146
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0010400392347946763,
+          "std": 0.48787373304367065,
+          "l2_norm": 353.2587890625,
+          "nuclear": 2546.46728515625,
+          "temporal_var_mean": 0.21430703997612,
+          "temporal_var_std": 0.2312561571598053,
+          "spatial_var_mean": 0.23502905666828156,
+          "spatial_var_std": 0.454396516084671,
+          "temporal_diff_mean": 0.24914106726646423,
+          "temporal_diff_std": 0.5144473314285278,
+          "temporal_cosine_mean": 0.7711235880851746
+        },
+        "V_first": {
+          "mean": 0.0010400391183793545,
+          "std": 0.45699524879455566,
+          "l2_norm": 330.90045166015625,
+          "nuclear": 2379.07421875,
+          "temporal_var_mean": 0.18513095378875732,
+          "temporal_var_std": 0.19911181926727295,
+          "spatial_var_mean": 0.2062135934829712,
+          "spatial_var_std": 0.39407864212989807,
+          "temporal_diff_mean": 0.21523967385292053,
+          "temporal_diff_std": 0.442956805229187,
+          "temporal_cosine_mean": 0.8052499890327454
+        },
+        "V_second": {
+          "mean": 0.00104003946762532,
+          "std": 0.3770906925201416,
+          "l2_norm": 273.0436096191406,
+          "nuclear": 1949.012451171875,
+          "temporal_var_mean": 0.11848381161689758,
+          "temporal_var_std": 0.12743157148361206,
+          "spatial_var_mean": 0.140379399061203,
+          "spatial_var_std": 0.26525449752807617,
+          "temporal_diff_mean": 0.17219173908233643,
+          "temporal_diff_std": 0.35436543822288513,
+          "temporal_cosine_mean": 0.8152345418930054
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9342645918165324,
+            "temporal_var_ratio": 0.863858439605166,
+            "spatial_var_ratio": 0.8773961297902768
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8192314623070995,
+            "temporal_var_ratio": 0.639999971869065,
+            "spatial_var_ratio": 0.680747519514615
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.010962877422571182,
+          "std": 0.44649380445480347,
+          "l2_norm": 323.3931579589844,
+          "nuclear": 2303.294189453125,
+          "temporal_var_mean": 0.11479003727436066,
+          "temporal_var_std": 0.09259437769651413,
+          "spatial_var_mean": 0.19637537002563477,
+          "spatial_var_std": 0.17163068056106567,
+          "temporal_diff_mean": 0.16965685784816742,
+          "temporal_diff_std": 0.3359455466270447,
+          "temporal_cosine_mean": 0.7943689227104187
+        },
+        "V_first": {
+          "mean": 0.010962877422571182,
+          "std": 0.43205755949020386,
+          "l2_norm": 312.9434814453125,
+          "nuclear": 2207.947021484375,
+          "temporal_var_mean": 0.10210710763931274,
+          "temporal_var_std": 0.08328879624605179,
+          "spatial_var_mean": 0.18388831615447998,
+          "spatial_var_std": 0.15197083353996277,
+          "temporal_diff_mean": 0.1469436138868332,
+          "temporal_diff_std": 0.28916487097740173,
+          "temporal_cosine_mean": 0.82593834400177
+        },
+        "V_second": {
+          "mean": 0.010962877422571182,
+          "std": 0.38718873262405396,
+          "l2_norm": 280.4666748046875,
+          "nuclear": 1922.001953125,
+          "temporal_var_mean": 0.0653485506772995,
+          "temporal_var_std": 0.05330483242869377,
+          "spatial_var_mean": 0.14764368534088135,
+          "spatial_var_std": 0.1077994853258133,
+          "temporal_diff_mean": 0.11755489557981491,
+          "temporal_diff_std": 0.23133191466331482,
+          "temporal_cosine_mean": 0.8453969955444336
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.958603999256832,
+            "temporal_var_ratio": 0.8895118528461418,
+            "spatial_var_ratio": 0.9364122739341116
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8704927855670004,
+            "temporal_var_ratio": 0.6399999548331129,
+            "spatial_var_ratio": 0.8028986310792213
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 5,
+    "bleu": 14.937396383637742,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.012131532654166222,
+          "std": 0.7706171274185181,
+          "l2_norm": 558.0549926757812,
+          "nuclear": 4050.498779296875,
+          "temporal_var_mean": 0.492204487323761,
+          "temporal_var_std": 0.28659090399742126,
+          "spatial_var_mean": 0.5844787359237671,
+          "spatial_var_std": 0.4637685716152191,
+          "temporal_diff_mean": 0.5349809527397156,
+          "temporal_diff_std": 0.706720232963562,
+          "temporal_cosine_mean": 0.521223783493042
+        },
+        "V_first": {
+          "mean": 0.012131530791521072,
+          "std": 0.7235149145126343,
+          "l2_norm": 523.9539184570312,
+          "nuclear": 3749.275390625,
+          "temporal_var_mean": 0.4218277037143707,
+          "temporal_var_std": 0.24948139488697052,
+          "spatial_var_mean": 0.5151463150978088,
+          "spatial_var_std": 0.3998761773109436,
+          "temporal_diff_mean": 0.46269622445106506,
+          "temporal_diff_std": 0.6000050902366638,
+          "temporal_cosine_mean": 0.5814954042434692
+        },
+        "V_second": {
+          "mean": 0.012131531722843647,
+          "std": 0.6096028089523315,
+          "l2_norm": 441.4865417480469,
+          "nuclear": 3090.041748046875,
+          "temporal_var_mean": 0.26996973156929016,
+          "temporal_var_std": 0.15966810286045074,
+          "spatial_var_mean": 0.3655526638031006,
+          "spatial_var_std": 0.2956734597682953,
+          "temporal_diff_mean": 0.3701569736003876,
+          "temporal_diff_std": 0.48000407218933105,
+          "temporal_cosine_mean": 0.5980955362319946
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9256330133412802,
+            "temporal_var_ratio": 0.8570171666613238,
+            "spatial_var_ratio": 0.8813773275598267
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.82417038656729,
+            "temporal_var_ratio": 0.6399999876539475,
+            "spatial_var_ratio": 0.7096093789151936
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.002726657083258033,
+          "std": 0.6046466827392578,
+          "l2_norm": 437.81500244140625,
+          "nuclear": 3303.14453125,
+          "temporal_var_mean": 0.34041082859039307,
+          "temporal_var_std": 0.23838049173355103,
+          "spatial_var_mean": 0.3599221110343933,
+          "spatial_var_std": 0.3883560597896576,
+          "temporal_diff_mean": 0.4405162036418915,
+          "temporal_diff_std": 0.6467262506484985,
+          "temporal_cosine_mean": 0.5651361346244812
+        },
+        "V_first": {
+          "mean": 0.0027266573160886765,
+          "std": 0.5576013922691345,
+          "l2_norm": 403.7509460449219,
+          "nuclear": 3032.04833984375,
+          "temporal_var_mean": 0.28573253750801086,
+          "temporal_var_std": 0.20853273570537567,
+          "spatial_var_mean": 0.3060198426246643,
+          "spatial_var_std": 0.3291122615337372,
+          "temporal_diff_mean": 0.37742480635643005,
+          "temporal_diff_std": 0.5527125000953674,
+          "temporal_cosine_mean": 0.6234995722770691
+        },
+        "V_second": {
+          "mean": 0.0027266573160886765,
+          "std": 0.45613086223602295,
+          "l2_norm": 330.27960205078125,
+          "nuclear": 2466.172607421875,
+          "temporal_var_mean": 0.1828688383102417,
+          "temporal_var_std": 0.13346095383167267,
+          "spatial_var_mean": 0.20481719076633453,
+          "spatial_var_std": 0.2185841053724289,
+          "temporal_diff_mean": 0.30193984508514404,
+          "temporal_diff_std": 0.44217002391815186,
+          "temporal_cosine_mean": 0.6385911107063293
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9179278445582159,
+            "temporal_var_ratio": 0.8393755577560352,
+            "spatial_var_ratio": 0.8502390510068754
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8133684991119997,
+            "temporal_var_ratio": 0.6400000276661333,
+            "spatial_var_ratio": 0.6692938023780581
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0009706523851491511,
+          "std": 0.5317521095275879,
+          "l2_norm": 385.0299377441406,
+          "nuclear": 2904.98828125,
+          "temporal_var_mean": 0.26683059334754944,
+          "temporal_var_std": 0.19158078730106354,
+          "spatial_var_mean": 0.2790698707103729,
+          "spatial_var_std": 0.3199940323829651,
+          "temporal_diff_mean": 0.39201682806015015,
+          "temporal_diff_std": 0.5816351771354675,
+          "temporal_cosine_mean": 0.5520000457763672
+        },
+        "V_first": {
+          "mean": -0.0009706525597721338,
+          "std": 0.48868829011917114,
+          "l2_norm": 353.8484802246094,
+          "nuclear": 2664.623291015625,
+          "temporal_var_mean": 0.2228865921497345,
+          "temporal_var_std": 0.16180039942264557,
+          "spatial_var_mean": 0.23569929599761963,
+          "spatial_var_std": 0.26813510060310364,
+          "temporal_diff_mean": 0.33615681529045105,
+          "temporal_diff_std": 0.49807384610176086,
+          "temporal_cosine_mean": 0.6074752807617188
+        },
+        "V_second": {
+          "mean": -0.0009706526761874557,
+          "std": 0.39821717143058777,
+          "l2_norm": 288.3406066894531,
+          "nuclear": 2163.7578125,
+          "temporal_var_mean": 0.1426474153995514,
+          "temporal_var_std": 0.10355225205421448,
+          "spatial_var_mean": 0.15650469064712524,
+          "spatial_var_std": 0.17610174417495728,
+          "temporal_diff_mean": 0.2689254581928253,
+          "temporal_diff_std": 0.3984591066837311,
+          "temporal_cosine_mean": 0.6202970147132874
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9172578451366008,
+            "temporal_var_ratio": 0.8353112025138382,
+            "spatial_var_ratio": 0.8445888011907505
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8120314116398646,
+            "temporal_var_ratio": 0.6399999552405636,
+            "spatial_var_ratio": 0.6640014911571518
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0018291649175807834,
+          "std": 0.5197397470474243,
+          "l2_norm": 376.333740234375,
+          "nuclear": 2791.54931640625,
+          "temporal_var_mean": 0.24989911913871765,
+          "temporal_var_std": 0.21224382519721985,
+          "spatial_var_mean": 0.26625993847846985,
+          "spatial_var_std": 0.3478287160396576,
+          "temporal_diff_mean": 0.3561338186264038,
+          "temporal_diff_std": 0.5364069938659668,
+          "temporal_cosine_mean": 0.595843493938446
+        },
+        "V_first": {
+          "mean": 0.0018291646847501397,
+          "std": 0.4828126132488251,
+          "l2_norm": 349.5958557128906,
+          "nuclear": 2585.6484375,
+          "temporal_var_mean": 0.2128778100013733,
+          "temporal_var_std": 0.18346521258354187,
+          "spatial_var_mean": 0.22979724407196045,
+          "spatial_var_std": 0.3015042543411255,
+          "temporal_diff_mean": 0.30631735920906067,
+          "temporal_diff_std": 0.46107423305511475,
+          "temporal_cosine_mean": 0.6506720185279846
+        },
+        "V_second": {
+          "mean": 0.0018291652668267488,
+          "std": 0.3955652713775635,
+          "l2_norm": 286.4226379394531,
+          "nuclear": 2107.676025390625,
+          "temporal_var_mean": 0.13624179363250732,
+          "temporal_var_std": 0.11741773784160614,
+          "spatial_var_mean": 0.15430012345314026,
+          "spatial_var_std": 0.2007969468832016,
+          "temporal_diff_mean": 0.24505391716957092,
+          "temporal_diff_std": 0.3688594102859497,
+          "temporal_cosine_mean": 0.6654674410820007
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.926241360772167,
+            "temporal_var_ratio": 0.8518549493752177,
+            "spatial_var_ratio": 0.8630559924056403
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8151440833233825,
+            "temporal_var_ratio": 0.6399999475362366,
+            "spatial_var_ratio": 0.6714619984311108
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0055921925231814384,
+          "std": 0.6149903535842896,
+          "l2_norm": 445.3185729980469,
+          "nuclear": 3234.71826171875,
+          "temporal_var_mean": 0.3320150375366211,
+          "temporal_var_std": 0.3160974085330963,
+          "spatial_var_mean": 0.37339547276496887,
+          "spatial_var_std": 0.5439063310623169,
+          "temporal_diff_mean": 0.38475301861763,
+          "temporal_diff_std": 0.6050034165382385,
+          "temporal_cosine_mean": 0.6554985046386719
+        },
+        "V_first": {
+          "mean": 0.005592191591858864,
+          "std": 0.5764608383178711,
+          "l2_norm": 417.4214782714844,
+          "nuclear": 3023.355712890625,
+          "temporal_var_mean": 0.2861090898513794,
+          "temporal_var_std": 0.2705722749233246,
+          "spatial_var_mean": 0.32807546854019165,
+          "spatial_var_std": 0.47184500098228455,
+          "temporal_diff_mean": 0.33162805438041687,
+          "temporal_diff_std": 0.5200438499450684,
+          "temporal_cosine_mean": 0.7073739767074585
+        },
+        "V_second": {
+          "mean": 0.005592192057520151,
+          "std": 0.4788607656955719,
+          "l2_norm": 346.75555419921875,
+          "nuclear": 2485.201904296875,
+          "temporal_var_mean": 0.1831098198890686,
+          "temporal_var_std": 0.17316624522209167,
+          "spatial_var_mean": 0.22632010281085968,
+          "spatial_var_std": 0.32259896397590637,
+          "temporal_diff_mean": 0.265302449464798,
+          "temporal_diff_std": 0.41603508591651917,
+          "temporal_cosine_mean": 0.7262734174728394
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.934658127312403,
+            "temporal_var_ratio": 0.8617353098124919,
+            "spatial_var_ratio": 0.8786273098721348
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8220011603968883,
+            "temporal_var_ratio": 0.6399999859640458,
+            "spatial_var_ratio": 0.6898415688301246
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.01906474679708481,
+          "std": 0.5088738799095154,
+          "l2_norm": 368.72216796875,
+          "nuclear": 2658.188720703125,
+          "temporal_var_mean": 0.16032925248146057,
+          "temporal_var_std": 0.10836824774742126,
+          "spatial_var_mean": 0.25523391366004944,
+          "spatial_var_std": 0.19016385078430176,
+          "temporal_diff_mean": 0.2530139088630676,
+          "temporal_diff_std": 0.38183891773223877,
+          "temporal_cosine_mean": 0.7023180723190308
+        },
+        "V_first": {
+          "mean": 0.01906474679708481,
+          "std": 0.49004992842674255,
+          "l2_norm": 355.1021423339844,
+          "nuclear": 2534.112548828125,
+          "temporal_var_mean": 0.14152564108371735,
+          "temporal_var_std": 0.09718367457389832,
+          "spatial_var_mean": 0.23672610521316528,
+          "spatial_var_std": 0.1692156046628952,
+          "temporal_diff_mean": 0.21879741549491882,
+          "temporal_diff_std": 0.32853075861930847,
+          "temporal_cosine_mean": 0.7496389746665955
+        },
+        "V_second": {
+          "mean": 0.01906474679708481,
+          "std": 0.43497082591056824,
+          "l2_norm": 315.2546081542969,
+          "nuclear": 2178.012451171875,
+          "temporal_var_mean": 0.0905764177441597,
+          "temporal_var_std": 0.06219755858182907,
+          "spatial_var_mean": 0.1865168809890747,
+          "spatial_var_std": 0.12455429881811142,
+          "temporal_diff_mean": 0.1750379204750061,
+          "temporal_diff_std": 0.2628246247768402,
+          "temporal_cosine_mean": 0.7810940742492676
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9533230387601248,
+            "temporal_var_ratio": 0.8827187183006124,
+            "spatial_var_ratio": 0.9274868395960756
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8594773946289325,
+            "temporal_var_ratio": 0.6400000074232522,
+            "spatial_var_ratio": 0.7879015833175881
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 6,
+    "bleu": 19.607807095778227,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.016726229339838028,
+          "std": 0.6877997517585754,
+          "l2_norm": 498.1669921875,
+          "nuclear": 3340.59228515625,
+          "temporal_var_mean": 0.33591002225875854,
+          "temporal_var_std": 0.21356557309627533,
+          "spatial_var_mean": 0.46458062529563904,
+          "spatial_var_std": 0.4394029974937439,
+          "temporal_diff_mean": 0.34127405285835266,
+          "temporal_diff_std": 0.5784200429916382,
+          "temporal_cosine_mean": 0.701042890548706
+        },
+        "V_first": {
+          "mean": 0.016726229339838028,
+          "std": 0.6577022075653076,
+          "l2_norm": 476.3807678222656,
+          "nuclear": 3116.241943359375,
+          "temporal_var_mean": 0.2954137921333313,
+          "temporal_var_std": 0.1982884705066681,
+          "spatial_var_mean": 0.4247288107872009,
+          "spatial_var_std": 0.39580991864204407,
+          "temporal_diff_mean": 0.29946208000183105,
+          "temporal_diff_std": 0.49116837978363037,
+          "temporal_cosine_mean": 0.7362101674079895
+        },
+        "V_second": {
+          "mean": 0.016726229339838028,
+          "std": 0.5711593627929688,
+          "l2_norm": 413.7404479980469,
+          "nuclear": 2592.09912109375,
+          "temporal_var_mean": 0.18906481564044952,
+          "temporal_var_std": 0.12690463662147522,
+          "spatial_var_mean": 0.3201262354850769,
+          "spatial_var_std": 0.3184952437877655,
+          "temporal_diff_mean": 0.23956963419914246,
+          "temporal_diff_std": 0.3929347097873688,
+          "temporal_cosine_mean": 0.7475027441978455
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.93284114831879,
+            "temporal_var_ratio": 0.8794431953903891,
+            "spatial_var_ratio": 0.9142197898905577
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8318029113911143,
+            "temporal_var_ratio": 0.639999939999816,
+            "spatial_var_ratio": 0.7537191257512229
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0009739297674968839,
+          "std": 0.4696676731109619,
+          "l2_norm": 340.07611083984375,
+          "nuclear": 2584.503662109375,
+          "temporal_var_mean": 0.2103646844625473,
+          "temporal_var_std": 0.14688821136951447,
+          "spatial_var_mean": 0.21713042259216309,
+          "spatial_var_std": 0.35220867395401,
+          "temporal_diff_mean": 0.26242759823799133,
+          "temporal_diff_std": 0.5500119924545288,
+          "temporal_cosine_mean": 0.739491879940033
+        },
+        "V_first": {
+          "mean": 0.0009739297674968839,
+          "std": 0.4329243004322052,
+          "l2_norm": 313.4711608886719,
+          "nuclear": 2371.80322265625,
+          "temporal_var_mean": 0.17720046639442444,
+          "temporal_var_std": 0.13106216490268707,
+          "spatial_var_mean": 0.18445110321044922,
+          "spatial_var_std": 0.29659634828567505,
+          "temporal_diff_mean": 0.22531872987747192,
+          "temporal_diff_std": 0.47047749161720276,
+          "temporal_cosine_mean": 0.7735694646835327
+        },
+        "V_second": {
+          "mean": 0.0009739297674968839,
+          "std": 0.3516122102737427,
+          "l2_norm": 254.59518432617188,
+          "nuclear": 1920.4337158203125,
+          "temporal_var_mean": 0.11340829730033875,
+          "temporal_var_std": 0.08387979120016098,
+          "spatial_var_mean": 0.12169788777828217,
+          "spatial_var_std": 0.19247572124004364,
+          "temporal_diff_mean": 0.1802549958229065,
+          "temporal_diff_std": 0.3763819932937622,
+          "temporal_cosine_mean": 0.7784519791603088
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9177016296859476,
+            "temporal_var_ratio": 0.8423488877121094,
+            "spatial_var_ratio": 0.8494944766996547
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8096935266246359,
+            "temporal_var_ratio": 0.6399999571553472,
+            "spatial_var_ratio": 0.6597839701809289
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0030208469834178686,
+          "std": 0.41234126687049866,
+          "l2_norm": 298.5746765136719,
+          "nuclear": 2264.275390625,
+          "temporal_var_mean": 0.16386979818344116,
+          "temporal_var_std": 0.11840099096298218,
+          "spatial_var_mean": 0.16773462295532227,
+          "spatial_var_std": 0.28285133838653564,
+          "temporal_diff_mean": 0.23074041306972504,
+          "temporal_diff_std": 0.4879823625087738,
+          "temporal_cosine_mean": 0.7359336614608765
+        },
+        "V_first": {
+          "mean": -0.0030208472162485123,
+          "std": 0.37948253750801086,
+          "l2_norm": 274.78314208984375,
+          "nuclear": 2079.583740234375,
+          "temporal_var_mean": 0.1378515511751175,
+          "temporal_var_std": 0.10235615074634552,
+          "spatial_var_mean": 0.14207199215888977,
+          "spatial_var_std": 0.23703965544700623,
+          "temporal_diff_mean": 0.19805671274662018,
+          "temporal_diff_std": 0.4179225564002991,
+          "temporal_cosine_mean": 0.7682601809501648
+        },
+        "V_second": {
+          "mean": -0.003020847449079156,
+          "std": 0.30721384286880493,
+          "l2_norm": 222.45713806152344,
+          "nuclear": 1681.735107421875,
+          "temporal_var_mean": 0.08822499215602875,
+          "temporal_var_std": 0.06550794094800949,
+          "spatial_var_mean": 0.09312140941619873,
+          "spatial_var_std": 0.15298236906528473,
+          "temporal_diff_mean": 0.15844537317752838,
+          "temporal_diff_std": 0.3343380391597748,
+          "temporal_cosine_mean": 0.7717933654785156
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9184323377074599,
+            "temporal_var_ratio": 0.841226048307825,
+            "spatial_var_ratio": 0.8470045193155311
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8086883326103771,
+            "temporal_var_ratio": 0.6399999492494217,
+            "spatial_var_ratio": 0.655452221416955
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.00226002954877913,
+          "std": 0.4023573696613312,
+          "l2_norm": 291.3421630859375,
+          "nuclear": 2186.259765625,
+          "temporal_var_mean": 0.15352046489715576,
+          "temporal_var_std": 0.12323905527591705,
+          "spatial_var_mean": 0.15947800874710083,
+          "spatial_var_std": 0.30140548944473267,
+          "temporal_diff_mean": 0.21094831824302673,
+          "temporal_diff_std": 0.4531215727329254,
+          "temporal_cosine_mean": 0.7601058483123779
+        },
+        "V_first": {
+          "mean": 0.0022600293159484863,
+          "std": 0.3736084997653961,
+          "l2_norm": 270.526123046875,
+          "nuclear": 2023.9761962890625,
+          "temporal_var_mean": 0.13121235370635986,
+          "temporal_var_std": 0.10783450305461884,
+          "spatial_var_mean": 0.13752728700637817,
+          "spatial_var_std": 0.2597303092479706,
+          "temporal_diff_mean": 0.1817554533481598,
+          "temporal_diff_std": 0.3898340165615082,
+          "temporal_cosine_mean": 0.7921160459518433
+        },
+        "V_second": {
+          "mean": 0.0022600293159484863,
+          "std": 0.3038860857486725,
+          "l2_norm": 220.04290771484375,
+          "nuclear": 1642.8096923828125,
+          "temporal_var_mean": 0.0839759111404419,
+          "temporal_var_std": 0.06901408731937408,
+          "spatial_var_mean": 0.09100637584924698,
+          "spatial_var_std": 0.16912779211997986,
+          "temporal_diff_mean": 0.1454043686389923,
+          "temporal_diff_std": 0.31186720728874207,
+          "temporal_cosine_mean": 0.7970682978630066
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9257711403297942,
+            "temporal_var_ratio": 0.8546896027664047,
+            "spatial_var_ratio": 0.8623588886219362
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8116744136550463,
+            "temporal_var_ratio": 0.6399999875649797,
+            "spatial_var_ratio": 0.6617331819226138
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0012550827814266086,
+          "std": 0.4657207131385803,
+          "l2_norm": 337.21868896484375,
+          "nuclear": 2493.89013671875,
+          "temporal_var_mean": 0.1998634934425354,
+          "temporal_var_std": 0.17791979014873505,
+          "spatial_var_mean": 0.21416370570659637,
+          "spatial_var_std": 0.44076022505760193,
+          "temporal_diff_mean": 0.22716419398784637,
+          "temporal_diff_std": 0.5014340281486511,
+          "temporal_cosine_mean": 0.7913728356361389
+        },
+        "V_first": {
+          "mean": 0.0012550826650112867,
+          "std": 0.43570074439048767,
+          "l2_norm": 315.4820251464844,
+          "nuclear": 2326.50341796875,
+          "temporal_var_mean": 0.1728028804063797,
+          "temporal_var_std": 0.15455645322799683,
+          "spatial_var_mean": 0.18742096424102783,
+          "spatial_var_std": 0.38086310029029846,
+          "temporal_diff_mean": 0.1961432248353958,
+          "temporal_diff_std": 0.43165650963783264,
+          "temporal_cosine_mean": 0.8220470547676086
+        },
+        "V_second": {
+          "mean": 0.0012550827814266086,
+          "std": 0.3572477698326111,
+          "l2_norm": 258.6763916015625,
+          "nuclear": 1897.9989013671875,
+          "temporal_var_mean": 0.11059385538101196,
+          "temporal_var_std": 0.09891613572835922,
+          "spatial_var_mean": 0.12597748637199402,
+          "spatial_var_std": 0.25221195816993713,
+          "temporal_diff_mean": 0.1569145917892456,
+          "temporal_diff_std": 0.345325231552124,
+          "temporal_cosine_mean": 0.8289856910705566
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9328812780102808,
+            "temporal_var_ratio": 0.864604479707141,
+            "spatial_var_ratio": 0.8751294009943028
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8158160812057417,
+            "temporal_var_ratio": 0.6400000319492859,
+            "spatial_var_ratio": 0.6721632244317756
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.012335792183876038,
+          "std": 0.4463292360305786,
+          "l2_norm": 323.29998779296875,
+          "nuclear": 2273.7822265625,
+          "temporal_var_mean": 0.10894215106964111,
+          "temporal_var_std": 0.07544673979282379,
+          "spatial_var_mean": 0.1961948722600937,
+          "spatial_var_std": 0.1623450219631195,
+          "temporal_diff_mean": 0.15444315969944,
+          "temporal_diff_std": 0.3272046744823456,
+          "temporal_cosine_mean": 0.814102828502655
+        },
+        "V_first": {
+          "mean": 0.012335792183876038,
+          "std": 0.43302038311958313,
+          "l2_norm": 313.6671447753906,
+          "nuclear": 2179.269775390625,
+          "temporal_var_mean": 0.09723903983831406,
+          "temporal_var_std": 0.06930549442768097,
+          "spatial_var_mean": 0.18469254672527313,
+          "spatial_var_std": 0.14319077134132385,
+          "temporal_diff_mean": 0.13387605547904968,
+          "temporal_diff_std": 0.2815060615539551,
+          "temporal_cosine_mean": 0.8424413800239563
+        },
+        "V_second": {
+          "mean": 0.012335792183876038,
+          "std": 0.39051318168640137,
+          "l2_norm": 282.90252685546875,
+          "nuclear": 1895.6658935546875,
+          "temporal_var_mean": 0.062232986092567444,
+          "temporal_var_std": 0.04435551539063454,
+          "spatial_var_mean": 0.15023311972618103,
+          "spatial_var_std": 0.10158330202102661,
+          "temporal_diff_mean": 0.10710084438323975,
+          "temporal_diff_std": 0.22520484030246735,
+          "temporal_cosine_mean": 0.8592457175254822
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9584338156586161,
+            "temporal_var_ratio": 0.892574912077925,
+            "spatial_var_ratio": 0.9413729073749639
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8698628847849729,
+            "temporal_var_ratio": 0.639999940312523,
+            "spatial_var_ratio": 0.813422708472492
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  },
+  {
+    "batch_idx": 7,
+    "bleu": 23.126993763025027,
+    "layers": {
+      "dec_0": {
+        "layer": "dec_0",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.018776345998048782,
+          "std": 0.6737642884254456,
+          "l2_norm": 488.04638671875,
+          "nuclear": 3156.65185546875,
+          "temporal_var_mean": 0.30145263671875,
+          "temporal_var_std": 0.1940670758485794,
+          "spatial_var_mean": 0.44589343667030334,
+          "spatial_var_std": 0.44374921917915344,
+          "temporal_diff_mean": 0.30030572414398193,
+          "temporal_diff_std": 0.5469704270362854,
+          "temporal_cosine_mean": 0.7470030784606934
+        },
+        "V_first": {
+          "mean": 0.018776345998048782,
+          "std": 0.6472786068916321,
+          "l2_norm": 468.87646484375,
+          "nuclear": 2947.556396484375,
+          "temporal_var_mean": 0.2664639949798584,
+          "temporal_var_std": 0.181488037109375,
+          "spatial_var_mean": 0.41142818331718445,
+          "spatial_var_std": 0.4028299152851105,
+          "temporal_diff_mean": 0.2645207941532135,
+          "temporal_diff_std": 0.46403223276138306,
+          "temporal_cosine_mean": 0.7768939733505249
+        },
+        "V_second": {
+          "mean": 0.01877634786069393,
+          "std": 0.5683681964874268,
+          "l2_norm": 411.7666320800781,
+          "nuclear": 2462.822509765625,
+          "temporal_var_mean": 0.17053695023059845,
+          "temporal_var_std": 0.11615235358476639,
+          "spatial_var_mean": 0.316967248916626,
+          "spatial_var_std": 0.3312334418296814,
+          "temporal_diff_mean": 0.2116166055202484,
+          "temporal_diff_std": 0.3712257742881775,
+          "temporal_cosine_mean": 0.7871907353401184
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9337603674502576,
+            "temporal_var_ratio": 0.8839331745143528,
+            "spatial_var_ratio": 0.9227051583500784
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8355472053714529,
+            "temporal_var_ratio": 0.6399999513761309,
+            "spatial_var_ratio": 0.7704072158036696
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_1": {
+        "layer": "dec_1",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0013472861610352993,
+          "std": 0.42680734395980835,
+          "l2_norm": 309.04278564453125,
+          "nuclear": 2338.2138671875,
+          "temporal_var_mean": 0.17087899148464203,
+          "temporal_var_std": 0.11863923072814941,
+          "spatial_var_mean": 0.17941626906394958,
+          "spatial_var_std": 0.323332279920578,
+          "temporal_diff_mean": 0.21469788253307343,
+          "temporal_diff_std": 0.5036786794662476,
+          "temporal_cosine_mean": 0.785770833492279
+        },
+        "V_first": {
+          "mean": 0.0013472860446199775,
+          "std": 0.39419567584991455,
+          "l2_norm": 285.4295654296875,
+          "nuclear": 2147.5859375,
+          "temporal_var_mean": 0.1441047638654709,
+          "temporal_var_std": 0.10691526532173157,
+          "spatial_var_mean": 0.15303105115890503,
+          "spatial_var_std": 0.2716076374053955,
+          "temporal_diff_mean": 0.1843404322862625,
+          "temporal_diff_std": 0.43005993962287903,
+          "temporal_cosine_mean": 0.8142554759979248
+        },
+        "V_second": {
+          "mean": 0.0013472861610352993,
+          "std": 0.3217334449291229,
+          "l2_norm": 232.9617462158203,
+          "nuclear": 1746.0841064453125,
+          "temporal_var_mean": 0.09222704917192459,
+          "temporal_var_std": 0.06842576712369919,
+          "spatial_var_mean": 0.10197004675865173,
+          "spatial_var_std": 0.17571768164634705,
+          "temporal_diff_mean": 0.1474723517894745,
+          "temporal_diff_std": 0.3440479636192322,
+          "temporal_cosine_mean": 0.8180245757102966
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9184728427233306,
+            "temporal_var_ratio": 0.8433146414331224,
+            "spatial_var_ratio": 0.8529384956443109
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8130450455779175,
+            "temporal_var_ratio": 0.6399999576559706,
+            "spatial_var_ratio": 0.6663356183145568
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_2": {
+        "layer": "dec_2",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": -0.0031886741053313017,
+          "std": 0.3643794059753418,
+          "l2_norm": 263.84869384765625,
+          "nuclear": 1994.368896484375,
+          "temporal_var_mean": 0.12729856371879578,
+          "temporal_var_std": 0.08956976979970932,
+          "spatial_var_mean": 0.13094553351402283,
+          "spatial_var_std": 0.24476438760757446,
+          "temporal_diff_mean": 0.18389783799648285,
+          "temporal_diff_std": 0.43572065234184265,
+          "temporal_cosine_mean": 0.7846401929855347
+        },
+        "V_first": {
+          "mean": -0.0031886743381619453,
+          "std": 0.3358556926250458,
+          "l2_norm": 243.1962432861328,
+          "nuclear": 1832.6806640625,
+          "temporal_var_mean": 0.10732530802488327,
+          "temporal_var_std": 0.07843048870563507,
+          "spatial_var_mean": 0.11125095188617706,
+          "spatial_var_std": 0.20522837340831757,
+          "temporal_diff_mean": 0.15790575742721558,
+          "temporal_diff_std": 0.3729846179485321,
+          "temporal_cosine_mean": 0.810971736907959
+        },
+        "V_second": {
+          "mean": -0.0031886741053313017,
+          "std": 0.2723267674446106,
+          "l2_norm": 197.198974609375,
+          "nuclear": 1484.2894287109375,
+          "temporal_var_mean": 0.06868819892406464,
+          "temporal_var_std": 0.050195515155792236,
+          "spatial_var_mean": 0.07315139472484589,
+          "spatial_var_std": 0.13204382359981537,
+          "temporal_diff_mean": 0.1263245940208435,
+          "temporal_diff_std": 0.29838770627975464,
+          "temporal_cosine_mean": 0.8134819865226746
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9189276203033029,
+            "temporal_var_ratio": 0.8430990614393394,
+            "spatial_var_ratio": 0.8495970836477021
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8099007414704844,
+            "temporal_var_ratio": 0.6399999570291452,
+            "spatial_var_ratio": 0.6575349415826934
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_3": {
+        "layer": "dec_3",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0029591689817607403,
+          "std": 0.3662624955177307,
+          "l2_norm": 265.21075439453125,
+          "nuclear": 1978.4366455078125,
+          "temporal_var_mean": 0.12683822214603424,
+          "temporal_var_std": 0.1040443554520607,
+          "spatial_var_mean": 0.13231873512268066,
+          "spatial_var_std": 0.285419762134552,
+          "temporal_diff_mean": 0.17291498184204102,
+          "temporal_diff_std": 0.4192822277545929,
+          "temporal_cosine_mean": 0.8040465116500854
+        },
+        "V_first": {
+          "mean": 0.0029591689817607403,
+          "std": 0.34026458859443665,
+          "l2_norm": 246.38694763183594,
+          "nuclear": 1831.945556640625,
+          "temporal_var_mean": 0.10847003757953644,
+          "temporal_var_std": 0.09138759225606918,
+          "spatial_var_mean": 0.11421801894903183,
+          "spatial_var_std": 0.24598471820354462,
+          "temporal_diff_mean": 0.14886291325092316,
+          "temporal_diff_std": 0.36016204953193665,
+          "temporal_cosine_mean": 0.8306211233139038
+        },
+        "V_second": {
+          "mean": 0.0029591694474220276,
+          "std": 0.27700307965278625,
+          "l2_norm": 200.5828857421875,
+          "nuclear": 1489.2105712890625,
+          "temporal_var_mean": 0.06942082941532135,
+          "temporal_var_std": 0.05848805978894234,
+          "spatial_var_mean": 0.07571198046207428,
+          "spatial_var_std": 0.15981553494930267,
+          "temporal_diff_mean": 0.11909032613039017,
+          "temporal_diff_std": 0.28812962770462036,
+          "temporal_cosine_mean": 0.834472119808197
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9259561385455198,
+            "temporal_var_ratio": 0.8551840856205745,
+            "spatial_var_ratio": 0.8632036136915706
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8129120245318916,
+            "temporal_var_ratio": 0.6399999904528302,
+            "spatial_var_ratio": 0.6628724130396233
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_4": {
+        "layer": "dec_4",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.0016915749292820692,
+          "std": 0.4257710874080658,
+          "l2_norm": 308.2933654785156,
+          "nuclear": 2263.55078125,
+          "temporal_var_mean": 0.16772207617759705,
+          "temporal_var_std": 0.1484140306711197,
+          "spatial_var_mean": 0.1789596527814865,
+          "spatial_var_std": 0.41256004571914673,
+          "temporal_diff_mean": 0.1875189244747162,
+          "temporal_diff_std": 0.4664938747882843,
+          "temporal_cosine_mean": 0.8306397199630737
+        },
+        "V_first": {
+          "mean": 0.0016915748128667474,
+          "std": 0.3983823359012604,
+          "l2_norm": 288.4619445800781,
+          "nuclear": 2111.2861328125,
+          "temporal_var_mean": 0.14514955878257751,
+          "temporal_var_std": 0.1296381801366806,
+          "spatial_var_mean": 0.15664716064929962,
+          "spatial_var_std": 0.35644784569740295,
+          "temporal_diff_mean": 0.16173651814460754,
+          "temporal_diff_std": 0.401101678609848,
+          "temporal_cosine_mean": 0.8559923768043518
+        },
+        "V_second": {
+          "mean": 0.0016915746964514256,
+          "std": 0.32627370953559875,
+          "l2_norm": 236.2503662109375,
+          "nuclear": 1722.1270751953125,
+          "temporal_var_mean": 0.09289571642875671,
+          "temporal_var_std": 0.08296844363212585,
+          "spatial_var_mean": 0.10503894090652466,
+          "spatial_var_std": 0.23480276763439178,
+          "temporal_diff_mean": 0.129389226436615,
+          "temporal_diff_std": 0.32088130712509155,
+          "temporal_cosine_mean": 0.8612019419670105
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9327319494185404,
+            "temporal_var_ratio": 0.8654170842406647,
+            "spatial_var_ratio": 0.8753210539995769
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8156767803391314,
+            "temporal_var_ratio": 0.639999947694692,
+            "spatial_var_ratio": 0.6705447693127184
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      },
+      "dec_5": {
+        "layer": "dec_5",
+        "order": "temporal_first",
+        "alpha_spatial": 0.2,
+        "alpha_temporal": 0.1,
+        "V_raw": {
+          "mean": 0.010412586852908134,
+          "std": 0.4266144931316376,
+          "l2_norm": 308.99359130859375,
+          "nuclear": 2148.83740234375,
+          "temporal_var_mean": 0.09504875540733337,
+          "temporal_var_std": 0.06954708695411682,
+          "spatial_var_mean": 0.17923453450202942,
+          "spatial_var_std": 0.15513871610164642,
+          "temporal_diff_mean": 0.12895305454730988,
+          "temporal_diff_std": 0.305764764547348,
+          "temporal_cosine_mean": 0.8447679281234741
+        },
+        "V_first": {
+          "mean": 0.01041258592158556,
+          "std": 0.4149191379547119,
+          "l2_norm": 300.52783203125,
+          "nuclear": 2064.504150390625,
+          "temporal_var_mean": 0.08520672470331192,
+          "temporal_var_std": 0.0649375393986702,
+          "spatial_var_mean": 0.1695404350757599,
+          "spatial_var_std": 0.1375085413455963,
+          "temporal_diff_mean": 0.11169730871915817,
+          "temporal_diff_std": 0.26284873485565186,
+          "temporal_cosine_mean": 0.8683928847312927
+        },
+        "V_second": {
+          "mean": 0.01041258592158556,
+          "std": 0.37614282965660095,
+          "l2_norm": 272.4605712890625,
+          "nuclear": 1811.4453125,
+          "temporal_var_mean": 0.05453230440616608,
+          "temporal_var_std": 0.04156002774834633,
+          "spatial_var_mean": 0.13929738104343414,
+          "spatial_var_std": 0.09767260402441025,
+          "temporal_diff_mean": 0.08935784548521042,
+          "temporal_diff_std": 0.21027898788452148,
+          "temporal_cosine_mean": 0.8815752267837524
+        },
+        "deltas": {
+          "first_to_raw": {
+            "nuclear_ratio": 0.9607540096469144,
+            "temporal_var_ratio": 0.896452724432104,
+            "spatial_var_ratio": 0.9459138334454285
+          },
+          "second_to_first": {
+            "nuclear_ratio": 0.8774239141870857,
+            "temporal_var_ratio": 0.6399999318838637,
+            "spatial_var_ratio": 0.8216174080538039
+          }
+        },
+        "eval_step": 1,
+        "loss": null,
+        "phase": "eval"
+      }
+    }
+  }
+]

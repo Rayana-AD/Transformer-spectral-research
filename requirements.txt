@@ -1,0 +1,17 @@
+# Core (project scripts)
+torch>=2.0
+numpy>=1.20
+matplotlib>=3.5
+scipy>=1.9
+# MIC (MINE)。Apple Silicon / PyPI 上 minepy 常无法 pip 编过 → 见 docs/CONDA_TLB_MINE.md（conda 环境 tlb_mine）。
+# 若纯 pip 且 Python<3.13，可尝试安装；3.13+ 请用 conda 或放弃 MIC。
+minepy; python_version < "3.13"
+
+# Machine translation (mt_train_tlb.py)
+transformers>=4.36
+datasets>=2.14
+sacrebleu>=2.3
+sentencepiece>=0.1.99
+
+# Optional: local causal LM smoke test (qwen3_local_smoke.py)
+# accelerate  # if loading large models with device_map

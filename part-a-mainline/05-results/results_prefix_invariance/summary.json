@@ -1,0 +1,32 @@
+{
+  "qwen3": {
+    "model": "/Users/rayana/Desktop/AI-Illusion/runs/modelscope_hub/qwen/Qwen3-1___7B",
+    "core": "The weather in Berlin is sunny today.",
+    "by_condition": {
+      "vanilla": {
+        "max_logit_diff_mean": 0.0,
+        "max_logit_diff_max": 0.0,
+        "mean_kl": 0.0,
+        "n_pairs": 8,
+        "temporal_mode": null,
+        "spatial_mode": null
+      },
+      "cascade_circular_global": {
+        "max_logit_diff_mean": 3.8046875,
+        "max_logit_diff_max": 4.0625,
+        "mean_kl": 0.07274740189313889,
+        "n_pairs": 8,
+        "temporal_mode": "circular_roll",
+        "spatial_mode": "spatial_global"
+      },
+      "cascade_causal_prefix": {
+        "max_logit_diff_mean": 0.0,
+        "max_logit_diff_max": 0.0,
+        "mean_kl": 0.0,
+        "n_pairs": 8,
+        "temporal_mode": "causal_prev",
+        "spatial_mode": "prefix_mean"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+encoder_depth,best_test_acc,cls_activation,freeze_backbone,c_bar_geom_probe,mean_abs_c_minus_1,nuclear_final_probe,representation
+8,0.6991,gelu,1,1.3139978451732004,0.3476254569281908,13407.06298828125,vit_hidden_states_seq_x_hidden_svd_mean_batch

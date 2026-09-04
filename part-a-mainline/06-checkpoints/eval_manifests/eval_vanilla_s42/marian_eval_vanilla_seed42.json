@@ -1,0 +1,8 @@
+{
+  "val_ce": 3.891229571596198,
+  "val_ppl": 48.97106294857625,
+  "bleu": 15.129273279833583,
+  "attention": "vanilla",
+  "seed": 42,
+  "checkpoint": "/Users/rayana/Desktop/TLB-Experiments/results_final_1epoch_3seed_20260423_180017/train_vanilla_s42/hf_finetuned_vanilla_seed42"
+}

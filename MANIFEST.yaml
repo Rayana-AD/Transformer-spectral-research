@@ -1,0 +1,119 @@
+# Copy manifest for github-research-staging
+# Source root: /Users/rayana/Desktop/TLB-Experiments
+# Usage: staging script copies listed paths; skips checkpoints per rules
+
+source_root: /Users/rayana/Desktop/TLB-Experiments
+staging_root: /Users/rayana/Desktop/github-research-staging
+
+exclude_globs:
+  - "**/.venv*"
+  - "**/__pycache__/**"
+  - "**/hf_finetuned_*"
+  - "**/*.pt"
+  - "**/*.pth"
+  - "results_v_smooth_*/**"
+  - "results_final_*/**"
+  - "results_marian_bleu_m1run/**"
+
+part_a_mainline:
+  theory_scripts:
+    - script1_activation_visualization_invariants.py
+    - script2_universal_validation.py
+    - script3_depth_scattering.py
+    - script4_scattering_transformer_training.py
+    - activation_extras.py
+    - paper_style.py
+
+  vit_bridge:
+    - script5_vit_representation_svd.py
+    - script5_vit_norms_combined_panel.py
+    - script7_vit_criticality.py
+    - experiments/pretrained_random_activation_geometry_overlay.py
+
+  marian_cascade:
+    - tlb_value_smooth.py
+    - marian_attn_tlb_patch.py
+    - marian_mt_finetune_tlb.py
+    - run_probe_independent.py
+    - marian_mechanism_probe.py
+    - marian_enhanced_probe.py
+    - probe_mech_plots.py
+    - probe_visualization.py
+    - mt_train_tlb.py
+    - experiments/run_schemeA_cascade_matrix.sh
+    - experiments/run_schemeA_decoder_cascade_matrix.sh
+    - experiments/run_schemeA_decoder_causal_ablation.sh
+    - experiments/run_regularization_baselines.sh
+    - experiments/circular_shift_leakage_demo.py
+    - experiments/verify_cascade_spectral_operators.py
+    - experiments/aggregate_schemeA_results.py
+    - experiments/SCHEME_A_CASCADE_EXPERIMENT.md
+
+  data:
+    - data/opus_de_en/train_5k.jsonl
+    - data/opus_de_en/val_500.jsonl
+
+  results_lightweight:
+    - paper_assets/
+    - results_script2/universal_summary.csv
+    - results_script2/universal_raw.csv
+    - results_script3/depth_summary.csv
+    - results_script3/depth8_condition_grid_paper.png
+    - results_script4/training_loss_summary.csv
+    - results_script4/training_loss_raw.csv
+    - results_script7/exp3_vit_cifar/exp3_vit_per_layer_summary.csv
+    - results_script7/exp3_vit_cifar/fig_exp3_vit_per_layer_acc_vs_layer.png
+    - results_probe_independent/paper_figures/
+    - results_probe_independent/schemeA_3x2x3_20260424_0137/schemeA_full_report.md
+    - results_probe_independent/schemeA_3x2x3_20260424_0137/schemeA_detailed_runs.csv
+    - results_probe_independent/schemeA_dec_3x2x3_20260425_1943/
+    - results_probe_independent/schemeA_dec_causal_ablation_20260630_1812/
+    - results_probe_independent/rebuttal_baselines_20260701_1646/baseline_summary.md
+    - results_marian_ffn_frozen_eval/
+    - results_prefix_invariance/
+    - results_cascade_spectral_verify/
+    - results_random_init_activation_geometry/
+    - results_ppl_spike_analysis/ppl_spike_bad_cases.md
+    - results_ppl_spike_analysis/ppl_spike_report.md
+
+  checkpoints_partial:
+    - part-a-mainline/06-checkpoints/vanilla_finetune_seed42/   # ~512MB, run supplement_repro_assets.sh
+    - part-a-mainline/06-checkpoints/eval_manifests/
+    - part-a-mainline/06-checkpoints/CHECKPOINT_MANIFEST.json
+
+  figures_gallery:
+    - figures/gallery/01-10_*.png   # run supplement_repro_assets.sh
+
+  docs:
+    - docs/EXPERIMENT_RESULTS_PAPER_FIGURES.md
+    - docs/PROBE_EXPERIMENT_AND_PLOTS.md
+    - docs/RESEARCH_GITHUB_PLAN.md
+
+part_b_explorations:
+  code:
+    - script6_scattering_criticality.py
+    - script8_dual_space_memory.py
+    - script9_ffn_bottleneck_dual.py
+    - script10_token_mirror.py
+    - script11_tlb_attention.py
+    - tlb_attention_core.py
+    - memory_tasks.py
+    - transformer_mechanics.py
+
+  summaries_only:
+    - results_marian_qkv_proj_nuc/summary.json
+    - results_marian_bleu_quick/summary.json
+    - results_marian_learned_q_20260422/
+    - experiments/v_smooth_experiments_summary.md
+    - EXPERIMENT_ALIGNMENT_GUIDE.md
+    - Discussion_Conclusion.md
+    - docs/VIT_MARIAN_ROOT_CAUSE.md
+
+  notes_private_do_not_copy:
+    - rebuttal.md
+    - Review-Cascade.md
+    - acl_latex.tex
+    - 1cursor_decoder_causal_masking_analysis.md
+    - 1cursor_transformer.md
+    - 2cursor_vit_model_spectral_norm_analysis.md
+    - 3cursor_orthogonal_dual_space_scattering.md

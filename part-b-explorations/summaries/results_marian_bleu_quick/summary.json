@@ -1,0 +1,17 @@
+{
+  "model_id": "Helsinki-NLP/opus-mt-de-en",
+  "max_train": 800,
+  "max_val": 32,
+  "epochs": 1,
+  "seed": 42,
+  "bleu_corpus_sacrebleu": {
+    "1_pretrain_no_finetune": 15.476280311118904,
+    "2_after_vanilla_finetune": 9.735617057014542,
+    "3_after_kv_inner_finetune": 0.1486696687629501
+  },
+  "notes": "1=Helsinki 预训练权重+vanilla 前向; 2=vanilla 微调后; 3=Line B 微调后(评估时仍用 kv_inner patch)。",
+  "paths": {
+    "vanilla_finetuned_hf": "results_marian_bleu_quick/02_train_vanilla/hf_finetuned_vanilla_seed42",
+    "kv_inner_finetuned_hf": "results_marian_bleu_quick/04_train_kv_inner/hf_finetuned_kv_inner_seed42"
+  }
+}

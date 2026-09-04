@@ -1,0 +1,12 @@
+{
+  "description": "Toy V tensor (1,1,8,1): change last position only; max |V_smooth[0]-V_smooth'[0]|",
+  "alpha_spatial": 0.1,
+  "alpha_temporal": 0.2,
+  "results": {
+    "circular_roll_spatial_global": 190.959991,
+    "causal_prev_prefix_mean": 0.0,
+    "causal_prev_spatial_global": 12.4,
+    "circular_roll_prefix_mean": 181.039993
+  },
+  "interpretation": "Circular temporal shift wraps the last token into position 0; causal_prev+prefix_mean does not."
+}
