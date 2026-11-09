@@ -10,13 +10,13 @@
 
 - 在 **平行句极少**（例如约 800 对）且 **优化步数很短** 时，给 Encoder / Decoder 的 **self-attention value 路径** 加上 **可控、可重复的读入算子**；
 - 在 **训练过程中** 同步记录 **核范数、PPL、梯度峰值** 等指标，观察 **Encoder 与 Decoder 是否呈现不同的深度形态**，以及这些形态与 **损失尖峰、输出稳定性** 的关联有多强；
-- 当 **AdamW 超参或标签编码不当** 导致 vanilla 微调明显掉点时，级联有时表现为 **相对 rescue**——这反映的是 **\(V\) 空间如何参与学习**（可写/不可写、前向低通），而不是「平滑本身等于更好的归纳偏置」。
+- 当 **AdamW 超参或标签编码不当** 导致 vanilla 微调明显掉点时，级联有时表现为 **相对 rescue**——这反映的是 $V$ 空间如何参与学习（可写/不可写、前向低通），而不是「平滑本身等于更好的归纳偏置」。
 
 在 **正确 `text_target` + 默认 AdamW + 全数据 1 epoch** 的对照下，vanilla 往往可达 ~20.8–21 BLEU；Scheme A **encoder-only、detach、legacy** 的级联与之接近。**请勿把旧 stress-test 下的 ~15 / ~18 数字与当前 matched 协议混谈**（见 [REPRODUCTION.md](REPRODUCTION.md)）。
 
 ### 方向 1 主图：Encoder / Decoder 随层「膨胀–压缩」差异
 
-训练期（Scheme A 探针，\( \alpha_s{=}0.1,\ \alpha_t{=}0.2 \)，多种子平均）中，**同一级联算子** 在两侧堆叠上呈现 **不同的核范数深度曲线**：
+训练期（Scheme A 探针，$\alpha_s=0.1$，$\alpha_t=0.2$，多种子平均）中，**同一级联算子** 在两侧堆叠上呈现 **不同的核范数深度曲线**：
 
 ![Scheme A：Encoder 与 Decoder 训练期 value 核范数随层变化](figures/gallery/07_schemeA_depth_nuclear_norm.png)
 
@@ -25,12 +25,12 @@
 | **Encoder** | 中段（约 layer 2）**抬升、保持较高容量**；双向表征在中层展开 | 与 **中间层 PPL/核范数** 联动时，常看到较平滑的压缩阶梯 |
 | **Decoder** | 浅层 **范数最大**，向中层 **急剧压缩**（谷），深层部分回升 | 自回归 **历史→过滤→输出**；中层与 **train PPL 尖峰**、梯度峰值关联更强 |
 
-级联三阶段在同一图里通常满足 **\( \|V^{\mathrm{raw}}\|_* > \|V^{(1)}\|_* > \|V^{(2)}\|_* \)**，说明算子主要起 **可度量的压缩探针** 作用；**Encoder vs Decoder 的形态差** 往往大于 spatial-first / temporal-first 的顺序差。更细的图注与数据表见 `part-a-mainline/05-results/` 下 Scheme A 归档说明。
+级联三阶段在同一图里通常满足 $\|V^{\mathrm{raw}}\|_* > \|V^{(1)}\|_* > \|V^{(2)}\|_*$，说明算子主要起 **可度量的压缩探针** 作用；**Encoder vs Decoder 的形态差** 往往大于 spatial-first / temporal-first 的顺序差。更细的图注与数据表见 `part-a-mainline/05-results/` 下 Scheme A 归档说明。
 
 ### 方向 1 方法要点
 
 1. **谱诊断语言**（script1–4）：点式激活如何改变秩、核范数、条件数。  
-2. **Value 级联（Scheme A）**：在 **不改变 \(QK^\top\) 路由** 的前提下，对 **\(V\)** 做 spatial × temporal 两阶段混合；用于 **训练期探针**，而非默认推理必开。  
+2. **Value 级联（Scheme A）**：在不改变 $QK^\top$ 路由的前提下，对 $V$ 做 spatial × temporal 两阶段混合；用于 **训练期探针**，而非默认推理必开。  
 3. **Encoder-only + detach + legacy** 与 Scheme A 探针矩阵一致。
 
 方向 1 详细索引：[part-a-mainline/README.md](part-a-mainline/README.md)；探索性负面结果：[part-b-explorations/README.md](part-b-explorations/README.md)。
@@ -43,19 +43,19 @@
 
 标准 Transformer 块中，FFN 占参数量与算力的主要部分，但结构仍是「扩维—非线性—投影」的静态 MLP，对每个 token 施加同一类映射。将 FFN 视为键值式联想记忆时，**变换表示** 与 **存放事实** 挤在同一条未索引的通道里，容易产生干扰；仅靠加宽中间层或 MoE，也难以显式刻画 **随输入变化的局部曲率**。
 
-本方向把 FFN 写成由标量势 \(\Psi\) 诱导的 **Hessian 型算子**：在可学习的投影轴 \(u_j\) 上，用二阶门控 \(\lambda_j(x)=\psi''(u_j^\top x + b_j)\) 调节沿该方向的放大或抑制，整体保持与两层 MLP 相近的渐进计算量，但 **曲率与秩结构** 可解释、可探针。针对两类任务又衍生 **Memory-Track**（多尺度上下文门控，用于联想检索）与 **Decoupled H-FFN**（拆分内容、路由与发射，用于因果语言建模）；预训练迁移场景下可用 **解析 GELU 匹配** 做 FFN 暖启动。
+本方向把 FFN 写成由标量势 $\Psi$ 诱导的 **Hessian 型算子**：在可学习的投影轴 $u_j$ 上，用二阶门控 $\lambda_j(x)=\psi^{\prime\prime}(u_j^\top x + b_j)$ 调节沿该方向的放大或抑制，整体保持与两层 MLP 相近的渐进计算量，但 **曲率与秩结构** 可解释、可探针。针对两类任务又衍生 **Memory-Track**（多尺度上下文门控，用于联想检索）与 **Decoupled H-FFN**（拆分内容、路由与发射，用于因果语言建模）；预训练迁移场景下可用 **解析 GELU 匹配** 做 FFN 暖启动。
 
 ### 方法
 
 核心前向可概括为
 
-\[
-\text{H-FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,
-\quad
+$$
+\mathrm{H\text{-}FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,
+\qquad
 \Psi(x)=\sum_j \psi(u_j^\top x + b_j).
-\]
+$$
 
-实现中将 \(m\) 个秩一分支堆叠为低秩 Hessian 形式，并配合 **ctx-split**（上下文分裂读写）、**多尺度曲率阶梯** 与 **Decoupled** 变体。代码主入口为 `direction-2-hessian-ffn/tlb/ffn/hessian_core.py`，标准 MLP 对照为 `tlb/ffn/standard.py`；因果 LM、ctx-split 与 ViT FFN 替换见同目录下 `tlb/models/`。
+实现中将 $m$ 个秩一分支堆叠为低秩 Hessian 形式，并配合 **ctx-split**（上下文分裂读写）、**多尺度曲率阶梯** 与 **Decoupled** 变体。代码主入口为 `direction-2-hessian-ffn/tlb/ffn/hessian_core.py`，标准 MLP 对照为 `tlb/ffn/standard.py`；因果 LM、ctx-split 与 ViT FFN 替换见同目录下 `tlb/models/`。
 
 `direction-2-hessian-ffn/` 收录 **可运行原型**（smoke 配置与代表脚本），不含完整实验流水线的全部 checkpoint 与私有数据。
 

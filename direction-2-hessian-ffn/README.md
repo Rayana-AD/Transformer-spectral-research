@@ -6,15 +6,15 @@
 
 标准 Transformer 块中，FFN 占参数量与算力的主要部分，但结构仍是「扩维—非线性—投影」的静态 MLP，对每个 token 施加同一类映射。将 FFN 视为键值式联想记忆时，**变换表示** 与 **存放事实** 挤在同一条未索引的通道里，容易产生干扰；仅靠加宽中间层或 MoE，也难以显式刻画 **随输入变化的局部曲率**。
 
-本方向把 FFN 写成由标量势 \(\Psi\) 诱导的 **Hessian 型算子**：在可学习的投影轴 \(u_j\) 上，用二阶门控 \(\lambda_j(x)=\psi''(u_j^\top x + b_j)\) 调节沿该方向的放大或抑制，整体保持与两层 MLP 相近的渐进计算量，但 **曲率与秩结构** 可解释、可探针。针对两类任务又衍生 **Memory-Track**（多尺度上下文门控，用于联想检索）与 **Decoupled H-FFN**（拆分内容、路由与发射，用于因果语言建模）；预训练迁移场景下可用 **解析 GELU 匹配** 做 FFN 暖启动。
+本方向把 FFN 写成由标量势 $\Psi$ 诱导的 **Hessian 型算子**：在可学习的投影轴 $u_j$ 上，用二阶门控 $\lambda_j(x)=\psi^{\prime\prime}(u_j^\top x + b_j)$ 调节沿该方向的放大或抑制，整体保持与两层 MLP 相近的渐进计算量，但 **曲率与秩结构** 可解释、可探针。针对两类任务又衍生 **Memory-Track**（多尺度上下文门控，用于联想检索）与 **Decoupled H-FFN**（拆分内容、路由与发射，用于因果语言建模）；预训练迁移场景下可用 **解析 GELU 匹配** 做 FFN 暖启动。
 
 ## 方法
 
-\[
-\text{H-FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,
-\quad
+$$
+\mathrm{H\text{-}FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,
+\qquad
 \Psi(x)=\sum_j \psi(u_j^\top x + b_j).
-\]
+$$
 
 实现入口：`tlb/ffn/hessian_core.py`（对照 `tlb/ffn/standard.py`）；`tlb/models/causal_lm.py`、`gpt2_ctxsplit_init.py`、`vit_ffn_transfer.py`。本目录为 **可运行原型**，不含完整 checkpoint 与私有数据。
 
