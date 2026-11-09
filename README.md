@@ -1,6 +1,6 @@
 # Transformer 谱几何与 Value-Path 诊断研究档案
 
-本仓库公开两条研究线：**方向 1** 关注预训练 Marian 在 **数据极少**、**AdamW 等优化尚未进入稳定 regime** 时，内部表示如何漂移；**方向 2** 为基于 Hessian 形式的 **低秩 FFN 原型**（见 [direction-2-hessian-ffn](direction-2-hessian-ffn/)，与会议投稿线分离，以原型展示为主）。
+本仓库包含两条公开研究线：**方向 1** 研究小资源机器翻译微调中 **Encoder / Decoder 训练期几何与稳定性**；**方向 2** 研究 **Hessian 形式低秩 FFN** 在记忆、语言建模与视觉上的原型实现（见 [direction-2-hessian-ffn](direction-2-hessian-ffn/)）。
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 一张图读懂：Encoder / Decoder 随层「膨胀–压缩」差异
+## 方向 1 主图：Encoder / Decoder 随层「膨胀–压缩」差异
 
 训练期（Scheme A 探针，\( \alpha_s{=}0.1,\ \alpha_t{=}0.2 \)，多种子平均）中，**同一级联算子** 在两侧堆叠上呈现 **不同的核范数深度曲线**：
 
@@ -27,29 +27,29 @@
 | **Encoder** | 中段（约 layer 2）**抬升、保持较高容量**；双向表征在中层展开 | 与 **中间层 PPL/核范数** 联动时，常看到较平滑的压缩阶梯 |
 | **Decoder** | 浅层 **范数最大**，向中层 **急剧压缩**（谷），深层部分回升 | 自回归 **历史→过滤→输出**；中层与 **train PPL 尖峰**、梯度峰值关联更强 |
 
-级联三阶段在同一图里通常满足 **\( \|V^{\mathrm{raw}}\|_* > \|V^{(1)}\|_* > \|V^{(2)}\|_* \)**，说明算子主要起 **可度量的压缩探针** 作用；**Encoder vs Decoder 的形态差** 往往大于 spatial-first / temporal-first 的顺序差。更细的层–指标说明见 `part-a-mainline/05-results/` 下 Scheme A 归档与 `schemeA_train_depth_nuc_seedavg_notes.md`。
+级联三阶段在同一图里通常满足 **\( \|V^{\mathrm{raw}}\|_* > \|V^{(1)}\|_* > \|V^{(2)}\|_* \)**，说明算子主要起 **可度量的压缩探针** 作用；**Encoder vs Decoder 的形态差** 往往大于 spatial-first / temporal-first 的顺序差。更细的图注与数据表见 `part-a-mainline/05-results/` 下 Scheme A 归档说明。
 
 ---
 
 ## 仓库结构
 
 ```
-part-a-mainline/          方向 1 主线：合成谱理论、ViT 桥、Marian value 级联与归档结果
-part-b-explorations/      方向 1：未走通的 Q/K/V、memory、FFN 编辑等探索
-direction-2-hessian-ffn/  方向 2：Hessian 形式低秩 FFN 原型（记忆 / 因果 LM / 视觉）
-figures/gallery/          方向 1 主图（Enc/Dec 深度曲线，07）
+part-a-mainline/          方向 1：合成谱理论、ViT 桥、Marian value 级联与归档结果
+part-b-explorations/      方向 1：未走通的 Q/K/V、memory 等探索
+direction-2-hessian-ffn/  方向 2：H-FFN 原型（记忆 / 因果 LM / 视觉）
+figures/gallery/          方向 1 主 README 用图（当前以 07 为主）
 REPRODUCTION.md           复现步骤与协议说明
 ```
 
-方向 1 细节仍见 [part-a-mainline/README.md](part-a-mainline/README.md)；负面实验见 [part-b-explorations/README.md](part-b-explorations/README.md)。
+方向 1 细节见 [part-a-mainline/README.md](part-a-mainline/README.md)；探索性负面结果见 [part-b-explorations/README.md](part-b-explorations/README.md)。
 
 ---
 
-## 方法要点（方向 1，极简）
+## 方法要点（方向 1）
 
 1. **谱诊断语言**（script1–4）：点式激活如何改变秩、核范数、条件数。  
 2. **Value 级联（Scheme A）**：在 **不改变 \(QK^\top\) 路由** 的前提下，对 **\(V\)** 做 spatial × temporal 两阶段混合；用于 **训练期探针**，而非默认推理必开。  
-3. **Encoder-only + detach + legacy（circular + global）** 与论文 Scheme A 探针矩阵一致；Decoder 因果安全版用于回应泄漏疑虑，**不宜与 Marian 全模型 BLEU 主结论混用**。
+3. **Encoder-only + detach + legacy** 与论文 Scheme A 探针矩阵一致。
 
 ---
 
@@ -57,26 +57,15 @@ REPRODUCTION.md           复现步骤与协议说明
 
 ```bash
 pip install -r requirements.txt
-
-# 合成谱实验（CPU，数分钟）
 cd part-a-mainline/01-theory-scripts && python script2_universal_validation.py
-
-# 阅读已归档 Scheme A 汇总（无需 GPU）
-cat part-a-mainline/05-results/results_probe_independent/schemeA_3x2x3_20260424_0137/schemeA_full_report.md
 ```
 
 完整流程：[REPRODUCTION.md](REPRODUCTION.md)
 
 ---
 
-## 方向 2
-
-[Hessian 低秩 FFN（H-FFN）](direction-2-hessian-ffn/) 为独立研究线：背景、方法摘要与论文级结果口径见该目录 README；代码为原型，知识产权说明见 **PROTOTYPE-NOTICE.md**。
-
----
-
 ## 引用与同步
 
-供学术复现与过程审阅；引用请注明仓库 URL。投稿用全文与审稿材料保留在私有工作区。
+供学术复现与过程审阅；引用请注明仓库 URL。
 
 本地完整实验树：`~/Desktop/TLB-Experiments/`（方向 1）、`~/Desktop/TLB-Algorithm/`（方向 2 源）。

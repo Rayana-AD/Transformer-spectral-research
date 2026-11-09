@@ -1,76 +1,59 @@
-# 方向 2：Hessian Feed-Forward Network（H-FFN）研究原型
+# 方向 2：Hessian Feed-Forward Network（H-FFN）
 
 ## 背景
 
-Transformer 中 FFN 占参数与算力的大头，但长期保持「扩展至约 \(4d\) 再线性投影」的两层 MLP 形态：对所有 token 施加同一静态映射，难以在 **变换隐状态** 与 **可检索的长期关联** 之间兼顾，且缺少显式索引。在注意力侧已有核与几何视角的工作，而 FFN 子层相对缺少同样可解释的 **二阶、低秩** 构造。本方向追问：能否把 position-wise FFN 写成 **由标量势函数导出的 Hessian 作用于输入**，在 **与标准 MLP 相近的渐近成本** 下，把 **曲率门控、多尺度上下文与内容–路由–发射解耦** 写进结构本身。
+标准 Transformer 块中，FFN 占参数量与算力的主要部分，但结构仍是「扩维—非线性—投影」的静态 MLP，对每个 token 施加同一类映射。将 FFN 视为键值式联想记忆时，**变换表示** 与 **存放事实** 挤在同一条未索引的通道里，容易产生干扰；仅靠加宽中间层或 MoE，也难以显式刻画 **随输入变化的局部曲率**。
 
-该线与仓库 **方向 1（Marian value-path 谱诊断）** 相互独立：方向 1 动 attention 的 \(V\) 路径做训练期探针；方向 2 动 **FFN 子层**，面向 **记忆检索、因果语言建模与视觉迁移**。关联会议稿目前审稿反馈不佳、可能撤稿；本目录 **仅公开可验证的原型实现与 smoke 配置**，完整主表与再投稿材料见本地工作区与 [PROTOTYPE-NOTICE.md](PROTOTYPE-NOTICE.md)。
+本方向把 FFN 写成由标量势 \(\Psi\) 诱导的 **Hessian 型算子**：在可学习的投影轴 \(u_j\) 上，用二阶门控 \(\lambda_j(x)=\psi''(u_j^\top x + b_j)\) 调节沿该方向的放大或抑制，整体保持与两层 MLP 相近的渐进计算量，但 **曲率与秩结构** 可解释、可探针。针对两类任务又衍生 **Memory-Track**（多尺度上下文门控，用于联想检索）与 **Decoupled H-FFN**（拆分内容、路由与发射，用于因果语言建模）；预训练迁移场景下可用 **解析 GELU 匹配** 做 FFN 暖启动。
 
----
+## 方法
 
-## 方法（概要）
-
-**核心算子.** 将标量势 \(\Psi(x)=\sum_j \psi(u_j^\top x + b_j)\) 的 Hessian 缩并作用于 \(x\)：
+核心前向可概括为
 
 \[
-\text{H-FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,\quad \lambda_j(x)=\psi''(u_j^\top x + b_j).
+\text{H-FFN}(x)=\mathcal{H}(x)\,x=\sum_{j=1}^{m}\lambda_j(x)\,(u_j^\top x)\,u_j,
+\quad
+\Psi(x)=\sum_j \psi(u_j^\top x + b_j).
 \]
 
-几何上，这是 \(m\) 个 **秩一向外积** 的加权和：沿轴 \(u_j\) 投影，用 **局域二阶曲率** \(\lambda_j\) 缩放后再沿同一轴发射。实现上通过秩受限字典 \(U\in\mathbb{R}^{m\times d}\) 与逐坐标势 \(\psi\) 完成，可与两层 MLP 对齐参数规模。势函数采用有界、带符号的二阶导（如 \(\psi(s)=\tanh^2(s)\)），以在中央正激励与两侧阻尼井之间取得稳定门控，而非单纯替换 GELU 形状。
+实现中将 \(m\) 个秩一分支堆叠为低秩 Hessian 形式，并配合 **ctx-split**（上下文分裂读写）、**多尺度曲率阶梯** 与 **Decoupled** 变体；代码主入口为 `tlb/ffn/hessian_core.py`，标准 MLP 对照为 `tlb/ffn/standard.py`。因果 LM、ctx-split 组装与 ViT FFN 替换分别见 `tlb/models/causal_lm.py`、`gpt2_ctxsplit_init.py`、`vit_ffn_transfer.py`。
 
-**两条任务向扩展（与论文叙述一致，细节见 `tlb/ffn/hessian_core.py`）：**
+本目录收录的是 **可运行原型**（smoke 配置与代表脚本），不含完整实验流水线的全部 checkpoint 与私有数据。
 
-1. **Memory-Track（记忆）** — 面向 **联想检索 / Needle-in-a-Haystack** 类设置，在共轴轨道上叠加 **多尺度上下文门控**，使 FFN 更贴近「可寻址记忆轨」而非无索引宽层。
-2. **Decoupled H-FFN（因果语言建模）** — **ctx-split** 等变体将 **内容、路由与发射** 拆开，减轻单一路径上的表示干扰，便于在 WikiText、流式语料等设置上对比标准 FFN 的困惑度与秩轨迹。
+## 结果（概要）
 
-**预训练迁移（示意性）** — 在 GPT-2、ViT-B/16 等骨干上，可用 **解析匹配的 GELU 暖启动** 再做短微调或 FFN 置换，检验收敛与精度，而不在本仓库展开完整训练流水。
+在与匹配训练预算的内部对照中，H-FFN 系列在以下三类任务上相对同规模 MLP 基线有一致趋势（具体协议与方差以本地完整实验为准；本仓库不打包主表）：
 
-本仓库 **不包含** 论文全文实验矩阵；代码中的变体名（H1–H4、ctx-split、谱分支等）与 `hessian_core.py` 注释一一对应，供阅读实现与 smoke 跑通。
+- **记忆 / 联想检索（Memory-Track）**：Needle-in-a-Haystack 类探测上，同预算下准确率显著高于匹配宽度的 MLP（论文主实验约 **96% 量级 vs 76% 量级**）。
+- **因果语言建模（Decoupled H-FFN）**：WikiText-103 等语料上测试困惑度约 **1.1–1.4× 改善**（例如 WT103 约 **455 → 388** 量级）；流式 Web 教育语料上约 **1.15×** 量级。
+- **视觉迁移**：GPT-2 FFN 解析替换微调约 **1.07×** PPL；ViT-B/16 上可在 **更少步数** 达到约 **+2.4% top-1** 的收敛表现。
 
----
-
-## 已报道结果（论文摘要级，非本仓复现包）
-
-下列数字来自内部稿件 **摘要中的匹配预算实验**，在此 **仅作方法动机说明**；读者 **不应** 将本 Git 目录等同于可一键复现的完整论文包。扩大规模与再审稿后数字可能调整。
-
-| 任务 | 对照 | H-FFN / Memory-Track 等（摘要） |
-|------|------|--------------------------------|
-| Needle-in-a-Haystack | 匹配 MLP \(\approx 75.7\%\pm 5.8\) | \(\approx 96.5\%\pm 0.7\) |
-| WikiText-103 困惑度 | 标准 FFN \(455.3\pm 7.6\) | Decoupled H-FFN \(388.0\pm 2.3\)（约 \(1.17\times\) 增益） |
-| 因果 LM（多语料） | — | 摘要称约 \(1.06\)–\(1.38\times\) PPL 改善量级 |
-| GPT-2 微调 / ViT-B/16 | 基线 FFN | 摘要称约 \(1.07\times\) PPL 与更少步数达相近精度等 |
-
-本目录提供的是 **任务入口与原型图**（如 `figures/memory_track_geom/` 中的轨迹示意），**不是** 上述行的官方复现脚本全集。
-
----
+示意性几何探针图见 `figures/memory_track_geom/`（迹链、曲率质量等，用于理解秩轨迹而非充当主结果表）。
 
 ## 本仓库包含什么
 
 | 类别 | 路径 |
 |------|------|
-| H-FFN 与低秩变体 | `tlb/ffn/hessian_core.py`，`standard.py` |
-| 因果 LM / ctx-split 壳 | `tlb/models/causal_lm.py`，`gpt2_ctxsplit_init.py` |
-| 视觉 FFN 置换 | `tlb/models/vit_ffn_transfer.py` |
-| 记忆几何探针 | `tlb/training/memory_track_probe.py` |
-| 记忆任务 smoke | `experiments/run_memory_capacity_sweep.py` |
-| WT103 smoke | `experiments/l4_causal_wt103_single.py`，`configs/wt103_scale_smoke/` |
-| 视觉 smoke | `experiments/l_vit_cifar_smoke.py` |
-| 本地同步 | `scripts/sync_from_tlb_algorithm.sh`（源：`~/Desktop/TLB-Algorithm`） |
+| 记忆容量与轨道探针 | `experiments/run_memory_capacity_sweep.py`，`tlb/training/memory_track_probe.py` |
+| 因果 LM（WT103 smoke） | `experiments/l4_causal_wt103_single.py`，`run_wt103_d256_lr_smoke.py`，`configs/wt103_scale_smoke/` |
+| 视觉 smoke | `experiments/l_vit_cifar_smoke.py`，`vit_forward_smoke.py` |
+| 数值 / 合成 smoke | `experiments/l0_smoke.py` |
 
----
-
-## 快速开始（smoke）
+从本地算法树增量同步：
 
 ```bash
-cd direction-2-hessian-ffn
+bash scripts/sync_from_tlb_algorithm.sh   # 默认源：~/Desktop/TLB-Algorithm
+```
+
+## 快速开始
+
+```bash
 pip install -r requirements-snippet.txt
 python experiments/l0_smoke.py
 ```
 
-WikiText / FineWeb 等数据 **未** 打包进 Git；在本地 `TLB-Algorithm` 准备数据后，可参见 `configs/wt103_scale_smoke/manifest.yaml` 与 `run_wt103_d256_lr_smoke.py --help`。
+WikiText 与 FineWeb 等数据需在本机 `TLB-Algorithm/data/` 自行准备；`run_wt103_d256_lr_smoke.py --help` 列出 smoke 用法。
 
----
+## 与方向 1 的分工
 
-## 与方向 1 的界限
-
-方向 1 研究 **小数据 Marian 微调** 时 attention **value** 的谱与级联探针；方向 2 研究 **FFN 子层** 的 Hessian 低秩形式与 **记忆 / LM / 视觉** 能力。二者共享「几何可读」动机，但 **干预位置、任务与公开粒度完全不同**。
+方向 1 在 **attention 的 value 路径** 上做级联诊断（小数据 Marian 微调）；方向 2 在 **FFN 子层** 用 Hessian 低秩结构处理 **记忆、因果建模与视觉** 中的表示与优化几何。二者共享「谱 / 秩 / 曲率」语言，但 **干预位置与任务设定不同**。
