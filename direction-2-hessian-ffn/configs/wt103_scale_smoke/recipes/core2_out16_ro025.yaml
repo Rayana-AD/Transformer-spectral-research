@@ -1,0 +1,4 @@
+hessian_core_lr_mult: 2.0
+hessian_context_lr_mult: 2.0
+hessian_out_lr_mult: 16.0
+hessian_readout_lr_mult: 0.25

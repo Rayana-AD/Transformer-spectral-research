@@ -1,0 +1,17 @@
+# WT103 d=256 @500 — ctxsplit LR grid vs Standard (~45 min on MPS: 1 std + 4 ctxsplit).
+seed: 0
+steps: 500
+standard_config: configs/wt103_scale_smoke/d256_standard.yaml
+ctxsplit_base: configs/wt103_scale_smoke/d256_ctxsplit.yaml
+recipes:
+  - id: baseline_out16_ro025
+    label: fig2 out@16 readout@0.25
+  - id: out16_ro035
+    label: out@16 readout@0.35
+    overlay: configs/wt103_scale_smoke/recipes/out16_ro035.yaml
+  - id: out12_ro025
+    label: out@12 readout@0.25
+    overlay: configs/wt103_scale_smoke/recipes/out12_ro025.yaml
+  - id: out8_ro025
+    label: out@8 readout@0.25
+    overlay: configs/wt103_scale_smoke/recipes/out8_ro025.yaml

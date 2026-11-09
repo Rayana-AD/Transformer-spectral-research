@@ -1,6 +1,8 @@
-# Part A — 论文主线
+# Part A — 方向 1 主线
 
-本目录包含 **可复现论文核心 claim** 的代码、数据与归档结果：合成谱理论 → ViT 桥 → Marian value 级联。
+本目录归档 **value-path 谱诊断与 Scheme A 级联探针**：在 **数据极少、微调步数短、AdamW 未进入稳定 regime** 时，观察 **Encoder/Decoder 训练期几何** 与 **loss/PPL 稳定性** 的关联。级联主要用于 **可度量的探针**，而非充足数据下的默认增益模块。
+
+仓库根目录 **图 07**（`figures/gallery/07_schemeA_depth_nuclear_norm.png`）展示 **Enc 中层膨胀 vs Dec 浅高–中谷–深回升** 的训练期核范数深度曲线。
 
 ## 阅读顺序
 
@@ -26,8 +28,9 @@
 | 指标 | 值 | 来源 |
 |------|-----|------|
 | Pretrained BLEU | 19.916 | `results_marian_ffn_frozen_eval/summary.json` |
-| Vanilla finetune | ~15.1–15.5 | `06-checkpoints/eval_manifests/` |
-| Scheme A best (Enc) | ~18.49 | `schemeA_full_report.md` |
+| Vanilla finetune（旧 stress / 标签协议） | ~15.1–15.5 | `06-checkpoints/eval_manifests/` |
+| Vanilla finetune（matched `text_target`） | ~20.8–21 | 见根目录 `REPRODUCTION.md` |
+| Scheme A 探针（32 batch，Enc） | ~17.5–18.5 | `schemeA_full_report.md` |
 | QKV nuc rescale | ~0 | Part B summary |
 
 ## 最小复现

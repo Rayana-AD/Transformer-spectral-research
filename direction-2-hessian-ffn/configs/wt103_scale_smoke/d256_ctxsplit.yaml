@@ -1,0 +1,28 @@
+# WT103 d=256 ctxsplit smoke @500 — baseline = fig2 ctxsplit_out16 on wider model.
+dim: 256
+nhead: 8
+depth: 4
+dim_feedforward: 1024
+block_size: 256
+batch_size: 32
+steps: 500
+lr: 0.0003
+lr_min: 0.00001
+lr_schedule: flat_cosine
+flat_ratio: 0.6
+log_every: 100
+eval_every: 100
+weight_decay: 0.01
+attention_type: vanilla
+normalize_mode: row
+max_vocab: 32000
+min_freq: 2
+eval_batches: 64
+
+hessian_param_groups: true
+hessian_core_lr_mult: 4.0
+hessian_context_lr_mult: 4.0
+hessian_out_lr_mult: 16.0
+hessian_readout_lr_mult: 0.25
+hessian_other_lr_mult: 1.0
+hessian_separate_out_weight: true
