@@ -29,7 +29,7 @@
 
 级联三阶段在同一图里通常满足 **\( \|V^{\mathrm{raw}}\|_* > \|V^{(1)}\|_* > \|V^{(2)}\|_* \)**，说明算子主要起 **可度量的压缩探针** 作用；**Encoder vs Decoder 的形态差** 往往大于 spatial-first / temporal-first 的顺序差。
 
-补充热图与 loss–PPL 特写：`figures/gallery/08`–`10`；生成说明见归档结果中的 `schemeA_train_depth_nuc_seedavg_notes.md`。
+更细的图注与数据表见 `part-a-mainline/05-results/` 内 Scheme A 归档与 `schemeA_train_depth_nuc_seedavg_notes.md`。
 
 ---
 
@@ -39,7 +39,7 @@
 part-a-mainline/          方向 1 主线：合成谱理论、ViT 桥、Marian value 级联与归档结果
 part-b-explorations/      方向 1：未走通的 Q/K/V、memory、FFN 编辑等探索
 direction-2-hessian-ffn/  方向 2：Hessian 形式低秩 FFN 原型（记忆 / 因果 LM / 视觉）
-figures/gallery/          README 用精选图（含上图 07）
+figures/gallery/          方向 1 主图（当前以 Enc/Dec 深度曲线 07 为主）
 REPRODUCTION.md           复现步骤与协议说明
 ```
 
@@ -74,16 +74,6 @@ cat part-a-mainline/05-results/results_probe_independent/schemeA_3x2x3_20260424_
 ## 方向 2 与知识产权
 
 [Hessian 低秩 FFN](direction-2-hessian-ffn/) 为 **独立研究线**（会议稿审稿得分不佳、可能撤稿；扩大实验后可能再投）。公开内容 **仅限原型代码与示例配置**，**不含** 完整论文实验表与未发表主张。使用或衍生请遵守目录内 **PROTOTYPE-NOTICE.md**。
-
----
-
-## 可视化索引
-
-| 图 | 文件 | 内容 |
-|----|------|------|
-| **07** | `figures/gallery/07_schemeA_depth_nuclear_norm.png` | **Enc/Dec 训练期 value 核范数深度曲线（推荐首图）** |
-| 01–06 | `01`–`06_*.png` | 激活谱、ViT 几何桥等 |
-| 08–10 | `08`–`10_*.png` | Scheme A eval 热图、loss–PPL 特写 |
 
 ---
 
